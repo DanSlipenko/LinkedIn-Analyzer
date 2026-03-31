@@ -1,0 +1,839 @@
+============================================================
+📌 MOST COMMENTED (50 posts)
+============================================================
+
+--- Post 1 ---
+Likes:    104
+Comments: 48
+
+### Post Content
+This is the best stack to build your SaaS in 2026.<br>Spoiler: most of it is free.<br><br>Frontend: Next.js, Tailwind CSS (\$0)<br>Backend: Next.js, Python (\$0)<br>Database: PostgreSQL (\$0)<br>Hosting: Coolify + VPS (\$7.99/month)<br>Storage (S3): MinIO (\$0)<br>Emails: Resend (\$0)<br>Analytics: Umami (\$0)<br>Payments: Stripe (2.9% + \$0.30 per charge)<br><br>Domain \$10/year<br><br>Stop overthinking your stack. Just ship it<br>…more
+
+
+--- Post 2 ---
+Likes:    102
+Comments: 36
+
+### Post Content
+Is working for free actually a good idea?<br><br>Lately, I’ve been getting a lot of DMs from people offering to work for free on my projects.<br><br>I understand why.<br>Having a mentor feels easier than endless YouTube tutorials or going back and forth with AI.<br>It feels like a shortcut to “real” experience.<br><br>But here’s the thing:<br>success isn’t built on shortcuts.<br><br>Working for free in exchange for “learning” comes with no guarantees.<br>No guarantee you’ll be mentored.<br>No guarantee you’ll work on meaningful problems.<br>No guarantee you’ll actually grow.<br><br>If you invest those same hours building your own projects, the learning is guaranteed.<br>You’ll make decisions, break things, fix them, and understand why they work.<br><br>That’s how real skills are built.<br>Not by waiting for permission — but by taking ownership.<br><br>Build your own things first.<br>…more
+
+
+--- Post 3 ---
+Likes:    82
+Comments: 31
+
+### Post Content
+Nobody talks enough about loneliness in remote work.<br><br>You spend the whole day with yourself.<br>You’re the CEO, CTO, developer…<br>The only “person” you talk to is AI… and only when it’s doing something wrong.<br><br>What helps me:<br>• Having a partner who’s a good listener<br>• Building in public and talking to people every day<br>• Remembering that independence doesn’t mean isolation<br><br>Remote work works best when you don’t forget you’re human.<br><br>PS: If you ever feel lonely, remember, you’re a developer.<br>And developers don’t like people anyway.<br>…more
+
+
+--- Post 4 ---
+Likes:    74
+Comments: 31
+
+### Post Content
+I launched a waitlist for my first mobile app.<br><br>9 days later → 60 people signed up.<br><br>No ads.<br>No launch.<br>No finished product.<br><br>Just a simple waitlist.<br><br>Here’s why waitlists are insanely underrated.<br><br>They let you validate before you overbuild.<br>They create momentum before you launch.<br>And they tell you if the problem is real, fast.<br><br>I learned this the hard way.<br><br>I once spent 6 months building in private.<br>No validation. No feedback.<br>The product flopped.<br><br>Never again.<br><br>This time, with Cestio, I did the opposite.<br><br>Here’s what worked:<br><br>1. Promote everywhere (and repeat)<br><br>I shared the same idea across X, TikTok, YouTube and LinkedIn.<br>Different formats. Different days. Same message.<br><br>Repetition isn’t spam.<br>Silence is.<br><br>2. Don’t drop links. Create curiosity<br><br>Nobody cares about your app link.<br>They care about why it exists.<br><br>So I shared:<br>– what I’m building<br>– why it frustrates me<br>– what problem I’m solving<br>– wins and small failures<br><br>People asked for the link themselves.<br><br>3. Sell the problem, not the features<br><br>People don’t join waitlists for features.<br>They join because a problem hurts.<br><br>In my case: grocery prices and saving money.<br>That’s what made people think:<br>“I actually need this.”<br><br>If saving money on groceries sounds like your kind of problem,<br>the waitlist is open → https://lnkd.in/gK5jEYv8<br><br>And if you want to launch your own waitlist fast (without wasting a weekend):<br>I turned my setup into a simple boilerplate →<br>https://lnkd.in/gZqt-53r<br><br>Validate early.<br>Build smarter.<br>Ship with confidence.<br>…more
+
+
+--- Post 5 ---
+Likes:    51
+Comments: 28
+
+### Post Content
+I’ve been building SaaS for 2 years, and this is what I wish someone told me before I started:<br><br>1️⃣ Build in public.<br>Share your progress. Post updates.<br>It attracts early users, feedback, and collaborators.<br><br>2️⃣ Copy first, innovate later.<br>Your first SaaS doesn’t need to be original.<br>Copy a product, adapt it to your style, and improve it.<br>If it’s already validated, you’re saving months of guesswork.<br><br>3️⃣ Don’t overthink the stack.<br>Next.js, Python, whatever… it doesn’t matter.<br>What matters is building fast.<br>Use templates. Don’t reinvent the logging system.<br>Speed beats perfection every time.<br><br>4️⃣ You don’t need to know everything.<br>You will learn as you go.<br>That’s how every indie hacker starts.<br><br>Your first SaaS isn’t about being perfect.<br>It’s about shipping, learning, and iterating fast.<br>…more
+
+
+--- Post 6 ---
+Likes:    54
+Comments: 27
+
+### Post Content
+I don’t build to buy the latest iPhone<br>or an expensive car.<br><br>I build for slow breakfasts every morning.<br>For dropping everything and going kitesurfing when the wind is right.<br>For jumping on a liveaboard with my partner without saving for a year.<br>For taking a random day off when my family visits.<br>For working from hot places, under palm trees, eating dumplings.<br><br>I don’t want more things.<br><br>I want time, experiences and freedom.<br><br>And that’s worth more than any title or paycheck.<br>…more
+
+
+--- Post 7 ---
+Likes:    56
+Comments: 23
+
+### Post Content
+Why I stopped using Supabase for my SaaS<br><br>I still like Supabase.<br>For MVPs, it’s great.<br><br>When I started, I was a junior dev so it helped me ship fast:<br>database, auth, storage — everything ready.<br><br>I got users and validation without overthinking infra.<br>But problems don’t show up with 5 users.<br>They show up at 100.<br><br>One day egress spiked and no one could clearly explain why. I even contacted supabase and they couldn't tell me the reason why this happened.<br>Also, projects can be paused.<br><br>For an indie hacker, that’s a deal breaker.<br>I don’t need fancy tools. I need boring, predictable, reliable.<br><br>So I moved to:<br>Postgres + VPS + Coolify.<br><br>More setup, but full control and zero surprises.<br>MVP stack ≠ long-term stack.<br><br>Supabase is still amazing early on — I just outgrew it.<br>…more
+
+
+--- Post 8 ---
+Likes:    13
+Comments: 21
+
+### Post Content
+My X Premium account got hacked 🚨<br><br>They changed my email, enabled 2FA, and now I can’t log in.<br>Support isn’t replying. My Stripe is linked.<br><br>I’ve been building that account for 8 months to grow my apps and monetize.<br><br>I created a new account 👉 https://lnkd.in/gSe9uGhF , but as it’s brand new (and not Premium) I have zero visibility.<br><br>Any tips on how to get X’s attention faster?<br>…more
+
+
+--- Post 9 ---
+Likes:    13
+Comments: 21
+
+### Post Content
+My X Premium account got hacked 🚨<br><br>They changed my email, enabled 2FA, and now I can’t log in.<br>Support isn’t replying. My Stripe is linked.<br><br>I’ve been building that account for 8 months to grow my apps and monetize.<br><br>I created a new account 👉 https://lnkd.in/gSe9uGhF , but as it’s brand new (and not Premium) I have zero visibility.<br><br>Any tips on how to get X’s attention faster?<br>…more
+
+
+--- Post 10 ---
+Likes:    23
+Comments: 17
+
+### Post Content
+Competing with big SEO SaaS as a solo indie?<br><br>You don’t beat them by talking.<br>You don’t beat them by tweeting.<br>You beat them by shipping features people actually use.<br><br>Every big SEO tool out there has a keyword generator.<br>So we built one too — but without the friction:<br>No credit card.<br>No paywall.<br>No “free trial” countdown.<br>Just… free.<br><br>Because if you want to compete with the big players,<br>you have to offer the same value —<br>but faster, simpler, and more accessible.<br><br>That’s what I’m trying to do with SEOzast.<br>Level the field.<br>Give indie founders access to tools they normally couldn’t afford.<br><br>Here’s the new free keyword generator:<br>https://lnkd.in/gB5qbVE9<br><br>Indies won’t win by being bigger.<br>But we can win by being leaner, faster, and closer to the user.<br>…more
+
+
+--- Post 11 ---
+Likes:    30
+Comments: 16
+
+### Post Content
+I got 200+ dive centers to sign up to my scuba app.<br><br>Just with cold emails.<br><br>At the beginning, nobody knew me.<br>So I did what no one wants to do: outreach.<br><br>→ I scraped emails from Google<br>→ Used ChatGPT to draft the emails<br>→ Sent a simple message: get more visibility, get more divers<br><br>That’s it.<br><br>Some registered.<br>Some ignored me.<br>Some literally told me to f\*ck off.<br><br>I didn’t take it personally.<br>I just kept going.<br><br>Because when you’re starting, you don’t need perfect.<br>You need volume.<br><br>Cold email isn’t sexy.<br>It doesn’t scale.<br><br>But it works.<br><br>And those first users?<br><br>They’re everything.<br>…more
+
+
+--- Post 12 ---
+Likes:    33
+Comments: 15
+
+### Post Content
+Yesterday I hit 20k followers on X.<br><br>It’s now my biggest source of revenue this month.<br>The creator program already covered my rent and food,<br>and there’s still one more payment coming.<br><br>1 year and 15 days ago, I started from zero.<br>No audience.<br>No roadmap.<br>Just building, sharing, repeating.<br><br>Consistency is boring.<br>Until it changes your life.<br><br>If you’re starting from 0, don’t overthink it.<br>I was exactly there not long ago.<br><br>I shared everything that actually worked for me here:<br>https://lnkd.in/gxepAvCR<br>…more
+
+
+--- Post 13 ---
+Likes:    27
+Comments: 15
+
+### Post Content
+I just rejected an 80k/year DevRel offer from a big company.<br>Most people would think I’m crazy.<br>Maybe I am.<br><br>It was a stable role.<br>Fewer hours than what I work now.<br>A clear path.<br><br>But here’s the truth:<br>I’m not giving up my freedom for a bigger salary.<br><br>I love being my own boss.<br>I report to myself.<br>I choose what I build, when I work, and who I want to help.<br><br>I used to hate marketing.<br>Now I enjoy creating content — because it’s for me, not for someone else’s roadmap or OKRs.<br><br>And the idea of doing it full-time for another company just felt… wrong.<br><br>Freedom \> Salary.<br>Every. Single. Time.<br><br>Some people choose stability.<br>I choose momentum, energy, and the thrill of building something that’s mine.<br>…more
+
+
+--- Post 14 ---
+Likes:    9
+Comments: 12
+
+### Post Content
+Top 5 Indie Hackers Books<br><br>Here are five books that every indie hacker should read:<br><br> 1. ReadMAKE by Peter Levels<br>Learn how to build and launch profitable projects quickly without waiting for perfection. Peter’s journey of launching 12 startups in 12 months is a masterclass in execution and shipping fast.<br><br> 2. Million Dollar Weekend by Noah Kagan<br>A no-BS guide to making money online, packed with actionable strategies and real-life examples of validating ideas before building the product. Perfect for those who want to go from idea to income without fluff.<br><br> 3. Think and Grow Rich by Napoleon Hill<br>The classic mindset manual for entrepreneurs. Hill’s principles of persistence, clear goals, and the power of a mastermind are timeless strategies for indie hackers aiming for long-term success.<br><br> 4. The 5 AM Club by Robin Sharma<br>Focuses on mastering your mornings to maximize productivity and creativity. The 20/20/20 formula (20 minutes of exercise, reflection, and learning) can help indie hackers stay disciplined and energized.<br><br> 5. Surrounded by Idiots by Thomas Erikson<br>A guide to understanding different personality types using the DISC model. Great for indie hackers who want to improve communication with users, partners, or remote teams.<br><br>Bonus (Marketing):<br>The Mom Test by Rob Fitzpatrick<br>Teaches how to validate business ideas through customer interviews without falling for false positives. Essential reading for avoiding wasted time and effort on ideas that won’t sell.<br><br>Which one is your favorite, or do you have any other must-reads for indie hackers?<br><br><br>hashtag<br>#books <br>hashtag<br>#indiehacker<br>…more
+
+
+--- Post 15 ---
+Likes:    23
+Comments: 10
+
+### Post Content
+Launching a SaaS?<br>Everyone tells you “just launch it somewhere”… but where actually works?<br><br>I tested most of the popular launch platforms while shipping my own products — and the results were very different from the hype.<br><br>Some felt like shouting into the void.<br>Others brought traffic but no real users.<br>One of them actually delivered leads and momentum.<br><br>I summed it all up in this short 👇<br>What worked, what didn’t, and what I wouldn’t use again.<br><br>If you’re planning a launch (or relaunch), this might save you a lot of time and frustration.<br><br>Full breakdown in the YouTube video https://lnkd.in/gpTNU8U8<br>…more
+
+
+--- Post 16 ---
+Likes:    29
+Comments: 10
+
+### Post Content
+I wanted to see my total revenue from all my SaaS this year.<br><br>Then I realized Stripe doesn’t really give you a simple way to total everything across products.<br><br>I also love heatmaps. Visual. Satisfying. Instantly clear.<br><br>So I thought: what if I combined both?<br><br>And that’s how Revenue Wrapped was born.<br><br>Built in \~6 hours with AI.<br><br>It took a bit longer than expected (image generators had opinions), but I genuinely had a lot of fun building a free SaaS for indie hackers.<br><br>No worries about MRR and just coding for fun.<br><br>Sometimes that’s exactly what you need.<br><br>Check your 2025 revenue and share it → revenuewrapped.com 💜<br>…more
+
+
+--- Post 17 ---
+Likes:    20
+Comments: 10
+
+### Post Content
+My first ebook is out: Grow on X faster and get users for your SaaS <br><br>If someone had told me a couple of years ago that I’d write a book, I would have laughed.<br>But here we are.<br><br>Every day, people ask me:<br>“How did you grow so fast on X? Tell me your tricks!”<br><br>So here we go.<br><br>10 months ago: zero audience, zero users, zero revenue.<br>Today: 15k followers, consistent SaaS signups, and brands paying for collabs.<br><br>I packed everything I learned into a 45-page, no-fluff PDF:<br> • The exact system I used to go from 0 → 15k followers in 10 months<br> • How to bring real users to your SaaS<br> • How to land paid collaborations<br> • Hooks, viral examples, content formulas, and tactics that actually work<br><br>No gimmicks. No verification. Just actionable strategies you can start using today.<br><br>💡 Instant download for \$9.99 (originally \$29.99)<br><br>If you’re building a product and want to grow on X without months of guessing, this PDF will save you countless hours of trial and error.<br><br>Grab it here: https://lnkd.in/gxepAvCR<br>…more
+
+
+--- Post 18 ---
+Likes:    24
+Comments: 10
+
+### Post Content
+One of my first projects made by <br>hashtag<br>#react, a very simple counter explained by me from scratch. It's been a hard week in 4Geeks Academy España and still lots to learn but thanks to Jimena Escobar Bermúdez and Rubén Pérez Herrando we are improving really fast :)<br>Find the repository on my Github profile and don't hesitate to follow me ➡️ https://lnkd.in/gvqzx6vN<br><br><br>hashtag<br>#github <br>hashtag<br>#projects <br>hashtag<br>#counter <br>hashtag<br>#webdeveloper <br>hashtag<br>#tutorialtuesday <br>hashtag<br>#tutorial <br>hashtag<br>#reacttutorial <br>hashtag<br>#reactdeveloper <br>hashtag<br>#bootcamp<br>…more
+
+
+--- Post 19 ---
+Likes:    17
+Comments: 9
+
+### Post Content
+This breakfast costs \$5 in Bali.<br>Probably \$10 in your country.<br>And \$2 if you cook it at home.<br><br>Same plate.<br>Same food.<br>Different price.<br><br>That’s when it hit me:<br>Most things in life aren’t actually “expensive”, they’re just expensive depending on where you’re standing.<br><br>And that’s exactly why I built SEOzast.<br>Because good SEO and AI search shouldn’t be a luxury that only founders in big startup hubs can afford.<br><br>I learned SEO the hard way:<br>Expensive tools.<br>Paywalls everywhere.<br>\$99/month for something that should help you grow, not push you out before you even start.<br><br>So I created the tool I wish I had when I was starting out.<br>Simple, fast, and affordable for everyone — whether you’re running your SaaS from Bali, Madrid, or Manila.<br><br>And today is the last day it stays at this price.<br>Tomorrow it goes up.<br><br>If you’ve been meaning to start, improve your SEO, or finally make AI search work for your product…<br>today’s a good day.<br><br>Build smart.<br>Build simple.<br>Build without breaking the bank.<br>…more
+
+
+--- Post 20 ---
+Likes:    14
+Comments: 9
+
+### Post Content
+I just launched a new SaaS!<br><br>Be Underwater is live!<br><br>For the past year, I’ve been working on the hardest and most rewarding project of my entire developer career, I’ve been building a platform to make it easier for divers to discover and book diving experiences. Today, it’s live!<br><br>Why? Because booking a dive trip shouldn’t feel like solving a puzzle. Be Underwater helps you find the right dive shop, compare options, and book hassle-free.<br><br>It’s just the beginning, and I’d love your feedback! If you’re a diver or planning to be or a dive shop, check it out: https://beunderwater.com<br><br>Happy scuba diving!<br><br><br>hashtag<br>#indiehackers <br>hashtag<br>#diving <br>hashtag<br>#startups <br>hashtag<br>#scubadiving<br>…more
+
+
+--- Post 21 ---
+Likes:    12
+Comments: 8
+
+### Post Content
+The first week of the year is already gone.<br><br>Did you start your project… or are you still procrastinating?<br><br>Here’s what actually works for me:<br><br>1. Start small and ship fast<br>I built the MVP of https://seozast.com in one week.<br>Big projects feel overwhelming → procrastination kicks in.<br>You don’t need 10 features.<br>One feature. One payment button. Done.<br>Momentum comes after you ship.<br><br>2. Set the stage<br>I plan my tasks at night so mornings are frictionless.<br>I sit down with my iced americano, open my laptop, put music on — and work.<br>Remove decisions, remove excuses.<br><br>3. Time-box everything. <br>I work in short sprints:<br>30 min marketing<br>30 min content<br>30 min coding<br>Repeat.<br>Short sessions feel doable. Focus stays high. Starting becomes easy.<br><br>4. Build in public<br>You see me posting every day for a reason.<br>When you tell the world what you’re building, momentum grows.<br>People notice. And it keeps you accountable, no hiding.<br><br>You don’t need more motivation.<br>You need less friction and faster shipping.<br><br>What are you building this year?<br>…more
+
+
+--- Post 22 ---
+Likes:    14
+Comments: 8
+
+### Post Content
+This post went viral on X.<br>Now, it’s 48 days left this year.<br><br>Still enough time to build and launch something that could actually change your life.<br><br>You don’t need a full plan or a big team.<br>Just one idea, one feature, and the courage to ship it.<br><br>Last year, I built and launched multiple projects with less time than that.<br>None of them were “perfect.”<br>But every single one moved me forward.<br><br>48 days left.<br>I’m in. Are you?<br>…more
+
+
+--- Post 23 ---
+Likes:    6
+Comments: 8
+
+### Post Content
+The new landing page is finally live!<br><br>My old headline “Your SEO shouldn’t cost more than your coffee” was catchy, but it didn’t show the real value of the product. It made it sound cheap, not useful.<br><br>That’s the thing about landing pages: small words change everything. A headline can decide if people see your product as a joke or as a game-changer.<br><br>Huge thanks to Amin Abbasi for helping me turn it into something that actually converts.<br><br>He made a short video breaking down how I could get more customers for my new SaaS and honestly, it changed the way I think about landing pages.<br><br>If you’re building something, don’t underestimate how much a good landing matters.<br><br>Now tell me 👇<br><br> Which version do you think converts better?<br> A or B?<br>(📸 old vs new landing)<br>…more
+
+
+--- Post 24 ---
+Likes:    20
+Comments: 8
+
+### Post Content
+I got fired on my my first real job as a developer.<br><br>Two years ago, during my first real job as developer (after an internship), my mentor told me when I was asking a question about a technology that I’ve never used before “If you don’t that, you are stupid and I think you will never make it to junior 2”. <br><br>I reported him to HR, but just two days later, the CTO himself told me the same thing—and I was fired.<br><br>During the call, I couldn’t help but laugh. Not out of disrespect, but because I knew deep down that they were wrong. I didn’t argue, I didn’t feel anger; I just knew that wasn’t my place.<br><br>Fast forward two years: I’ve launched my own app, Scuba Reputation, built entirely by me from scratch, and I’m already working on my second.<br><br>But I often think about this experience. What if they’d said that to someone with low self-esteem or little confidence? They might have given up on programming altogether.<br><br>This is why mentorship matters so much in programming. A good mentor lifts you up, challenges you constructively, and inspires you to grow. A bad mentor can leave lasting scars.<br><br>To anyone starting out:<br> • Believe in yourself, even when others don’t.<br> • Surround yourself with people who encourage and guide you.<br> • Remember that a bad job or toxic environment doesn’t define your worth or potential.<br><br>If you’ve faced something similar, I hope my story reminds you to keep going. Sometimes, the best way to prove them wrong is to build something they never thought you could. 💪<br><br>REMINDER: You are not stupid, you just only need more training<br><br>https://lnkd.in/gkZyWsAE<br><br><br>hashtag<br>#CodingJourney <br>hashtag<br>#Mentorship <br>hashtag<br>#SelfBelief <br>hashtag<br>#webdeveloper <br>hashtag<br>#indiehacker<br>…more
+
+
+--- Post 25 ---
+Likes:    11
+Comments: 7
+
+### Post Content
+Your SaaS has 0 traffic?<br><br>Here are 5 tricks to get your first users:<br><br>1️⃣ Create free tools — let people try a piece of your product for free.<br>2️⃣ Promote everywhere — online, offline, anywhere. Users are unpredictable.<br>3️⃣ Share micro-tips — quick wins build trust fast.<br>4️⃣ Use niche communities — be genuinely helpful, not spammy.<br>5️⃣ Leverage your network — early users sharing \> any ad.<br><br>Traffic is hard at the beginning.<br>But once it starts, it snowballs.<br>…more
+
+
+--- Post 26 ---
+Likes:    16
+Comments: 7
+
+### Post Content
+How hard is it to reach the top of Product Hunt as a solo founder?<br>Somewhere between<br>– sending 30 cold DMs before breakfast<br>and<br>– being your own designer, developer, marketer, and customer support — all at once.<br><br>But here I am, running on caffeine and stubbornness, launching my new tool into the wild:<br><br>SEOZAST – because your SEO shouldn’t cost more than your coffee.<br><br>I built it for makers like me — people trying to grow without burning out or burning money.<br><br>Launching solo is no joke.<br>I’ve been building, debugging, designing, rewriting landing copy, and second-guessing myself for days.<br>But I’m proud of it.<br>Not because it’s perfect — but because it’s real. And useful.<br><br>After building, launching, and getting early users…<br>I knew I didn’t want just “another SEO tool” vibe.<br>So I went all in on personality.<br><br>The slogan:<br>“Because your SEO shouldn’t cost more than your coffee.”<br>Bold, honest — and 100% true.<br><br>The promo video:<br>Fast, spicy, and fun.<br>No boring demos. Just a real solo founder solving a real problem:<br>Getting traffic without the €99/month tools, the overwhelm, or the burnout.<br><br>If you want to support my launch today, here’s the link to upvote:<br>https://lnkd.in/gE5_N_hA<br><br>And if you’re launching soon — let me know.<br>I’ll be the first to cheer for you.<br><br><br>hashtag<br>#buildinpublic <br>hashtag<br>#producthunt <br>hashtag<br>#seo <br>hashtag<br>#solofounder <br>hashtag<br>#indiehackers <br>hashtag<br>#startuplife <br>hashtag<br>#launchday<br>…more
+
+
+--- Post 27 ---
+Likes:    11
+Comments: 7
+
+### Post Content
+Sent 2,000+ cold emails.<br>Rejections? Part of the game.<br><br>But every now and then someone replies with a very necessary rude “NO” and I’m like—<br><br>Wow. Thank you for your kindness, you must be fun at parties.<br>…more
+
+
+--- Post 28 ---
+Likes:    16
+Comments: 6
+
+### Post Content
+Building my own apps so no one can ruin my breakfast with “Daily meeting in 5 mins.”
+
+
+--- Post 29 ---
+Likes:    13
+Comments: 6
+
+### Post Content
+I wanted to price my SaaS cheap, make it accessible.<br>Most SEO tools are overpriced anyway.<br><br>But people kept telling me the same thing:<br><br>“The cheaper it is, the harder the users.”<br><br>They were right. More refunds, more demands, more pressure.<br>Often it’s not what they say, it’s how they say it.<br><br>Don’t get me wrong, I have amazing users too.<br>People who support, give kind feedback, and make building worth it.<br><br>But the pattern was clear.<br>It was time to pivot.<br><br>I improved the tool a lot and yesterday I doubled the price.<br>Not for profit, to work with users who actually want the product to win.<br><br>Result: first sale at the new price. Proof that leveling up pays off.<br>…more
+
+
+--- Post 30 ---
+Likes:    15
+Comments: 6
+
+### Post Content
+I launched Seozast everywhere.<br><br>Product Hunt, Peerlist, uneed.best, tinylaunch, Fazier, tinystartups…<br><br>I got some upvotes. Some traffic. A few leads.<br><br>But here’s the hard truth no one tells you about launching:<br><br>Getting to the top of a list doesn’t mean people want your product.<br><br>⸻<br><br>I spent hours crafting launch copy.<br>Uploaded assets, filled out forms I’ll never see again.<br>Asked for support, posted on every corner of the internet.<br><br>Some platforms were smooth. Some were broken nightmares.<br>Some brought traffic. Others, pure silence.<br><br>Here’s how it went:<br>🚀 Peerlist: no buzz. Felt like shouting into the void.<br>🧡 Product Hunt: decent traffic spike, but ended #19.<br>🔥 uneed.best: got me to #1 and brought real leads. My favorite.<br>🤷‍♀️ tinylaunch: #2 but backlinks they promised? Never came.<br>🙃 Fazier: #1 weekly, #3 monthly. People liked it. I didn’t like the platform.<br>😵 tinystartups: UI from hell. Didn’t know if I was logged in or out.<br><br>⸻<br><br>The launch week was exhausting.<br><br>I felt I had to do it all — because that’s what indie hackers do, right?<br><br>Launch everywhere. Get visibility.<br><br>But no one tells you the truth:<br><br>It feels like traction.<br>But it’s just noise.<br><br>⸻<br><br>A good launch ≠ product-market fit<br>Upvotes ≠ retention<br>Traffic spikes ≠ real usage<br><br>If you want real feedback:<br><br>• Watch what users do, not what they say.<br>• Track who comes back, not who shows up.<br><br>⸻<br><br>I’m glad I did it. I learned a lot.<br><br>But I’ve stopped chasing vanity metrics.<br><br>Now I just want to build something people come back to.<br>Again. And again.<br><br>That’s what matters.<br><br><br>hashtag<br>#buildinpublic <br>hashtag<br>#indiehackers <br>hashtag<br>#startuplife <br>hashtag<br>#saas <br>hashtag<br>#launchlessons<br>…more
+
+
+--- Post 31 ---
+Likes:    4
+Comments: 6
+
+### Post Content
+I see a lot of overnight success stories…<br>But the reality for most indie apps?<br>It's a long journey.<br><br>That’s why I made a new youtube video — while bootstrapping my first SaaS from Thailand — to share the real story of what marketing has looked like after 2 months of launching.<br><br>👉 Watch here: https://lnkd.in/gJH7i2fD<br><br>This is a no-fluff, transparent breakdown of my indie SaaS marketing journey — ideal for devs, solo founders, and indie hackers trying to grow their own products.<br><br>You’ll learn:<br> – What actually worked to get real users<br> – What completely flopped<br> – My numbers after 2 months<br> – Why marketing is way harder than launching<br> – What I’d do differently next time<br><br>And while figuring that out… I’ll take you along through life in Thailand. Because why not build and explore at the same time?<br><br><br>hashtag<br>#solopreneur <br>hashtag<br>#saasmarketing <br>hashtag<br>#buildinpublic <br>hashtag<br>#indiehacker<br>…more
+
+
+--- Post 32 ---
+Likes:    8
+Comments: 6
+
+### Post Content
+Biggest lessons I learned so far as a SaaS owner<br><br> 1. Shipping fast \> perfection: It’s better to release and iterate than to wait for everything to be flawless.<br><br> 2. Bugs will find you, no matter how much you test: Expect issues, learn from them, and continuously improve.<br><br> 3. Marketing is harder than coding: Building a product is one thing; getting people to know about it is another challenge altogether.<br><br> 4. If you don’t put your product out there, nobody will: Visibility is essential—don’t wait for the “perfect” moment.<br><br>Each step, each setback, and every small win has taught me invaluable lessons. I’d love to hear your experiences and insights. How have you tackled these challenges in your own projects?<br><br>Let’s connect and keep learning together!<br><br>PS. Thai sunset to catch attention<br>…more
+
+
+--- Post 33 ---
+Likes:    9
+Comments: 6
+
+### Post Content
+Today I found my app Scuba Reputation gaining top positions on Google after just 2 months. <br><br>As a tech girl with zero experience in SEO, pSEO, or web marketing, seeing this felt unreal. I didn’t have a big strategy—just a lot of trial and error, basic keyword research, and a bit of luck.<br><br>One resource that really helped me understand how to leverage programmatic SEO was this article by Marc Lou : https://lnkd.in/gfgdMzTj<br><br>If you’re building something solo and want to boost your organic traffic, I highly recommend giving it a read.<br><br>Sometimes, diving in headfirst without knowing all the rules can actually work out. <br>Any other solo devs or founders here experimenting with SEO? I’d love to hear your stories and tips!<br><br><br>hashtag<br>#SEO <br>hashtag<br>#pSEO <br>hashtag<br>#IndieHackers <br>hashtag<br>#Startups <br>hashtag<br>#WebDevelopment <br>hashtag<br>#Bootstrappin<br>…more
+
+
+--- Post 34 ---
+Likes:    9
+Comments: 6
+
+### Post Content
+The café next door closed forever.<br><br>Since my second visit, Mon would greet me with an iced Americano—no words needed. Just a smile and my usual, ready before I even asked.<br><br>It’s a small thing, right? But it’s also everything.<br>That kind of personalized care is what makes people come back. I used to make my morning coffee at home to save money, but here in Thailand, getting it outside costs less than a dollar—almost the same as at home. Plus, I’ve grown to love the morning walk.<br><br>Building my app, I keep thinking about that iced Americano. About how good it feels to be understood without explanation. That’s the kind of experience I want to create: something that feels effortless but is built on truly listening to what people need.<br><br>Because whether it’s coffee or code, the details matter. The personal touch matters. And, most importantly, how you make people feel—like they belong, like they’re seen—matters.<br><br>Here’s to building things that people miss when they’re gone.<br><br><br>hashtag<br>#startups <br>hashtag<br>#indiehackers <br>hashtag<br>#productdesign <br>hashtag<br>#founderstory<br>…more
+
+
+--- Post 35 ---
+Likes:    9
+Comments: 6
+
+### Post Content
+Looking for users for my app in-situ today.<br><br>Did you build a diving app? Then don’t just test it in your room—pitch it on a boat☺️<br><br>Real feedback from real divers, in real conditions. If your app can’t handle the waves, it won’t survive the market. There’s no better way to validate your idea than putting it in the hands of those who will actually use it.<br><br>Who’s up for the challenge? Let’s take our projects where they truly belong—out in the water.<br><br>PS. Not a bad office view<br><br><br>hashtag<br>#IndieHackers <br>hashtag<br>#BuildInPublic <br>hashtag<br>#scubadiving<br>…more
+
+
+--- Post 36 ---
+Likes:    9
+Comments: 6
+
+### Post Content
+I’m happy to share that I’ve obtained a new certification: Google Cybersecurity Certificate from Coursera!
+
+
+--- Post 37 ---
+Likes:    9
+Comments: 5
+
+### Post Content
+I built my own referral system and saved \$100/month.<br>Referrals are the cheapest growth channel for any SaaS.<br><br>Everyone says you need one once you start making money. But most referral platforms cost \$50–\$150/month.<br><br>I didn’t want to spend that, so I built my own — free, scalable, and fully under my control.<br>Using Next.js, Prisma, PostgreSQL, and Stripe, I can now:<br>- Generate referral codes<br>- Track referrals & conversions<br>- Apply affiliate commissions<br>- Build dashboards and handle payouts automatically<br>- Prevent self-referrals<br><br>Everything is managed from an admin panel, fully under my control, and it costs me nothing extra each month.<br><br>I recorded a step-by-step tutorial showing exactly how I built it:<br>- Free PDF → Architecture, checklist, and steps to follow<br>- Full code → Ready to deploy<br><br>https://lnkd.in/gYzAXgzp<br><br>Sometimes the best solution to grow your SaaS is to solve your own problem first.<br><br>https://lnkd.in/gfHHrPmG<br>…more
+
+
+--- Post 38 ---
+Likes:    12
+Comments: 5
+
+### Post Content
+When I launched my app, I had 0 audience.<br>No ads. No launch hype. No growth hacks.<br><br>But I needed users.<br>So I went old-school: cold emails.<br><br>I scraped the emails of dive centers using Python + Google Places API.<br>Then, I wrote short, personal pitches with ChatGPT.<br><br>No fancy automation.<br>Just Gmail.<br>20–30 contacts per email.<br>500/day limit.<br><br>Some people signed up.<br>Some ignored me.<br>One replied just to tell me off — really mad.<br><br>My reaction?<br>“Dude, you must be fun at parties.”<br>And I moved on.<br><br>Every night after diving, I’d sit down, hit send, and follow up.<br>It was slow.<br>But it worked.<br><br>That’s how I got my first 100 users on beunderwater.com<br>No paid growth. Just effort + solving a real problem for a niche I know well.<br><br><br>Lesson:<br>You want users?<br>Build the thing. Talk to people.<br>Even if they say no.<br>Even if they don’t get it.<br>Even if they’re not fun at parties.<br>…more
+
+
+--- Post 39 ---
+Likes:    12
+Comments: 5
+
+### Post Content
+From 0 to 4.8k followers on X in 6 months.<br> No growth hacks.<br> No viral threads.<br> No engagement pods.<br><br>Just showing up every day while building my SaaS.<br><br>Here’s what actually worked:<br><br>1. Starting even without a clue<br>I was posting random stuff with random hashtags. It didn’t matter. What mattered was starting.<br><br>2. Joining communities (without spamming)<br> I didn’t drop links. I replied, shared things, and showed up consistently. People notice when you’re genuine.<br><br>3. Sharing the real process<br>Mistakes, progress, burnout, tiny wins. Raw posts always connect better than polished ones.<br><br>4. Being consistent even without motivation<br>Some days I had nothing to say. I posted anyway. One recycled post ended up going viral.<br><br>5. Not being boring<br>I never tried to create “content.” I just showed what I was building, how I felt, what was working (or not).<br><br>I just documented the journey, the way I’d tell it to a friend.<br>That brought users, feedback, collaborators—and even revenue from the platform itself.<br><br>You don’t need to go viral.<br>You just need to be real.<br>Are you building something too? I'd love to see it.<br>…more
+
+
+--- Post 40 ---
+Likes:    8
+Comments: 5
+
+### Post Content
+✨ I just launched my YouTube channel!<br>First video? Migrating my SaaS from Vercel & Supabase to a VPS with Coolify + PostgreSQL.<br>It cost me \$7/month, a few broken deploys, and 3 days of trial and error.<br>But I made it work.<br>I even had time to explore Kuala Lumpur between Docker docs and Coolify restarts 🇲🇾<br>Two years ago, I didn’t feel confident enough to share anything on YouTube.<br>I thought I wasn’t “good enough” at coding — because I didn’t have a CS degree.<br>Because I learned through a bootcamp, YouTube videos, and just... building.<br>Today I have 2 SaaS running.<br>And I’m finally ready to share the journey.<br>If you’re figuring things out on your own too, this one’s for you.<br>Watch it here 👇<br>https://lnkd.in/geNCNREC<br><br>hashtag<br>#buildinpublic <br>hashtag<br>#indiehackers <br>hashtag<br>#devops <br>hashtag<br>#solopreneur <br>hashtag<br>#selftaught<br>…more
+
+
+--- Post 41 ---
+Likes:    5
+Comments: 5
+
+### Post Content
+If you struggle with lead generation, 100M Leads by Alex Hormozi is a must-read. This game-changing for marketing.<br><br>Here are my top takeaways:<br> • Attention is everything – No leads = No business. The biggest risk is being unknown.<br> • Make free so good it feels stupid to say no – Offer massive value upfront, so purchasing becomes the obvious next step.<br> • Organic + Paid = Growth – Many rely too much on one or the other. The best businesses master both.<br> • Speed wins – The faster you test, iterate, and improve, the faster you dominate.<br>…more
+
+
+--- Post 42 ---
+Likes:    8
+Comments: 5
+
+### Post Content
+AI will replace us…<br><br>Today I asked AI for emails from these dive centers to pitch my app. <br><br>Could you see what happened?<br><br>Hint: None of them were real. Yes, it took a few failed delivery messages for me to figure it out.<br><br>It just could say like other times ‘I can’t do that’ but decided to mess with me.<br><br>Lesson learned: Human check needs to be done after AI work. <br><br><br>hashtag<br>#ai <br>hashtag<br>#aifail <br>hashtag<br>#startups<br>…more
+
+
+--- Post 43 ---
+Likes:    4
+Comments: 5
+
+### Post Content
+When I got fired from my first real job as a developer, I wasn’t angry. I wasn’t even surprised.<br><br>But I did feel something else: self-doubt.<br><br>"If they think I’m not good enough, maybe they’re right."<br>"Maybe I’ll never be a real developer."<br><br>That’s impostor syndrome talking. And if you’ve ever felt like you don’t belong in tech, you know exactly what I mean.<br><br>Impostor syndrome hits hard as a developer because every day, you’re surrounded by things you don’t know yet.<br><br>🤯 You open a codebase and feel lost.<br>🤯 You Google things you should already know.<br>🤯 You assume everyone else is smarter, faster, or more experienced.<br><br>But here’s what I’ve learned:<br><br>🚀 Not knowing something doesn’t mean you’re not good enough—it means you’re learning.<br>🚀 Nobody was "born" a great developer. We all Google things.<br>🚀 Your skills are not defined by one job, one manager, or one setback.<br><br>Two years later, I’ve built my own app, from scratch. And the only opinion that mattered in the end? Mine.<br><br>Have you ever felt impostor syndrome? How did you deal with it?<br><br><br>hashtag<br>#TechIndustry <br>hashtag<br>#ImpostorSyndrome <br>hashtag<br>#indiehacker<br>…more
+
+
+--- Post 44 ---
+Likes:    8
+Comments: 4
+
+### Post Content
+I started a free newsletter <br><br>I’ve spent the last years going from scuba instructor → coder → indie founder.<br>Now I’m writing about everything I’ve learned along the way. Yes, all the mistakes too.<br><br>Each week I share one story or lesson about:<br>⚡️ building SaaS from scratch<br>💌 cold emails that actually work<br>🌍 cheap places to live as a solopreneur<br>💡 learning to code (without a CS degree)<br>and more.<br><br>If you like honest founder stories + practical insights, you’ll enjoy this one.<br><br>Subscribe here 👇<br><br>https://lnkd.in/gqd8yhRu<br>…more
+
+
+--- Post 45 ---
+Likes:    6
+Comments: 4
+
+### Post Content
+I built a full SaaS in 7 days using AI — here the breakdown <br><br>Not just an MVP — a real, working app with a dashboard, article generator, auth, payments, and pSEO-ready features.<br><br>Why?<br>Because every SEO tool I found was either overpriced or too bloated. I wanted something simple, and I wanted to prove that solo builders (even non-engineers!) can ship fast using AI.<br><br>Here's how I structured my week:<br><br>Day 1 – Planning & Branding<br>Used AI tools (like Grok) to brainstorm the concept, pick a name with domain availability, and create a logo/color palette with Inkscape.<br><br>Day 2 – Base Template & Setup<br>Started from my own boilerplate, connected Supabase, set up auth, and worked on home/pricing pages.<br><br>Day 3 – Core Logic<br>Built a dashboard, scraping logic, article-idea generator (with keyword planner data), and added topic editing + generation limits.<br><br>Day 4 – Deploy & Infra<br>Set up Vercel, created a Stripe account, Hotmail, and connected Resend for transactional emails.<br><br>Day 5 – Article Generation<br>Articles generate in batches of 5, support multiple languages, and can be exported easily. Pulled images from Pexels.<br><br>Day 6 – SEO Features<br>Dynamic sitemap generation, route creation for AI prompts, and pushed everything to GitHub.<br><br>Day 7 – Polish & Final Touches<br>Final styling, DNS config, Resend settings, and recorded a demo.<br><br>I documented everything step by step (tools, tips, full process) for anyone interested in building fast as a solo founder or indie hacker.<br><br>https://lnkd.in/gNWGQWhJ<br>…more
+
+
+--- Post 46 ---
+Likes:    5
+Comments: 4
+
+### Post Content
+Ever wanted to build your own B2C or C2C platform, but got stuck on the boring, time-consuming parts?<br><br>User auth. Database setup. Responsive UI. Roles & permissions. You know — the stuff that takes weeks to get right before you even start working on your actual product.<br><br>I’ve been there. That’s why I built PeerQuik.<br><br>It’s the boilerplate I wish I had when I started building my own SaaS. Clean Next.js 14 code, dark mode UI with Tailwind, authentication with React Hook Form + Zod, PostgreSQL integration, and two fully working user roles — all ready to deploy.<br><br>I built it to move fast, validate faster, and skip the headaches.<br><br>Now it’s available for you too:<br> 👉 https://peerquik.com<br><br>Whether you're building a marketplace, a booking platform, or a niche community — PeerQuik gets you from idea to MVP insanely fast.<br><br>Let’s stop wasting time reinventing the wheel.<br>Let’s build something cool.<br>Let’s make it happen.<br>…more
+
+
+--- Post 47 ---
+Likes:    10
+Comments: 4
+
+### Post Content
+Building an app is like making popcorn in a pot.<br><br>It looks like nothing’s happening… until suddenly everything pops at once.<br>But only if you don’t quit halfway.<br><br>Let me explain:<br><br>When you start, you add the oil, the corn, and wait.<br>The pot is quiet.<br>You start doubting:<br>“Is the heat too low?”<br>“Did I do something wrong?”<br>“Should I give up and just buy popcorn instead?”<br><br>Then… pop.<br>One kernel.<br>Another one.<br>And suddenly: chaos.<br>Everything’s popping at once, and there’s no stopping it.<br><br>Building an app is exactly the same.<br>The first months feel slow, lonely, pointless.<br>People scroll past your posts.<br>Your metrics suck.<br>Nobody cares.<br><br>But if you keep the heat on…<br>If you stay focused…<br>If you don’t lift the lid too soon…<br>One day, everything starts popping.<br><br>So if you’re building something and it feels like nothing’s moving — remember:<br>You’re just one pop away from everything changing.<br><br><br>hashtag<br>#buildinpublic <br>hashtag<br>#startups <br>hashtag<br>#founderjourney <br>hashtag<br>#indiehackers<br>…more
+
+
+--- Post 48 ---
+Likes:    8
+Comments: 4
+
+### Post Content
+“AI will replace developers.” That’s what everyone keeps saying.<br><br>But yesterday, AI didn’t replace me—it helped me finish one of the hardest coding tasks of my career.<br><br>Two years ago, when I was just learning to code, I built a booking system for my next SaaS (launching tomorrow btw). It was messy, full of spaghetti code, and barely worked. Back then, fixing even a small bug took me days.<br><br>This week, I decided to rewrite and optimize it. What once felt like an impossible challenge, I refactored in just 4 intense days—with AI as my coding assistant.<br><br>The result? A system that actually makes sense, performs better, and is scalable. And instead of spending weeks debugging like before, I got to watch an incredible sunset after finishing it.<br><br>AI isn’t replacing developers—it’s making us faster, better, and able to enjoy more sunsets.<br><br><br>hashtag<br>#indiehacker <br>hashtag<br>#ai <br>hashtag<br>#saas<br>…more
+
+
+--- Post 49 ---
+Likes:    8
+Comments: 4
+
+### Post Content
+Agree?<br><br><br>hashtag<br>#indiehackers
+
+
+--- Post 50 ---
+Likes:    3
+Comments: 4
+
+### Post Content
+⏰Woke 6.30am (no alarm)<br>☀️ Watched sunrise at the terrace<br>💧Drank a glass of water<br>🍳Had breakfast <br>💻Finished the MVP of my new SaaS<br>🌊Started pitching dive centers to sign up<br><br>Goals of week: post constantly on X. I new on the platform. Are you there? Let’s connect!<br><br>https://lnkd.in/gB786C-H<br><br>How did you start your week?<br><br><br>hashtag<br>#webdeveloper <br>hashtag<br>#mondaymotivation<br>…more
+
+
+============================================================
+📌 MOST LIKED (54 posts)
+============================================================
+
+--- Post 1 ---
+Likes:    9756
+Comments: 1158
+
+### Post Content
+Agree?
+
+
+--- Post 2 ---
+Likes:    9178
+Comments: 528
+
+### Post Content
+Success = 5% brains, 95% consistency 👏🏽👏🏽<br><br>Success is the result of your consistency invisibly compounding for you, over long periods of time. <br><br>Greatness isn’t one decision. <br><br>Great is just good repeated, over and over again.<br><br>Post via Pinterest<br>…more
+
+
+--- Post 3 ---
+Likes:    1443
+Comments: 103
+
+### Post Content
+My mentor at my first dev job once told me:<br><br>“You will never make it to Junior 2.”<br><br>Why?<br>Because I asked a question about a technology I had never used before.<br><br>The next day HR and the CEO scheduled a call.<br>I was fired for that same reason.<br><br>Now imagine if I had a weak mindset.<br>That moment could’ve convinced me I wasn’t good enough.<br>That I should quit coding.<br><br>But I didn’t.<br><br>I laughed and kept going.<br><br>4 years later:<br><br>• I have 3 apps making money<br>• I code better than that menter<br>• I make more than I did at that job<br><br>And more importantly, I learned things that job would never have taught me:<br><br>Infrastructure.<br>Security.<br>Marketing.<br>Finance.<br><br>So in a way… they were right.<br><br>I was never meant to make it to Junior 2.<br><br>I was meant to be CEO and CTO of my own things.<br>…more
+
+
+--- Post 4 ---
+Likes:    1157
+Comments: 19
+
+### Post Content
+Am I alone here feeling like this? 👀😂😂<br>Sign up for upcoming community GenAI Start-up Hackathon <br>👉 www.lazyhack.io 🥳<br><br><br>hashtag<br>#hackathon<br>…more
+
+
+--- Post 5 ---
+Likes:    610
+Comments: 61
+
+### Post Content
+5 years ago, I started my first job as a junior developer.<br><br>I barely knew how to code.<br>I spent nights Googling (no AI back then), copying tutorials, and wondering if I’d ever actually build something real.<br><br>I had one goal: create my own app.<br><br>Fast forward to today:<br>I’m scaling 3 SaaS and building my first mobile app.<br><br>The truth?<br>I wasn’t the most talented. I wasn’t the smartest.<br>I just kept showing up.<br>Every day. Learning. Failing. Building. Repeating.<br><br>Consistency beats talent. Every single time.<br>If you’re starting from zero, keep showing up. It works.<br>…more
+
+
+--- Post 6 ---
+Likes:    542
+Comments: 128
+
+### Post Content
+5 cheap places to live as a solopreneur<br><br>Forget Bali.<br>Forget San Francisco.<br><br>You don’t need hype.<br>You need WiFi, low rent, and time to build.<br><br>Over the last few years I’ve lived in different places while building SaaS — diving, kitesurfing, coding.<br><br>And I learned this:<br><br>You don’t need much money to live well.<br>You just need to choose differently.<br><br>Here are 5 places that gave me freedom and focus:<br><br>1. Khao Lak, Thailand \~\$600/month<br>Quiet. Beach. Diving and work.<br>Bungalows under \$300. \$2 pad thai.<br>Perfect if you want peace and deep work.<br><br>2. Kuala Lumpur, Malaysia \~\$700/month<br>City energy without crazy costs.<br>Good apartments, fast WiFi, amazing food.<br>Underrated spot to build and network.<br><br>3. Mui Ne, Vietnam \~\$400/month<br>Wind, ocean, simple life.<br>\$200 room. \$1 coffee.<br>Wake up, code, kitesurf, repeat.<br><br>4. Rhodes, Greece \~\$600/month<br>Mediterranean lifestyle without the Mykonos prices.<br>Bike everywhere. Swim after work.<br>Europe, but calm.<br><br>5. Tenerife, Spain \~\$900/month<br>El Médano is full of remote builders.<br>Sun all year. Strong community.<br>Easy place to stay longer than planned.<br><br>Here’s the real lesson:<br><br>You don’t need to earn 200k/year to feel free.<br><br>\$600–900/month can buy you:<br>– time<br>– focus<br>– good weather<br>– and space to think<br><br>The goal isn’t always to make more.<br>Sometimes it’s to need less.<br>…more
+
+
+--- Post 7 ---
+Likes:    263
+Comments: 42
+
+### Post Content
+I share wins and fails. Here’s a fail:<br><br>Yesterday, I deleted my testing DB.<br><br>Forgot my waitlist was there — first time I ever had one.<br><br>88 users gone. In 2 seconds.<br><br>No backups. (I usually set them before launch…)<br><br>If you signed up, please do it again https://lnkd.in/ezhtnrF7<br><br>Don’t judge me. I’m not an engineer. I’m a scuba instructor who learned to code (6 years ago, but still…)<br><br>Fails are messy. Humbling. Painful.<br><br>But they’re the fastest way to learn, and the reason you get better, faster.<br><br>Worst part? This isn’t even my biggest fail as a developer.<br>Want to hear about that one?<br>…more
+
+
+--- Post 8 ---
+Likes:    218
+Comments: 5
+
+### Post Content
+Mi nueva terminal de comandos usa ChatGPT!<br><br>Por primera vez en mi vida he visto una evolución real en este tipo de aplicaciones.<br><br>✓ Integrada perfectamente con IA<br>✓ Mucho más simple, como un editor de texto<br><br>¿No te lo crees?<br><br>Aquí te lo cuento todo:<br>▶️ https://lnkd.in/dtEwMdMk<br>…more
+
+
+--- Post 9 ---
+Likes:    195
+Comments: 43
+
+### Post Content
+I build apps.<br>A lot of them.<br><br>And there’s one recurring problem no AI tool solves end-to-end:<br><br>Your app works in preview…<br>but breaks in production.<br><br>Env vars mismatch.<br>N+1 queries.<br>Security issues.<br>“We’ll fix it later” fixes that break something else.<br><br>AI tools (v0, Claude, Cursor, Replit…) get you 80% there.<br>That last 20% is what actually makes the product shippable.<br><br>That’s why I like what fixmyapp.ai is doing.<br><br>You connect your repo, explain what’s broken, and it gets fixed properly.<br>No endless prompting. Just things working in prod.<br><br>If you’ve ever thought:<br>“Why does this only fail after deploy?”<br>This is built exactly for that moment.<br><br>Worth checking out if you’re shipping AI-generated code and want it to actually survive production.<br>…more
+
+
+--- Post 10 ---
+Likes:    165
+Comments: 24
+
+### Post Content
+I’ve been building for 2 years.<br><br>None of my products make “big money” yet.<br><br>But I’m still here.<br><br>I make enough to cover my bills —<br>but still far from “not worrying about money.”<br><br>I built 6 apps.<br>Only 3 make money.<br><br>And still… I feel successful.<br><br>Because most people never even get here.<br><br>Shipping.<br>Making something.<br>Getting real users.<br>Earning anything online.<br><br>That already puts you ahead.<br><br>I’m not chasing overnight success.<br>I’m building towards it.<br><br>And if I keep showing up…<br><br>It’s just a matter of time.<br>…more
+
+
+--- Post 11 ---
+Likes:    107
+Comments: 34
+
+### Post Content
+Vibe coding is fun…<br><br>until your components have 700 lines of code.<br><br>Everything works.<br>Until it doesn’t.<br><br>Glad I learned to code before AI.<br><br>Now I can supervise tools like cursor like a senior engineer,<br>not like a junior collapsing over a missing semicolon.<br><br>AI makes you fast.<br>But it doesn’t make you good.<br><br>No structure.<br>No context.<br>No understanding.<br><br>Just vibes… until you have to debug it.<br><br>Vibe coding is great to start.<br>But if you don’t understand what’s happening,<br><br>you’re just creating future problems.<br><br>Fast now.<br>Pain later.<br>…more
+
+
+--- Post 12 ---
+Likes:    103
+Comments: 34
+
+### Post Content
+I charge \$300 for a post on X.<br><br>My partner looked at me and said:<br>“\$300 for two lines of text??”<br><br>I smiled.<br>Because I don’t charge for writing.<br>I charge for knowing which two lines people actually want to read and how to show them to the right audience.<br><br>10 months ago, I had no audience.<br>No followers, no engagement, just me sharing what I was building.<br><br>Now 13.5k people follow my journey.<br>Not because I’m a marketing expert,<br>but because I’ve spent months testing, failing, posting at weird hours,<br>and learning what truly gets people to care.<br><br>That’s what you’re paying for.<br>Not words, insight.<br>…more
+
+
+--- Post 13 ---
+Likes:    95
+Comments: 21
+
+### Post Content
+“AI will replace programmers soon.”<br><br>You’ve probably heard it a thousand times.<br><br>Here’s the reality: we’re nowhere near that point.<br><br>AI is a tool, not a replacement. It can help write code, suggest solutions, and automate repetitive tasks but it can’t replace the thinking, creativity, and problem-solving humans bring to building products.<br><br>Right now, it’s the best time to learn programming:<br> • You can start small and build real projects.<br> • AI will be your coding assistant, not your competitor.<br> • Those who understand code + AI will dominate the next wave of tech.<br><br>The future isn’t “AI vs programmers.”<br>It’s humans + AI building smarter, faster, better.<br><br>If you’ve been thinking about learning to code, don’t wait. The time is now.<br><br>For reference, I got 3 arms on this pic.<br><br>Prompt used:<br>"Create a Caricature of me and my job based on everything you know about me"<br>…more
+
+
+--- Post 14 ---
+Likes:    92
+Comments: 24
+
+### Post Content
+I was told I’d never make it<br><br>2014 – I graduated with a business degree and moved to London to learn English.<br>2015 – I left the idea of an office job, traveled the world, and grew an Instagram account to 20k followers.<br>2019 – I moved to Australia and became a scuba instructor.<br>2020 – I learned to code in a bootcamp to build a diving app.<br>2021 – I worked as a full-stack developer, but corporate life and bad mentorship pushed me away from tech.<br>2023 – I quit, moved to Thailand, and started building my app, learning more in months than years at companies.<br>2024 – I launched my first SaaS and began building in public on X.<br>2025 – I made my first online dollar, built 3 micro-SaaS, traveled Asia, and quit my job as a scuba instructor in Palau to fully focus on my SaaS.<br><br>Not the typical tech path but the one that finally feels right.<br>…more
+
+
+--- Post 15 ---
+Likes:    84
+Comments: 24
+
+### Post Content
+After 2 years building SaaS, and 6 years coding as a developer… I’m finally building my first mobile app.<br><br>It feels different this time. Bigger, more exciting, more personal.<br><br>Meet Cestio → Smart grocery. Savings made simple.<br><br>Cestio helps you:<br>• Track your expenses<br>• Optimize your shopping list<br>• Save money on every trip to the supermarket<br><br>I’m building this in public, learning as I go, and I hope to have it ready in a couple of weeks.<br><br>The joinlist is already open, and I’d love for you to be part of it: cestio.app<br><br>First users, feedback, ideas — everything will shape Cestio from day one.<br><br>This is just the beginning, and I can’t wait to share the journey with you.<br>…more
+
+
+--- Post 16 ---
+Likes:    77
+Comments: 18
+
+### Post Content
+You’re 1 post away from changing everything.<br><br>One post got me my first dev job.<br>One post brought my first users.<br>One post started making me money online.<br><br>No audience.<br>No strategy.<br>No idea what I was doing.<br><br>Just posting.<br><br>Wins.<br>Fails.<br>What I was learning.<br><br>That’s it.<br><br>People overcomplicate content.<br><br>You don’t need the perfect idea.<br>You don’t need the perfect timing.<br><br>Start messy.<br>Start today.<br><br>Because that one post?<br><br>You don’t know which one it is.<br>…more
+
+
+--- Post 17 ---
+Likes:    77
+Comments: 14
+
+### Post Content
+My first job as a developer was onsite in Madrid.<br><br>• 2+ hours commuting<br>• Traffic jams<br>• Cooking tuppers at night<br>• Exhausted before even starting<br><br>That experience changed everything.<br><br>I said: never again.<br><br>I bought a portable screen ( espresso Displays 15” pro) and started traveling while working remotely.<br><br>Now I wake up knowing:<br>• My time is mine<br>• Work fits around my life, not the opposite<br>• I can say yes to experiences without asking permission<br><br>Remote work isn’t about escaping work.<br>It’s about choosing why you work.<br>…more
+
+
+--- Post 18 ---
+Likes:    71
+Comments: 17
+
+### Post Content
+Last week I felt completely unmotivated.<br><br>I kept showing up, but it was hard:<br>Too many projects.<br>No clear focus.<br>A few ideas that flopped.<br><br>This is the indie hacker path: showing up no matter what.<br><br>For the new week:<br><br>→ Remember why you started<br>→ Take a proper break<br>→ Stop juggling multiple projects at once<br>→ Celebrate small wins<br>→ Focus on one thing<br>→ Keep showing up<br><br>Consistency beats perfection. Always.<br>…more
+
+
+--- Post 19 ---
+Likes:    66
+Comments: 13
+
+### Post Content
+“You can’t build an iOS app without a Mac.”<br><br>Hold my beer. <br><br>I didn’t use a Mac. I built and shipped my first app on a \$700 Ubuntu laptop.<br><br>How I did it:<br>• React Native + Expo<br>• Local dev on Ubuntu<br>• Expo cloud build for iOS<br>• TestFlight testing<br><br>Things I learned:<br>→ You don’t need an expensive setup, I built mine on a \$700 Ubuntu laptop<br>→ Knowing how to code makes everything easier, even vibe coding works if you know the fundamentals<br>→ Time spent understanding stuff isn’t wasted, it’s an investment for future apps<br>→ There’s a fine line between shipping fast and shipping crap<br><br>I shipped in 20 days. It may felt slow. But now my second app will be 3x faster.<br><br>If I can ship a mobile app from Linux… you can too.<br>No Mac. No excuses.<br>…more
+
+
+--- Post 20 ---
+Likes:    65
+Comments: 20
+
+### Post Content
+My SaaS stack costs me \$8/month.<br>Yes. Eight.<br><br>No VC credits.<br>No crazy infra.<br>No \$500/month tool stack.<br><br>Just simple, boring, cheap tech.<br>Here’s what I actually use:<br>• VPS<br>• Postgres<br>• Coolify<br>• My own tools<br><br>That’s it.<br><br>No expensive managed databases.<br>No overkill architecture.<br>No tools I don’t fully understand.<br><br>When you’re an indie hacker, your goal isn’t to look impressive.<br>It’s to stay profitable.<br><br>Low fixed costs =<br>• Less pressure<br>• More runway<br>• More freedom<br>• Easier experiments<br><br>You don’t need a \$300/month stack to validate an idea.<br>You need something stable, predictable, and boring enough to not think about it.<br><br>Build simple.<br>Keep costs low.<br>Scale when it actually hurts.<br>…more
+
+
+--- Post 21 ---
+Likes:    63
+Comments: 18
+
+### Post Content
+Remote work looks like freedom on socials.<br>Reality? It comes with sacrifices.<br><br>I gave up:<br>• seeing my family often<br>• a perfect setup (but my second monitor is non-negotiable)<br>• feeling “settled”<br>• old friendships<br><br>But in return, I gained experiences I wouldn’t trade for anything:<br>• that summer learning kitesurfing in Greece<br>• that winter scuba diving in Thailand<br>• that year living in a van in Australia<br>• eating street food in Taipei while building my SaaS<br>• sunsets after coding in Palau<br><br>Freedom always has a price.<br>For me, it’s worth it.<br>…more
+
+
+--- Post 22 ---
+Likes:    63
+Comments: 21
+
+### Post Content
+Remote work + travel sounds idyllic.<br>But there’s a part people don’t talk about enough: ergonomics.<br><br>Hotel desks and chairs are rarely designed for working 8+ hours.<br>I learned that the hard way.<br><br>That’s why I travel slower now.<br>A few months in one place. Comfort first.<br><br>What actually helps me stay focused:<br>• Proper chair and desk<br>• Natural light<br>• Less coffee, more water<br>• Mandatory sunset breaks<br>• A portable second screen ( espresso Displays 15” pro)<br><br>Focus doesn’t come from aesthetics.<br>It comes from feeling good in your body.<br>…more
+
+
+--- Post 23 ---
+Likes:    60
+Comments: 13
+
+### Post Content
+I hate rewriting the same idea three times.<br><br>One for LinkedIn.<br>One for X.<br>One for my newsletter.<br><br>So instead of manually repurposing everything, I built a small internal tool.<br><br>Input:<br>– YouTube title<br>– Short context<br><br>Output:<br>– LinkedIn post<br>– X version<br>– Newsletter intro<br><br>All editable. Stored as drafts.<br><br>I didn’t code another internal dashboard from scratch.<br><br>I generated it with UI Bakery in less time than it would’ve taken me to wire the UI manually.<br><br>As a solo founder, I don’t optimize for perfection.<br><br>I optimize for:<br>Less friction.<br>Less repetition.<br>More shipping.<br><br>This one is already saving me time.<br>…more
+
+
+--- Post 24 ---
+Likes:    59
+Comments: 10
+
+### Post Content
+Yesterday something interesting happened.<br><br>A dive center contacted me to register on my SaaS.<br><br>They found us through search.<br><br>That’s when it hits you:<br><br>SEO + AI search is the closest thing to free traffic on autopilot.<br><br>When I built BeUnderwater, I didn’t want to depend on ads.<br><br>So I focused on:<br>• Long-term SEO<br>• Content divers and dive centers actually search for<br>• Pages structured for AI search (80% of people search on AI instead of Google)<br>• Consistency<br><br>It took a few months. Nothing crazy happened at first.<br><br>But slow + consistent = unfair advantage.<br><br>Now it compounds.<br><br>Search works 24/7.<br>While I sleep. While I dive. While I build.<br><br>To automate most of it, I built Seozast — the cheapest SEO automation tool — because I was tired of doing everything manually.<br><br>Just building + optimizing + letting compounding do its job.<br><br>If you’re building a SaaS and ignoring search, you’re leaving long-term growth on the table.<br>…more
+
+
+--- Post 25 ---
+Likes:    58
+Comments: 18
+
+### Post Content
+Building my personal brand is one of the best decisions I’ve made.<br><br>This post just hit 90k+ views and brought me 400 new followers.<br><br>But the real win isn’t the numbers.<br><br>It’s what content on LinkedIn has done for me over time:<br><br>• My first dev job came from posting<br>• My first connections in tech came from posting<br>• My first users came from posting<br>• My first money online came from posting<br><br>I didn’t have an audience.<br>I didn’t know what I was doing.<br><br>I just started sharing what I was learning.<br>Wins and fails. Being real.<br>And somehow… it worked.<br><br>If you’re still thinking about creating content…<br><br>Start.<br><br>At the beginning it feels cringe.<br>Then it pays.<br>…more
+
+
+--- Post 26 ---
+Likes:    54
+Comments: 12
+
+### Post Content
+I raised my prices on my saas and this happened <br><br>A while ago, I did something that scared me:<br><br>I raised SeoZast from \$5.99 → \$19.99.<br><br>At \$5.99, I thought:<br>“Lower price = more users.”<br><br>And yes… I got users.<br>But not the ones I wanted.<br><br>Most founders underprice… and then wonder why they suffer.<br><br>Cheap attracts:<br>• Curious users<br>• Time-wasters<br>• Edge cases<br><br>Higher prices attract:<br>• Builders<br>• Urgency<br>• Real problems<br><br>After raising prices:<br><br>Fewer users.<br>Better users.<br><br>Less complaints.<br>More value.<br><br>Price isn’t just revenue.<br>It’s positioning.<br><br>If your users feel wrong…<br>it might be your price.<br><br>SeoZast at \$19.99?<br><br>Still selling.<br>…more
+
+
+--- Post 27 ---
+Likes:    52
+Comments: 6
+
+### Post Content
+My First Internship in Tech was shocking:<br><br>Every single employee was a junior.<br><br>No one earned more than €1,000. <br>There were no seniors, no mentors, no real guidance—just a group of inexperienced developers trying to figure things out.<br><br>It felt less like a company and more like a never-ending hackathon. We were all guessing, testing, fixing (or breaking) things. The only person who really knew what he was doing was the CTO. But the code? A complete mess.<br><br>This taught me two things:<br>✅ A company that doesn’t invest in senior talent won’t help you grow.<br>✅ Your salary often reflects the company’s priorities, not your worth.<br><br>It was my first real look at how some tech companies operate: hire cheap, expect juniors to "learn fast," and provide zero support.<br><br>To all junior devs: Look for places that help you grow, not just places that give you a job.<br><br>What was your first tech job like?<br><br><br>hashtag<br>#TechCareers <br>hashtag<br>#JuniorDeveloper <br>hashtag<br>#LessonsLearned<br>…more
+
+
+--- Post 28 ---
+Likes:    52
+Comments: 12
+
+### Post Content
+I’m happy to share that I’m starting a new position as Full Stack Developer at Tecnoturis!
+
+
+--- Post 29 ---
+Likes:    43
+Comments: 11
+
+### Post Content
+Freelancers & indie hackers:<br><br>Do you actually know your real monthly revenue… without opening 5 tabs and a spreadsheet?<br><br>Stripe.<br>PayPal.<br>Random invoices.<br>Manual notes.<br><br>It gets messy fast.<br><br>So I built Revenue Wrapped revenuewrapped.com<br><br>A simple dashboard that syncs your revenue sources automatically and shows you:<br><br>• Total income<br>• Expenses<br>• Revenue vs profit<br>• Breakdown by project<br>• Monthly & yearly view<br><br>You can also create invoices inside the app and even log income/expenses directly from Telegram.<br><br>No spreadsheets.<br>No manual tracking chaos.<br><br>Just one clean place to see your numbers.<br><br>Built for freelancers.<br>Built for indie hackers.<br>Built for people with multiple income streams.<br><br>Sometimes clarity is more important than growth.<br>…more
+
+
+--- Post 30 ---
+Likes:    42
+Comments: 2
+
+### Post Content
+I’m happy to share that I’m starting a new position as Full Stack Developer at OSF Digital!<br><br><br>hashtag<br>#fullstackdeveloper <br>hashtag<br>#ecommerce <br>hashtag<br>#salesforce<br>…more
+
+
+--- Post 31 ---
+Likes:    35
+Comments: 7
+
+### Post Content
+I started building apps as a junior dev before AI.<br><br>Back then I thought building was the hard part.<br><br>It’s not.<br><br>Getting users to care is the hard part.<br><br>I’ve been studying onboarding deeply lately, and this changed how I see everything:<br><br>Your onboarding isn’t a tutorial.<br>It’s a story.<br><br>Think in 3 acts:<br><br>1️⃣ Introduction → Make them feel the problem.<br>2️⃣ Climax → Let them experience your core feature.<br>3️⃣ Conclusion → Prepare them emotionally for the paywall.<br><br>Most founders use onboarding questions to collect data.<br><br>Wrong goal.<br><br>The real goal is to make the user reflect on their own answers.<br>To slowly convince themselves:<br>“Yeah… this is actually a problem.”<br><br>You need at least one aha moment in the first minute.<br>A screen that makes them stop and think:<br>“I need this.”<br><br>After every few questions, mirror their answers back.<br>Make it feel personal.<br>Like the app is being built specifically for them.<br><br>And here’s the counterintuitive part:<br><br>Longer onboarding often converts better.<br><br>If every screen adds value, 10–15 minutes invested creates commitment.<br>People hate losing what they’ve already invested time in.<br><br>Don’t just explain your core feature.<br>Make them use it during onboarding.<br><br>And right after they experience value?<br>Show the review modal.<br><br>Most users won’t pay.<br>But they might leave a review.<br>And reviews compound into organic downloads.<br><br>I also started applying Robert Cialdini’s principles of influence — especially commitment.<br><br>If users actively state they’re committed before the paywall, conversion increases.<br><br>When I was a junior dev, I thought code was everything.<br><br>Now I realize:<br><br>Code builds the product.<br>Psychology builds the business.<br>…more
+
+
+--- Post 32 ---
+Likes:    33
+Comments: 8
+
+### Post Content
+Most ideas don’t fail because they’re bad.<br>They fail because nobody validated them.<br><br>Here’s a simple way to validate an idea before wasting months building:<br><br>Step 1: Stop coding<br><br>Don’t touch code.<br>Describe the problem in one sentence and who it’s for.<br>Post it. Talk about it.<br>If nobody relates or replies → move on.<br><br>Step 2: Sell the outcome<br><br>Explain the result, not the product.<br>Not: “I’m building an app.”<br>But: “This helps you do X faster/cheaper/easier.”<br>If people say “nice” but don’t ask for it → move on.<br><br>Step 3: Make a simple waitlist<br><br>No features. No auth. No overthinking.<br>Just: promise, short explanation, email field.<br>If strangers don’t leave emails → move on.<br><br>Step 4: Look for effort, not praise<br><br>Validation = people doing something:<br>signing up, DMing, asking when it’s ready.<br>If all you get is compliments → move on.<br><br>Reality check:<br><br>If no one cares, it’s usually not a marketing problem.<br>It’s a mismatch in audience, unclear value, or weak pain.<br><br>Validation feels slow.<br>Wasting 6 months building something nobody wants feels worse.<br>…more
+
+
+--- Post 33 ---
+Likes:    33
+Comments: 10
+
+### Post Content
+What a year.<br><br>I launched my first SaaS.<br>I made my first dollar online.<br>I launched 3 more SaaS.<br>I lived on a boat in Palau for 3 months.<br><br>I got my X account hacked.<br>I quit my job.<br>I learned how to live from SaaS + social revenue.<br>I grew from 0 → 17k on X (and even wrote a book about it).<br>I rejected a 80k/year salary job.<br><br>Some days felt unreal.<br>Others were messy, stressful, and full of doubt.<br><br>But looking back, every win came from showing up when it wasn’t fun yet.<br><br>No overnight success. Just consistency, curiosity, and learning the hard way.<br><br>Thanks, 2025.<br>You were intense and unforgettable.<br><br>Photo: last year at this time in KL, getting ready to launch my first SaaS.<br>…more
+
+
+--- Post 34 ---
+Likes:    32
+Comments: 9
+
+### Post Content
+When I said I wanted to build my own app, they said I couldn’t, I barely knew how to code.<br>1 year later: I built 4 SaaS.<br><br>When I said I was going to build in public on X, they said nobody uses X anymore.<br>8 months later: 10k followers, monetization, and a few paid collabs.<br><br>When I said I hadn’t made a dollar in 2 months, they told me to quit.<br>1 year later: I made \$6,000 from SaaS and collabs.<br><br>When I said I was quitting my job with no fixed income, they said I was crazy.<br>1 year later… can you imagine what’s next?<br>…more
+
+
+--- Post 35 ---
+Likes:    26
+Comments: 7
+
+### Post Content
+Happy New Year!<br>New year. Same obsession.<br>Who else is starting the year coding?
+
+
+--- Post 36 ---
+Likes:    24
+Comments: 0
+
+### Post Content
+I’m bootstrapping 4 SaaS projects while working 12-hour days as a scuba instructor on a boat in Palau.<br>No days off.<br>No cofounder.<br>No VC.<br>Just stubborn consistency — and boat Wi-Fi.<br><br>Between dives in this sea-view office, I:<br>→ Ship new features<br>→ Grow my YouTube channel<br>→ Market everything solo<br><br>Everything is growing steadily.<br>None of my SaaS have blown up yet. (My X account did, though.)<br><br>But guess what?<br><br>If they had, I wouldn’t be here.<br>Wouldn’t be diving with manta rays and sharks before pitching users.<br>Wouldn’t be learning how far I can push myself — mentally, physically, creatively.<br><br>Romanticizing the struggle? Maybe.<br>But honestly — I’m living it.<br>And I’m proud of building even when conditions are far from perfect.<br><br>Enjoy the process.<br>You’ll miss it when it’s gone.<br><br><br>hashtag<br>#Bootstrapped <br>hashtag<br>#BuildInPublic <br>hashtag<br>#WomenInTech <br>hashtag<br>#ScubaLife <br>hashtag<br>#IndieHacker <br>hashtag<br>#SaaSjourney <br>hashtag<br>#DigitalNomad<br>…more
+
+
+--- Post 37 ---
+Likes:    24
+Comments: 2
+
+### Post Content
+I’m happy to share that I’m starting a new position as Associate Software Engineer at Ebury! <br>hashtag<br>#engineer
+
+
+--- Post 38 ---
+Likes:    21
+Comments: 4
+
+### Post Content
+Tic Tac Toe made by React. A nice game to win free stuff in restaurants. Would you play for a free beer?<br><br><br>hashtag<br>#tictactoe <br>hashtag<br>#react <br>hashtag<br>#javascript <br>hashtag<br>#frontenddeveloper <br>hashtag<br>#frontend <br>hashtag<br>#gamedev <br>hashtag<br>#restaurants <br>hashtag<br>#freebeer <br>hashtag<br>#winner<br>…more
+
+
+--- Post 39 ---
+Likes:    20
+Comments: 1
+
+### Post Content
+Music player made by <br>hashtag<br>#reacthooks , buttons were very challenging but output very rewarding though!<br><br>hashtag<br>#react <br>hashtag<br>#javascript <br>hashtag<br>#javascriptdeveloper <br>hashtag<br>#frontend <br>hashtag<br>#frontenddevelopment <br>hashtag<br>#music<br>…more
+
+
+--- Post 40 ---
+Likes:    20
+Comments: 0
+
+### Post Content
+3rd day of coding bootcamp, saying bye to CSS for a day and learning Bootstrap
+
+
+--- Post 41 ---
+Likes:    19
+Comments: 2
+
+### Post Content
+💢Here is for you all a nice SQL cheat sheet.<br><br>⚡What is SQL:-<br>SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.<br><br><br>⚡What is SQL used for?<br>SQL is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database.<br><br>For more information please follow me:-Rohit Pathak <br><br> <br>hashtag<br>#datascience <br>hashtag<br>#programming <br>hashtag<br>#language <br>hashtag<br>#management <br>hashtag<br>#data <br>hashtag<br>#sql <br>hashtag<br>#database<br>…more
+
+
+--- Post 42 ---
+Likes:    17
+Comments: 0
+
+### Post Content
+I’m happy to share that I’ve obtained a new certification: Learn Python 3 Course from Codecademy! <br>hashtag<br>#python <br>hashtag<br>#webdeveloper <br>hashtag<br>#backenddeveloper
+
+
+--- Post 43 ---
+Likes:    16
+Comments: 2
+
+### Post Content
+AI agents are everywhere right now.<br><br>And yet… most people still don’t really know what an AI agent actually is — or whether it’s even worth building one.<br><br>So I built my first one myself.<br>From scratch.<br>For free.<br>Fully self-hosted.<br>Using Next.js.<br><br>No external platforms.<br>No monthly subscriptions.<br>No magic.<br><br>While building it, a few things became very clear:<br><br>– An AI agent is not just “calling an API”<br>– There’s a real difference between normal code and agent-based systems<br>– Agents only make sense in specific parts of a SaaS<br>– And yes, you can integrate them cleanly without overengineering everything<br><br>I recorded a YouTube video breaking down how I wired it with Next.js, ran it on a VPS, and how I’m already using agents inside my SaaS <br>https://www.seozast.com<br><br>If you’re building SaaS and feel the pressure to “add AI” without knowing why…<br>this is exactly the experiment I wish I’d done earlier.<br>…more
+
+
+--- Post 44 ---
+Likes:    16
+Comments: 2
+
+### Post Content
+From scuba instructor to tech girl. If I can do it, you can do it too. Specifically now with AI
+
+
+--- Post 45 ---
+Likes:    16
+Comments: 4
+
+### Post Content
+Traffic lights in New York triggers on a click :) Another project made with <br>hashtag<br>#react<br><br><br>hashtag<br>#webdeveloper <br>hashtag<br>#frontend <br>hashtag<br>#frontenddeveloper <br>hashtag<br>#javascript <br>hashtag<br>#project<br>…more
+
+
+--- Post 46 ---
+Likes:    15
+Comments: 0
+
+### Post Content
+Why do you build?<br><br>Because I got fired or quit every single job.<br>Because I love slow mornings.<br>Because I don’t like stupid people telling me what I have to do.<br>Because I want to work from anywhere, without schedules.<br>Because I want to feel fulfilled by what I’m building.<br><br>That’s why I started creating my own apps.<br>And now… it’s easier than ever.<br><br>👉 I built Peerquik, a boilerplate that helps you launch B2C and B2B SaaS faster.<br>Less time fighting with setup, more time building something meaningful.<br><br>If you’re tired of waiting for “the right time” to start, maybe this is it.<br>…more
+
+
+--- Post 47 ---
+Likes:    15
+Comments: 4
+
+### Post Content
+To do list made with <br>hashtag<br>#react You can delete, strikethrough or recover a task!<br><br><br>hashtag<br>#frontenddeveloper <br>hashtag<br>#reacthooks <br>hashtag<br>#frontend <br>hashtag<br>#juniordeveloper<br>…more
+
+
+--- Post 48 ---
+Likes:    14
+Comments: 0
+
+### Post Content
+My counter upgraded! Buttons are on! Can you imagine that get likes in social media were so easy as play, pause and reset? I read your opinions :)<br><br>hashtag<br>#socialmedia <br>hashtag<br>#counterreact <br>hashtag<br>#reactdeveloper <br>hashtag<br>#react <br>hashtag<br>#bootcamp <br>hashtag<br>#fullstackdeveloper<br>…more
+
+
+--- Post 49 ---
+Likes:    14
+Comments: 2
+
+### Post Content
+Williams Padilla Flores Ana Gabriela Gonzalez Gonzalez and myself are happy to show are collaborative website made by React. I have to say I love carousels on websites! <br>hashtag<br>#react <br>hashtag<br>#webdeveloper
+
+
+--- Post 50 ---
+Likes:    14
+Comments: 4
+
+### Post Content
+Including JS in a form fully made with HTML and Bootstrap. Fill every field if you don't want to get de red alert!<br><br>hashtag<br>#html <br>hashtag<br>#bootstrap <br>hashtag<br>#js <br>hashtag<br>#frontend <br>hashtag<br>#frontenddeveloper
+
+
+--- Post 51 ---
+Likes:    13
+Comments: 2
+
+### Post Content
+Recuerdos de charla que di en la <br>hashtag<br>#PyConEs en el taller de las <br>hashtag<br>#DjangoGirls
+
+
+--- Post 52 ---
+Likes:    12
+Comments: 0
+
+### Post Content
+This is a scheduled post ✈️<br>By the time you read this, I’ll probably be stuck in some airport between Palau and Spain (many layovers ahead).<br><br>The truth? These last months were tough.<br>The company I worked for crossed lines, and instead of staying silent, I stood up and reported it. That decision meant leaving earlier than planned.<br><br>But despite everything, I grew a lot.<br>I made my first dollars online.<br>I lived in one of the most remote places in the Pacific.<br>I dived in some of the best spots in the world for 3 months, with my partner by my side.<br>And I learned that standing up for yourself is always worth it.<br><br>Now I’m excited to hug my family, eat proper Spanish food, and put all my energy into building my SaaS.<br><br>Being a scuba instructor is not always the dream you imagine.<br>But sometimes, tough endings are just the beginning of something bigger.<br><br>Thanks, Palau. 🌊<br><br>PS. Photo at Palau airport. Don’t worry, I’ll still spam you with some more “boat office” shots.<br>…more
+
+
+--- Post 53 ---
+Likes:    12
+Comments: 0
+
+### Post Content
+Not bad for a Monday setup! <br><br>Just three years ago, I was stuck in Madrid traffic on my way to the office. <br><br>Fast forward to today, working from home in Kuala Lumpur—what a journey!<br>…more
+
+
+--- Post 54 ---
+Likes:    12
+Comments: 2
+
+### Post Content
+No text content available.
+
