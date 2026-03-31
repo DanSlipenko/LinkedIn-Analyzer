@@ -6,7 +6,7 @@
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["tsx", "simple-scraper/simple-scraper.ts"],
+      "runtimeArgs": ["tsx", "simple-scraper/scraper.ts"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     },
