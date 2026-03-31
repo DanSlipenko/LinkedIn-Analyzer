@@ -1,0 +1,25 @@
+{
+  "name": "linkedinanalyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx simple-scraper/simple-scraper.ts",
+    "analyze": "npx tsx analyzer/analyze.ts",
+    "export": "npx tsx analyzer/export-top-posts.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@notionhq/client": "^5.14.0",
+    "dotenv": "^17.3.1",
+    "playwright": "^1.58.2",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
