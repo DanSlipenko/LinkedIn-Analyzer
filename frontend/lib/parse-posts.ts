@@ -7,6 +7,8 @@ export interface Post {
   description: string;
   imageDescription: string;
   status: PostStatus;
+  hasImage?: boolean;
+  imageFileName?: string;
 }
 
 /**

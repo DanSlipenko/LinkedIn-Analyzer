@@ -24,6 +24,8 @@ import {
   CheckCircleOutlined,
   CopyOutlined,
   FileImageOutlined,
+  DownloadOutlined,
+  PictureOutlined,
 } from "@ant-design/icons";
 import type { Post, PostStatus } from "@/lib/parse-posts";
 import type { ColumnsType } from "antd/es/table";
@@ -50,6 +52,9 @@ export default function Home() {
   const [sessionName, setSessionName] = useState("");
   const [fileList, setFileList] = useState<UploadFile[]>([]);
   const fileRef = useRef<File | null>(null);
+  // Per-post image state: postId → { url, fileName } | null
+  const [postImages, setPostImages] = useState<Record<string, { url: string; fileName: string } | null>>({});
+  const [postImageUploading, setPostImageUploading] = useState<string | null>(null);
   const { message } = App.useApp();
 
   const fetchSessions = useCallback(async () => {
@@ -125,6 +130,68 @@ export default function Home() {
     } finally {
       setUploading(false);
     }
+  }
+
+  // Load image metadata for a post when the modal opens
+  async function loadPostImage(postId: string) {
+    if (!activeSession) return;
+    // If we already know the state, skip
+    if (postId in postImages) return;
+    try {
+      const res = await fetch(
+        `/api/sessions/${activeSession._id}/image?postId=${encodeURIComponent(postId)}`
+      );
+      if (res.ok) {
+        const blob = await res.blob();
+        const disposition = res.headers.get("Content-Disposition") || "";
+        const nameMatch = disposition.match(/filename="([^"]+)"/);
+        const fileName = nameMatch ? nameMatch[1] : "image";
+        const url = URL.createObjectURL(blob);
+        setPostImages((prev) => ({ ...prev, [postId]: { url, fileName } }));
+      } else {
+        setPostImages((prev) => ({ ...prev, [postId]: null }));
+      }
+    } catch {
+      setPostImages((prev) => ({ ...prev, [postId]: null }));
+    }
+  }
+
+  async function uploadPostImage(postId: string, file: File) {
+    if (!activeSession) return;
+    setPostImageUploading(postId);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("postId", postId);
+      const res = await fetch(`/api/sessions/${activeSession._id}/image`, {
+        method: "POST",
+        body: formData,
+      });
+      if (!res.ok) throw new Error("Upload failed");
+      // Re-fetch to get a fresh blob URL
+      const getRes = await fetch(
+        `/api/sessions/${activeSession._id}/image?postId=${encodeURIComponent(postId)}`
+      );
+      if (getRes.ok) {
+        const blob = await getRes.blob();
+        const url = URL.createObjectURL(blob);
+        setPostImages((prev) => ({ ...prev, [postId]: { url, fileName: file.name } }));
+      }
+      message.success("Image uploaded");
+    } catch {
+      message.error("Failed to upload image");
+    } finally {
+      setPostImageUploading(null);
+    }
+  }
+
+  function downloadPostImage(postId: string) {
+    const img = postImages[postId];
+    if (!img) return;
+    const a = document.createElement("a");
+    a.href = img.url;
+    a.download = img.fileName;
+    a.click();
   }
 
   async function updatePostStatus(postId: string, status: PostStatus) {
@@ -291,6 +358,9 @@ export default function Home() {
           footer={null}
           title={selectedPost ? `Post ${selectedPost.id}` : ""}
           width={700}
+          afterOpenChange={(open) => {
+            if (open && selectedPost) loadPostImage(selectedPost.id);
+          }}
         >
           {selectedPost && (
             <>
@@ -353,6 +423,83 @@ export default function Home() {
                   </Card>
                 </div>
               )}
+
+              {/* ── Post Image Section ── */}
+              <div style={{ marginTop: 20 }}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    marginBottom: 8,
+                  }}
+                >
+                  <Text strong>
+                    <PictureOutlined style={{ marginRight: 6 }} />
+                    Post Image
+                  </Text>
+                  {postImages[selectedPost.id] && (
+                    <Button
+                      icon={<DownloadOutlined />}
+                      size="small"
+                      onClick={() => downloadPostImage(selectedPost.id)}
+                    >
+                      Download Image
+                    </Button>
+                  )}
+                </div>
+
+                {/* Preview */}
+                {postImages[selectedPost.id] && (
+                  <div style={{ marginBottom: 12 }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={postImages[selectedPost.id]!.url}
+                      alt="Post image"
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: 320,
+                        objectFit: "contain",
+                        borderRadius: 8,
+                        border: "1px solid #f0f0f0",
+                        display: "block",
+                      }}
+                    />
+                    <Text type="secondary" style={{ fontSize: 12 }}>
+                      {postImages[selectedPost.id]!.fileName}
+                    </Text>
+                  </div>
+                )}
+
+                {/* Upload dragger */}
+                <Upload.Dragger
+                  accept="image/*"
+                  maxCount={1}
+                  showUploadList={false}
+                  beforeUpload={(file) => {
+                    uploadPostImage(selectedPost.id, file);
+                    return false;
+                  }}
+                  style={{ padding: "12px 0" }}
+                >
+                  {postImageUploading === selectedPost.id ? (
+                    <Text type="secondary">Uploading…</Text>
+                  ) : (
+                    <>
+                      <p>
+                        <UploadOutlined
+                          style={{ fontSize: 22, color: "#999" }}
+                        />
+                      </p>
+                      <p style={{ margin: 0 }}>
+                        {postImages[selectedPost.id]
+                          ? "Click or drag to replace image"
+                          : "Click or drag an image to upload"}
+                      </p>
+                    </>
+                  )}
+                </Upload.Dragger>
+              </div>
             </>
           )}
         </Modal>

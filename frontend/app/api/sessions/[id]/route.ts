@@ -21,6 +21,21 @@ export async function GET(
     return Response.json({ error: "Session not found" }, { status: 404 });
   }
 
+  // Check which posts have uploaded images
+  const images = await db
+    .collection("post_images")
+    .find({ sessionId: id }, { projection: { postId: 1, fileName: 1 } })
+    .toArray();
+  const imageMap = new Map(images.map((img) => [img.postId, img.fileName]));
+
+  if (session.posts) {
+    for (const post of session.posts) {
+      const fileName = imageMap.get(post.id);
+      post.hasImage = !!fileName;
+      post.imageFileName = fileName || undefined;
+    }
+  }
+
   return Response.json({ session });
 }
 
