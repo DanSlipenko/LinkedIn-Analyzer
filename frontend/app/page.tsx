@@ -1,7 +1,35 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import type { Post } from "@/lib/parse-posts";
+import {
+  Table,
+  Button,
+  Tag,
+  Modal,
+  Input,
+  Upload,
+  Card,
+  Space,
+  Typography,
+  App,
+  Empty,
+  Popconfirm,
+} from "antd";
+import {
+  PlusOutlined,
+  ArrowLeftOutlined,
+  UploadOutlined,
+  DeleteOutlined,
+  ClockCircleOutlined,
+  CheckCircleOutlined,
+  CopyOutlined,
+  FileImageOutlined,
+} from "@ant-design/icons";
+import type { Post, PostStatus } from "@/lib/parse-posts";
+import type { ColumnsType } from "antd/es/table";
+import type { UploadFile } from "antd/es/upload";
+
+const { Title, Text, Paragraph } = Typography;
 
 interface Session {
   _id: string;
@@ -18,10 +46,11 @@ export default function Home() {
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
-  const [error, setError] = useState("");
   const [showUpload, setShowUpload] = useState(false);
   const [sessionName, setSessionName] = useState("");
-  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [fileList, setFileList] = useState<UploadFile[]>([]);
+  const fileRef = useRef<File | null>(null);
+  const { message } = App.useApp();
 
   const fetchSessions = useCallback(async () => {
     try {
@@ -29,24 +58,23 @@ export default function Home() {
       const data = await res.json();
       setSessions(data.sessions);
     } catch {
-      setError("Failed to load sessions");
+      message.error("Failed to load sessions");
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [message]);
 
   useEffect(() => {
     fetchSessions();
   }, [fetchSessions]);
 
   async function openSession(id: string) {
-    setError("");
     try {
       const res = await fetch(`/api/sessions/${id}`);
       const data = await res.json();
       setActiveSession(data.session);
     } catch {
-      setError("Failed to load session");
+      message.error("Failed to load session");
     }
   }
 
@@ -55,18 +83,20 @@ export default function Home() {
       await fetch(`/api/sessions/${id}`, { method: "DELETE" });
       setSessions((s) => s.filter((x) => x._id !== id));
       if (activeSession?._id === id) setActiveSession(null);
+      message.success("Session deleted");
     } catch {
-      setError("Failed to delete session");
+      message.error("Failed to delete session");
     }
   }
 
-  async function handleUpload(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0];
-    if (!file) return;
+  async function handleCreateSession() {
+    const file = fileRef.current;
+    if (!file) {
+      message.warning("Please select a file");
+      return;
+    }
 
     setUploading(true);
-    setError("");
-
     const formData = new FormData();
     formData.append("file", file);
     formData.append("name", sessionName || file.name.replace(/\.txt$/, ""));
@@ -79,272 +109,408 @@ export default function Home() {
       const data = await res.json();
 
       if (!res.ok) {
-        setError(data.error || "Upload failed");
+        message.error(data.error || "Upload failed");
         return;
       }
 
       setShowUpload(false);
       setSessionName("");
+      setFileList([]);
+      fileRef.current = null;
+      message.success(`Session created with ${data.postCount} posts`);
       await fetchSessions();
       await openSession(data.sessionId);
     } catch {
-      setError("Failed to upload file");
+      message.error("Failed to upload file");
     } finally {
       setUploading(false);
-      if (fileInputRef.current) fileInputRef.current.value = "";
     }
   }
+
+  async function updatePostStatus(postId: string, status: PostStatus) {
+    if (!activeSession) return;
+    try {
+      await fetch(`/api/sessions/${activeSession._id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ postId, status }),
+      });
+      setActiveSession((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          posts: prev.posts?.map((p) =>
+            p.id === postId ? { ...p, status } : p
+          ),
+        };
+      });
+    } catch {
+      message.error("Failed to update status");
+    }
+  }
+
+  // Post table columns
+  const postColumns: ColumnsType<Post> = [
+    {
+      title: "Post ID",
+      dataIndex: "id",
+      key: "id",
+      width: 90,
+      render: (id: string) => <Text code>{id}</Text>,
+    },
+    {
+      title: "Persona | Post #",
+      key: "persona",
+      width: 150,
+      render: (_, post) => (
+        <Space>
+          <Tag color="purple">P{post.persona}</Tag>
+          <Text type="secondary">Post {post.postNumber}</Text>
+        </Space>
+      ),
+    },
+    {
+      title: "Description",
+      dataIndex: "description",
+      key: "description",
+      ellipsis: true,
+    },
+    {
+      title: "Image Description",
+      dataIndex: "imageDescription",
+      key: "imageDescription",
+      width: 250,
+      ellipsis: true,
+      render: (text: string) => text || "—",
+    },
+    {
+      title: "Status",
+      key: "status",
+      width: 220,
+      render: (_, post) => {
+        const status = post.status || "draft";
+        return (
+          <Space>
+            <Button
+              size="small"
+              type={status === "in_progress" ? "primary" : "default"}
+              icon={<ClockCircleOutlined />}
+              style={
+                status === "in_progress"
+                  ? { background: "#faad14", borderColor: "#faad14" }
+                  : undefined
+              }
+              onClick={(e) => {
+                e.stopPropagation();
+                updatePostStatus(
+                  post.id,
+                  status === "in_progress" ? "draft" : "in_progress"
+                );
+              }}
+            >
+              In Progress
+            </Button>
+            <Button
+              size="small"
+              type={status === "posted" ? "primary" : "default"}
+              icon={<CheckCircleOutlined />}
+              style={
+                status === "posted"
+                  ? { background: "#52c41a", borderColor: "#52c41a" }
+                  : undefined
+              }
+              onClick={(e) => {
+                e.stopPropagation();
+                updatePostStatus(
+                  post.id,
+                  status === "posted" ? "draft" : "posted"
+                );
+              }}
+            >
+              Posted
+            </Button>
+          </Space>
+        );
+      },
+    },
+  ];
 
   // Session detail view
   if (activeSession) {
     const posts = activeSession.posts || [];
     return (
-      <div className="min-h-screen bg-gray-50 text-gray-900">
-        <header className="bg-white border-b border-gray-200 px-6 py-4">
-          <div className="max-w-6xl mx-auto flex items-center gap-4">
-            <button
+      <div style={{ minHeight: "100vh", background: "#f5f5f5" }}>
+        <div
+          style={{
+            background: "#fff",
+            borderBottom: "1px solid #f0f0f0",
+            padding: "16px 24px",
+          }}
+        >
+          <div
+            style={{
+              maxWidth: 1200,
+              margin: "0 auto",
+              display: "flex",
+              alignItems: "center",
+              gap: 16,
+            }}
+          >
+            <Button
+              icon={<ArrowLeftOutlined />}
+              type="text"
               onClick={() => setActiveSession(null)}
-              className="text-gray-500 hover:text-gray-800 transition-colors cursor-pointer"
-            >
-              &larr; Back
-            </button>
-            <div className="flex-1">
-              <h1 className="text-xl font-semibold">{activeSession.name}</h1>
-              <p className="text-sm text-gray-500">
+            />
+            <div>
+              <Title level={4} style={{ margin: 0 }}>
+                {activeSession.name}
+              </Title>
+              <Text type="secondary">
                 {posts.length} posts &middot; {activeSession.fileName}
-              </p>
+              </Text>
             </div>
           </div>
-        </header>
+        </div>
 
-        <main className="max-w-6xl mx-auto p-6">
-          <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
-            <table className="w-full">
-              <thead>
-                <tr className="border-b border-gray-200 text-left text-sm text-gray-500">
-                  <th className="px-4 py-3 font-medium w-20">Post ID</th>
-                  <th className="px-4 py-3 font-medium w-40">
-                    Persona | Post #
-                  </th>
-                  <th className="px-4 py-3 font-medium">Description</th>
-                  <th className="px-4 py-3 font-medium w-48">
-                    Image Description
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {posts.map((post, i) => (
-                  <tr
-                    key={post.id + "-" + i}
-                    onClick={() => setSelectedPost(post)}
-                    className="border-b border-gray-100 hover:bg-blue-50 cursor-pointer transition-colors"
+        <div style={{ maxWidth: 1200, margin: "0 auto", padding: 24 }}>
+          <Table
+            columns={postColumns}
+            dataSource={posts}
+            rowKey={(post, i) => post.id + "-" + i}
+            pagination={false}
+            onRow={(post) => ({
+              onClick: () => setSelectedPost(post),
+              style: { cursor: "pointer" },
+            })}
+          />
+        </div>
+
+        <Modal
+          open={!!selectedPost}
+          onCancel={() => setSelectedPost(null)}
+          footer={null}
+          title={selectedPost ? `Post ${selectedPost.id}` : ""}
+          width={700}
+        >
+          {selectedPost && (
+            <>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <Text type="secondary">
+                  Persona {selectedPost.persona} — Post{" "}
+                  {selectedPost.postNumber}
+                </Text>
+                <Space>
+                  <Button
+                    icon={<CopyOutlined />}
+                    onClick={() => {
+                      navigator.clipboard.writeText(selectedPost.description);
+                      message.success("Description copied");
+                    }}
                   >
-                    <td className="px-4 py-3 text-sm font-mono font-medium text-blue-600">
-                      {post.id}
-                    </td>
-                    <td className="px-4 py-3 text-sm">
-                      <span className="bg-purple-100 text-purple-700 px-2 py-0.5 rounded text-xs font-medium">
-                        P{post.persona}
-                      </span>
-                      <span className="ml-2 text-gray-600">
-                        Post {post.postNumber}
-                      </span>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-700 max-w-md">
-                      <p className="line-clamp-2">{post.description}</p>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-500">
-                      <p className="line-clamp-2">
-                        {post.imageDescription || "—"}
-                      </p>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </main>
-
-        {/* Post detail modal */}
-        {selectedPost && (
-          <div
-            className="fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50"
-            onClick={() => setSelectedPost(null)}
-          >
-            <div
-              className="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h2 className="text-lg font-semibold">
-                    Post {selectedPost.id}
-                  </h2>
-                  <p className="text-sm text-gray-500">
-                    Persona {selectedPost.persona} — Post{" "}
-                    {selectedPost.postNumber}
-                  </p>
-                </div>
-                <button
-                  onClick={() => setSelectedPost(null)}
-                  className="text-gray-400 hover:text-gray-600 text-2xl leading-none cursor-pointer"
-                >
-                  &times;
-                </button>
+                    Copy Description
+                  </Button>
+                  {selectedPost.imageDescription && (
+                    <Button
+                      icon={<FileImageOutlined />}
+                      onClick={() => {
+                        navigator.clipboard.writeText(
+                          selectedPost.imageDescription
+                        );
+                        message.success("Image description copied");
+                      }}
+                    >
+                      Copy Image Description
+                    </Button>
+                  )}
+                </Space>
               </div>
-              <div className="mb-4">
-                <h3 className="text-sm font-medium text-gray-500 mb-2">
-                  Description
-                </h3>
-                <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed">
+              <div style={{ marginTop: 16 }}>
+                <Text strong>Description</Text>
+                <Paragraph
+                  style={{ marginTop: 8, whiteSpace: "pre-wrap" }}
+                >
                   {selectedPost.description}
-                </p>
+                </Paragraph>
               </div>
               {selectedPost.imageDescription && (
-                <div>
-                  <h3 className="text-sm font-medium text-gray-500 mb-2">
-                    Image Description
-                  </h3>
-                  <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed bg-gray-50 p-3 rounded-lg">
-                    {selectedPost.imageDescription}
-                  </p>
+                <div style={{ marginTop: 16 }}>
+                  <Text strong>Image Description</Text>
+                  <Card
+                    size="small"
+                    style={{ marginTop: 8, background: "#fafafa" }}
+                  >
+                    <Paragraph
+                      style={{ margin: 0, whiteSpace: "pre-wrap" }}
+                    >
+                      {selectedPost.imageDescription}
+                    </Paragraph>
+                  </Card>
                 </div>
               )}
-            </div>
-          </div>
-        )}
+            </>
+          )}
+        </Modal>
       </div>
     );
   }
 
   // Sessions list view
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="bg-white border-b border-gray-200 px-6 py-4">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <h1 className="text-xl font-semibold">LinkedIn Post Viewer</h1>
-          <button
+    <div style={{ minHeight: "100vh", background: "#f5f5f5" }}>
+      <div
+        style={{
+          background: "#fff",
+          borderBottom: "1px solid #f0f0f0",
+          padding: "16px 24px",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: 1200,
+            margin: "0 auto",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Title level={4} style={{ margin: 0 }}>
+            LinkedIn Post Viewer
+          </Title>
+          <Button
+            type="primary"
+            icon={<PlusOutlined />}
             onClick={() => setShowUpload(true)}
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors cursor-pointer"
           >
             New Session
-          </button>
+          </Button>
         </div>
-      </header>
+      </div>
 
-      <main className="max-w-6xl mx-auto p-6">
-        {error && (
-          <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-6">
-            {error}
-          </div>
-        )}
-
-        {loading && (
-          <div className="text-center py-12 text-gray-500">
-            Loading sessions...
-          </div>
-        )}
+      <div style={{ maxWidth: 1200, margin: "0 auto", padding: 24 }}>
+        {loading && <Text type="secondary">Loading sessions...</Text>}
 
         {!loading && sessions.length === 0 && (
-          <div className="text-center py-24">
-            <div className="text-5xl mb-4">📁</div>
-            <h2 className="text-lg font-medium text-gray-700 mb-2">
-              No sessions yet
-            </h2>
-            <p className="text-gray-500 mb-6">
-              Create a new session by uploading a post file.
-            </p>
-            <button
-              onClick={() => setShowUpload(true)}
-              className="bg-blue-600 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-blue-700 transition-colors cursor-pointer"
-            >
-              New Session
-            </button>
+          <div style={{ textAlign: "center", padding: "80px 0" }}>
+            <Empty description="No sessions yet">
+              <Button
+                type="primary"
+                icon={<PlusOutlined />}
+                onClick={() => setShowUpload(true)}
+              >
+                New Session
+              </Button>
+            </Empty>
           </div>
         )}
 
-        {sessions.length > 0 && (
-          <div className="grid gap-4">
-            {sessions.map((session) => (
+        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+          {sessions.map((session) => (
+            <Card
+              key={session._id}
+              hoverable
+              onClick={() => openSession(session._id)}
+              style={{ cursor: "pointer" }}
+            >
               <div
-                key={session._id}
-                className="bg-white rounded-xl border border-gray-200 p-5 flex items-center justify-between hover:border-blue-300 transition-colors"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
               >
-                <button
-                  onClick={() => openSession(session._id)}
-                  className="flex-1 text-left cursor-pointer bg-transparent border-none p-0"
-                >
-                  <h2 className="font-medium text-gray-900">{session.name}</h2>
-                  <p className="text-sm text-gray-500 mt-1">
+                <div>
+                  <Text strong>{session.name}</Text>
+                  <br />
+                  <Text type="secondary" style={{ fontSize: 13 }}>
                     {session.postCount} posts &middot; {session.fileName}{" "}
                     &middot;{" "}
-                    {new Date(session.createdAt).toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                      year: "numeric",
-                      hour: "2-digit",
-                      minute: "2-digit",
-                    })}
-                  </p>
-                </button>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
+                    {new Date(session.createdAt).toLocaleDateString(
+                      "en-US",
+                      {
+                        month: "short",
+                        day: "numeric",
+                        year: "numeric",
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      }
+                    )}
+                  </Text>
+                </div>
+                <Popconfirm
+                  title="Delete this session?"
+                  onConfirm={(e) => {
+                    e?.stopPropagation();
                     deleteSession(session._id);
                   }}
-                  className="text-gray-400 hover:text-red-500 ml-4 text-sm cursor-pointer"
+                  onCancel={(e) => e?.stopPropagation()}
                 >
-                  Delete
-                </button>
+                  <Button
+                    danger
+                    type="text"
+                    icon={<DeleteOutlined />}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </Popconfirm>
               </div>
-            ))}
-          </div>
-        )}
-      </main>
+            </Card>
+          ))}
+        </div>
+      </div>
 
-      {/* Upload modal */}
-      {showUpload && (
-        <div
-          className="fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50"
-          onClick={() => setShowUpload(false)}
-        >
-          <div
-            className="bg-white rounded-2xl max-w-md w-full p-6"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h2 className="text-lg font-semibold mb-4">New Session</h2>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Session Name
-                </label>
-                <input
-                  type="text"
-                  value={sessionName}
-                  onChange={(e) => setSessionName(e.target.value)}
-                  placeholder="e.g. Persona 2 — April Batch"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Post File (.txt)
-                </label>
-                <input
-                  ref={fileInputRef}
-                  type="file"
-                  accept=".txt,.text"
-                  onChange={handleUpload}
-                  className="w-full text-sm text-gray-500 file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 file:cursor-pointer"
-                />
-              </div>
-              {uploading && (
-                <p className="text-sm text-gray-500">Uploading & parsing...</p>
-              )}
-            </div>
+      <Modal
+        open={showUpload}
+        onCancel={() => {
+          setShowUpload(false);
+          setSessionName("");
+          setFileList([]);
+          fileRef.current = null;
+        }}
+        title="New Session"
+        onOk={handleCreateSession}
+        okText="Create Session"
+        confirmLoading={uploading}
+      >
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          <div>
+            <Text strong>Session Name</Text>
+            <Input
+              placeholder="e.g. Persona 2 — April Batch"
+              value={sessionName}
+              onChange={(e) => setSessionName(e.target.value)}
+              style={{ marginTop: 4 }}
+            />
+          </div>
+          <div>
+            <Text strong>Post File (.txt)</Text>
+            <Upload.Dragger
+              accept=".txt,.text"
+              maxCount={1}
+              fileList={fileList}
+              beforeUpload={(file) => {
+                fileRef.current = file;
+                setFileList([{ uid: "-1", name: file.name, status: "done" }]);
+                return false;
+              }}
+              onRemove={() => {
+                fileRef.current = null;
+                setFileList([]);
+              }}
+              style={{ marginTop: 4 }}
+            >
+              <p>
+                <UploadOutlined style={{ fontSize: 24, color: "#999" }} />
+              </p>
+              <p>Click or drag a .txt file here</p>
+            </Upload.Dragger>
           </div>
         </div>
-      )}
+      </Modal>
     </div>
   );
 }
