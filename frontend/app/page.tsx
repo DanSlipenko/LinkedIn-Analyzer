@@ -202,6 +202,22 @@ export default function Home() {
     a.click();
   }
 
+  async function removePostImage(postId: string) {
+    if (!activeSession) return;
+    try {
+      const res = await fetch(
+        `/api/sessions/${activeSession._id}/image?postId=${encodeURIComponent(postId)}`,
+        { method: "DELETE" }
+      );
+      if (!res.ok) throw new Error("Delete failed");
+      
+      setPostImages((prev) => ({ ...prev, [postId]: null }));
+      message.success("Image removed");
+    } catch {
+      message.error("Failed to remove image");
+    }
+  }
+
   async function updatePostDescription(postId: string, description: string) {
     if (!activeSession) return;
     try {
@@ -550,11 +566,21 @@ export default function Home() {
 
               {/* ── Post Image Section ── */}
               <div style={{ marginTop: 20 }}>
-                <div style={{ marginBottom: 8 }}>
+                <div style={{ marginBottom: 8, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <Text strong>
                     <PictureOutlined style={{ marginRight: 6 }} />
                     Post Image
                   </Text>
+                  {postImages[selectedPost.id] && (
+                    <Popconfirm
+                      title="Remove image?"
+                      onConfirm={() => removePostImage(selectedPost.id)}
+                    >
+                      <Button icon={<DeleteOutlined />} danger size="small">
+                        Remove
+                      </Button>
+                    </Popconfirm>
+                  )}
                 </div>
 
                 {/* Preview */}
