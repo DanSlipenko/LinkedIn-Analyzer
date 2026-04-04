@@ -1,0 +1,625 @@
+{
+  "CSSLinks": [
+    {
+      "IsExternalProvider$$bool": false,
+      "___types": [
+        "EPiServer.Core.ContentReference",
+        "System.Object",
+        "System.IComparable",
+        "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+        "EPiServer.Data.Entity.IReadOnly",
+        "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+        "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+        "EPiServer.Core.IModifiedTrackable"
+      ],
+      "ID$$number": 30765,
+      "WorkID$$number": 0,
+      "GetPublishedOrLatest$$bool": false,
+      "$type": "EPiServer.Core.ContentReference, EPiServer"
+    }
+  ],
+  "OpenGraphImage": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 20853,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "ExternalURL$$string": "",
+  "ThirdColumnDisplayTitle$$string": "More Moody",
+  "SearchPageReference": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 13994,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "AccountMenu": {
+    "ContentTypeID$$number": 62,
+    "___types": [
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderAccountMenuBlock_DynamicProxy",
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderAccountMenuBlock",
+      "EPiServer.Core.BlockData",
+      "EPiServer.Core.ContentData",
+      "System.Object",
+      "EPiServer.Core.IContentData",
+      "EPiServer.Core.IInitializableContent",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.BlockData, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "$type": "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderAccountMenuBlock, Moody.Websites.Cms",
+    "EnableAccountMenu$$bool": false
+  },
+  "SetChangedOnPublish$$bool": false,
+  "VisibleInMenu$$bool": true,
+  "CloseButtonLabel$$string": "Close",
+  "MasterLanguage": "en",
+  "UsersWithReadAccess$$string": ["cmp_publishing_integration"],
+  "MissionStatementText$$string": "Moody exists to proclaim the gospel and equip people to be biblically grounded, practically trained, and to engage the world through gospel-centered living. In short, we prepare people for their purpose and calling!",
+  "StartPublishedNormalized$$date": "2025-01-07T15:16:00Z",
+  "StartPublish$$date": "2025-01-07T15:16:21Z",
+  "CustomCSS$$string": "div.relative div.absolute.h-screen.w-full div ul.flex.flex-col li.my-2 ~ li {\ndisplay: none;\n}\n\n#bsba .featured-media-block .bg-cyan-800 {\n background-color: #B45309;\n}\n\n#bsba .Edu.primary.outline {\n border-color: #B45309 !important;\n color:#B45309 !important;\n}\n\n#bsba .Edu.primary.outline:hover {\n background-color: #B45309 !important;\n color: #fff !important;\n}",
+  "Status": 4,
+  "ScreenReaderPageTitle$$string": "Moody Bible Institute",
+  "Created$$date": "2025-01-06T20:11:18Z",
+  "GetTimestamp$$date": "2026-04-02T08:30:43.2081832Z",
+  "SearchSummary$$string": "Moody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.\nMoody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.",
+  "CreatedBy$$string": "adambirkner@moody.edu",
+  "CardImageAlt$$string": "A view of Moody Bible Institute's plaza in the spring.",
+  "ErrorPageReference": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 27826,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "HideStickyCtaFooter$$bool": false,
+  "FourthColumnDisplayTitle$$string": "Next Steps",
+  "_TypeShortName": "EduHomePage",
+  "Language.Name$$string": "en",
+  "IsLive$$bool": true,
+  "SiteName$$string": " Moody Bible Institute",
+  "IsPendingPublish$$bool": false,
+  "SearchUpdateDate$$date": "2025-06-23T23:49:25Z",
+  "SearchPublishDate$$date": "2025-01-07T15:16:21Z",
+  "PrimaryNavigationLimit$$number": 7,
+  "PageContent": {
+    "ReferencedPermanentLinkIds": [
+      "19689fe3-659d-4c77-996d-3513595ac8d9",
+      "8d5d3636-c1ea-4884-81f5-59bd5a6c0eef",
+      "58c0b5fd-4b4a-450c-bc59-1cd220cc7b09",
+      "8fc82807-d7d3-437f-97d1-5af6c64c0da9",
+      "7bf1112d-192b-4771-9218-f316a6381b32",
+      "765a9233-0a8f-4373-aa78-e90d08e04f6c",
+      "94a7714a-2f9b-4baa-a865-759ade141c9d",
+      "bd8e35ff-dfd1-4a5e-b399-cb40565d6674",
+      "d3df3cdf-ad3b-456f-8da6-e4ebf60a3cb9",
+      "d842b7fa-581f-495b-ad4d-15bd6b875cba"
+    ],
+    "Items": [],
+    "Count$$number": 10,
+    "IsEmpty$$bool": false,
+    "___types": [
+      "EPiServer.Core.ContentArea",
+      "EPiServer.Core.XhtmlString",
+      "System.Object",
+      "System.Runtime.Serialization.ISerializable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.XhtmlString, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentArea, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.Transfer.IReferenceMap"
+    ],
+    "$type": "EPiServer.Core.ContentArea, EPiServer"
+  },
+  "OpenGraphTags": [
+    {
+      "TagName$$string": "og:title",
+      "Value$$string": "Bible College and Ministry Training | Moody Bible Institute",
+      "___types": ["Moody.Websites.Cms.Sites.Shared.PropertyLists.OpenGraphTags.OpenGraphTagModel", "System.Object"],
+      "$type": "Moody.Websites.Cms.Sites.Shared.PropertyLists.OpenGraphTags.OpenGraphTagModel, Moody.Websites.Cms"
+    },
+    {
+      "TagName$$string": "og:description",
+      "Value$$string": "Moody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.",
+      "___types": ["Moody.Websites.Cms.Sites.Shared.PropertyLists.OpenGraphTags.OpenGraphTagModel", "System.Object"],
+      "$type": "Moody.Websites.Cms.Sites.Shared.PropertyLists.OpenGraphTags.OpenGraphTagModel, Moody.Websites.Cms"
+    }
+  ],
+  "Changed$$date": "2025-06-23T23:49:25Z",
+  "WorkPageID$$number": 0,
+  "PageTypeName$$string": "EduHomePage",
+  "PageLink": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 12794,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "SearchPlaceholderText$$string": "Search",
+  "_Type": "Moody.Websites.Cms.Sites.MoodyEdu.Pages.Home.EduHomePage",
+  "HasTemplate$$bool": true,
+  "IsMasterLanguageBranch$$bool": true,
+  "FirstColumnDisplayTitle$$string": "About Us",
+  "__LastModifiedDateByProxy$$date": "2026-04-02T08:30:43.346Z",
+  "FooterMobileLogo": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 13980,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+
+  "SearchTitle$$string": "Moody Bible Institute",
+  "PendingArchive$$bool": false,
+  "DeletedBy$$string": "",
+  "$type": "Moody.Websites.Cms.Sites.MoodyEdu.Pages.Home.EduHomePage, Moody.Websites.Cms",
+  "TargetFrameName$$string": "",
+  "IsDeleted$$bool": false,
+  "ExistingLanguages": ["en"],
+  "HideBreadcrumbs$$bool": false,
+  "HeaderDesktopLogo": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 13980,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "LinkType": 0,
+  "SearchHitUrl$$string": "https://www.moody.edu/",
+  "SortIndex$$number": 410,
+  "_TypeDisplayName": "Home Page (Moody Edu)",
+  "ExistingLanguages$$string": ["en"],
+  "ArchiveLink": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 0,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "CardImageUrl$$string": "https://www.moody.edu/siteassets/edu_generic_card_743x418.webp",
+  "Ancestors$$string": ["1"],
+  "StickyCtaFooter": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 34238,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "CardImage": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 20854,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "HeadScripts$$string": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "ContentTypeID$$number": 152,
+  "ChildSortOrder": 4,
+  "ContentAssetsID": "0c2259a4-8b78-4fe7-8068-5cbb98d7d7a6",
+  "Title$$string": "Moody Bible Institute",
+  "SiteId$$string": "ec15eca3-f9c6-4cf8-9347-53e90ed2f5be",
+  "URLSegment$$string": "moody-edu",
+  "HeroContent": {
+    "ReferencedPermanentLinkIds": ["c1622efa-82b8-4288-8f15-a9b39a0edfd8"],
+    "Items": [],
+    "Count$$number": 1,
+    "IsEmpty$$bool": false,
+    "___types": [
+      "EPiServer.Core.ContentArea",
+      "EPiServer.Core.XhtmlString",
+      "System.Object",
+      "System.Runtime.Serialization.ISerializable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.XhtmlString, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentArea, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.Transfer.IReferenceMap"
+    ],
+    "$type": "EPiServer.Core.ContentArea, EPiServer"
+  },
+  "HideStickyCtaFooterSiteWide$$bool": false,
+  "ContentGuid": "c1db74a5-ec38-4d57-9fcc-7c9b8a94007e",
+  "ShouldNotAppendSiteName$$bool": true,
+  "BibleReadingExperiencePageReference": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 299,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "SecondColumnDisplayTitle$$string": "Resources",
+  "Ministry$$string": "Education",
+  "Saved$$date": "2026-04-01T21:33:08Z",
+  "SearchText$$string": "Search\n Moody Bible Institute\nMoody Bible Institute\nMoody Bible Institute 820 N. LaSalle Blvd. Chicago, IL 60610 (800) DL MOODY Apply Now Report a Website Issue\nMoody Bible Institute\nBible College and Ministry Training\ndiv.relative div.absolute.h-screen.w-full div ul.flex.flex-col li.my-2 ~ li {\ndisplay: none;\n}\n\n#bsba .featured-media-block .bg-cyan-800 {\n background-color: #B45309;\n}\n\n#bsba .Edu.primary.outline {\n border-color: #B45309 !important;\n color:#B45309 !important;\n}\n\n#bsba .Edu.primary.outline:hover {\n background-color: #B45309 !important;\n color: #fff !important;\n}\nLanguage\nMoody Bible Institute\nAbout Us\nMoody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.\nMoody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.\nResources\nMore Moody\nNext Steps\nClose\nMoody exists to proclaim the gospel and equip people to be biblically grounded, practically trained, and to engage the world through gospel-centered living. In short, we prepare people for their purpose and calling!\nMoody Bible Institute\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
+  "DisableIndexing$$bool": false,
+  "MasterLanguage.Name$$string": "en",
+  "PrimaryNavigation": {
+    "ReferencedPermanentLinkIds": [
+      "8623f309-dcb5-4428-a4f5-5b0d82849c43",
+      "f4906c96-13bb-4def-9f7b-17cee6693674",
+      "76d77b63-b70f-4dd2-a72d-6a4efef81482",
+      "ce7b6c76-4c02-4ab1-954a-86ae949b29e4",
+      "7ffdbd00-d039-496c-a8ea-bb6b0ec52fa7",
+      "efe52cc8-a04c-4096-9cb4-316062b0f95b",
+      "368d8b5d-803b-4085-afa6-0b6de643f474"
+    ],
+    "Items": [],
+    "Count$$number": 7,
+    "IsEmpty$$bool": false,
+    "___types": [
+      "EPiServer.Core.ContentArea",
+      "EPiServer.Core.XhtmlString",
+      "System.Object",
+      "System.Runtime.Serialization.ISerializable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.XhtmlString, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentArea, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.Transfer.IReferenceMap"
+    ],
+    "$type": "EPiServer.Core.ContentArea, EPiServer"
+  },
+  "StaticLinkURL$$string": "/link/c1db74a5ec384d579fcc7c9b8a94007e.aspx",
+  "Category": [],
+  "SeoDescription$$string": "Moody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.",
+  "PublishedInLanguage": {
+    "Values": [
+      {
+        "StartPublish$$date": "2025-01-07T15:16:00Z",
+        "___types": ["EPiServer.Find.Cms.LanguagePublicationStatus", "System.Object"],
+        "$type": "EPiServer.Find.Cms.LanguagePublicationStatus, EPiServer.Find.Cms"
+      }
+    ],
+    "en": {
+      "StartPublish$$date": "2025-01-07T15:16:00Z",
+      "___types": ["EPiServer.Find.Cms.LanguagePublicationStatus", "System.Object"],
+      "$type": "EPiServer.Find.Cms.LanguagePublicationStatus, EPiServer.Find.Cms"
+    },
+    "Keys": ["en"],
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EPiServer.Find.Cms.LanguagePublicationStatus, EPiServer.Find.Cms, Version=16.6.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+  },
+  "CopyrightText$$string": "Moody Bible Institute",
+  "ContentLink": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 12794,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "SocialMediaCollection": [
+    {
+      "SocialMedia$$string": "Facebook",
+      "SocialMediaLink": "https://www.facebook.com/MoodyBibleInstitute/",
+      "___types": ["Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel", "System.Object"],
+      "$type": "Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel, Moody.Websites.Cms"
+    },
+    {
+      "SocialMedia$$string": "Instagram",
+      "SocialMediaLink": "https://www.instagram.com/moodybible/",
+      "___types": ["Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel", "System.Object"],
+      "$type": "Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel, Moody.Websites.Cms"
+    },
+    {
+      "SocialMedia$$string": "Youtube",
+      "SocialMediaLink": "http://www.youtube.com/user/MoodyBibleInstitute",
+      "___types": ["Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel", "System.Object"],
+      "$type": "Moody.Websites.Cms.Sites.Shared.PropertyLists.SocialMedia.SocialMediaModel, Moody.Websites.Cms"
+    }
+  ],
+  "LinkURL$$string": "/link/c1db74a5ec384d579fcc7c9b8a94007e.aspx",
+  "Name$$string": "Moody Edu",
+  "CardDescription$$string": "Moody Bible Institute offers accredited Christian higher education in Chicago, Washington, Michigan and online, with college, seminary and Bible programs.",
+  "SearchHitTrackingId$$string": "Moody_Websites_Cms_Sites_MoodyEdu_Pages_Home_EduHomePage/_c1db74a5-ec38-4d57-9fcc-7c9b8a94007e_en",
+  "_Name": "Moody Edu",
+  "SearchTypeName$$string": "Page",
+  "SearchMetaData": {
+    "Values": [
+      {
+        "StringValue$$string": "Education",
+        "___types": ["EPiServer.Find.IndexValue", "System.Object"],
+        "$type": "EPiServer.Find.IndexValue, EPiServer.Find"
+      },
+      {
+        "___types": ["EPiServer.Find.IndexValue", "System.Object"],
+        "$type": "EPiServer.Find.IndexValue, EPiServer.Find"
+      }
+    ],
+    "CardLinkText": {
+      "___types": ["EPiServer.Find.IndexValue", "System.Object"],
+      "$type": "EPiServer.Find.IndexValue, EPiServer.Find"
+    },
+    "Ministry": {
+      "StringValue$$string": "Education",
+      "___types": ["EPiServer.Find.IndexValue", "System.Object"],
+      "$type": "EPiServer.Find.IndexValue, EPiServer.Find"
+    },
+    "Keys": ["Ministry", "CardLinkText"],
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EPiServer.Find.IndexValue, EPiServer.Find, Version=16.6.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+  },
+  "HeaderMobileLogo": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 13980,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "ParentLink": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexablePageReference",
+      "EPiServer.Core.PageReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "ID$$number": 1,
+    "$type": "EPiServer.Find.Cms.IndexablePageReference, EPiServer.Find.Cms"
+  },
+  "HeaderLinks": {
+    "ApplyButtons": {
+      "ReferencedPermanentLinkIds": ["51fda849-fdaa-4bdc-8596-d3db76526a06"],
+      "Items": [],
+      "Count$$number": 1,
+      "IsEmpty$$bool": false,
+      "___types": [
+        "EPiServer.Core.ContentArea",
+        "EPiServer.Core.XhtmlString",
+        "System.Object",
+        "System.Runtime.Serialization.ISerializable",
+        "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.XhtmlString, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+        "EPiServer.Data.Entity.IReadOnly",
+        "EPiServer.Core.IModifiedTrackable",
+        "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentArea, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+        "EPiServer.Core.Transfer.IReferenceMap"
+      ],
+      "$type": "EPiServer.Core.ContentArea, EPiServer"
+    },
+    "ContentTypeID$$number": 121,
+    "___types": [
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLinksBlock_DynamicProxy",
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLinksBlock",
+      "EPiServer.Core.BlockData",
+      "EPiServer.Core.ContentData",
+      "System.Object",
+      "EPiServer.Core.IContentData",
+      "EPiServer.Core.IInitializableContent",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.BlockData, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "$type": "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLinksBlock, Moody.Websites.Cms"
+  },
+  "MoodyConnectText": {
+    "IsEmpty$$bool": false,
+    "___types": [
+      "EPiServer.Core.XhtmlString",
+      "System.Object",
+      "System.Runtime.Serialization.ISerializable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.XhtmlString, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "AsViewedByAnonymous$$string": "Moody Bible Institute 820 N. LaSalle Blvd. Chicago, IL 60610 (800) DL MOODY Apply Now Report a Website Issue",
+    "$type": "EPiServer.Core.XhtmlString, EPiServer"
+  },
+  "FooterDesktopLogo": {
+    "IsExternalProvider$$bool": false,
+    "___types": [
+      "EPiServer.Find.Cms.IndexableContentReference",
+      "EPiServer.Core.ContentReference",
+      "System.Object",
+      "System.IComparable",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Data.Entity.IReadOnly",
+      "System.IComparable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "System.IEquatable`1[[EPiServer.Core.ContentReference, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+      "EPiServer.Core.IModifiedTrackable"
+    ],
+    "ID$$number": 13980,
+    "WorkID$$number": 0,
+    "GetPublishedOrLatest$$bool": false,
+    "$type": "EPiServer.Find.Cms.IndexableContentReference, EPiServer.Find.Cms"
+  },
+  "___types": [
+    "Moody.Websites.Cms.Sites.MoodyEdu.Pages.Home.EduHomePage_DynamicProxy",
+    "Moody.Websites.Cms.Sites.MoodyEdu.Pages.Home.EduHomePage",
+    "Moody.Websites.Cms.Sites.MoodyEdu.Pages.EduPageBase",
+    "Moody.Websites.Cms.Sites.Shared.Pages.SharedMoodyBasePage",
+    "EPiServer.Core.PageData",
+    "EPiServer.Core.ContentData",
+    "System.Object",
+    "EPiServer.Core.IContentData",
+    "EPiServer.Core.IInitializableContent",
+    "EPiServer.Core.IModifiedTrackable",
+    "EPiServer.Data.Entity.IReadOnly",
+    "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.PageData, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]",
+    "EPiServer.Security.IContentSecurable",
+    "EPiServer.Security.ISecurable",
+    "EPiServer.Core.IContent",
+    "EPiServer.Core.ILocalizable",
+    "EPiServer.Core.ILocale",
+    "EPiServer.Core.IVersionable",
+    "EPiServer.Core.IResourceable",
+    "EPiServer.Core.IChangeTrackable",
+    "EPiServer.Web.Routing.IRoutable",
+    "EPiServer.Core.ICategorizable",
+    "EPiServer.Core.Transfer.IExportable",
+    "Moody.Websites.Cms.Sites.Shared.Interfaces.ICardPage",
+    "Moody.Websites.Cms.Sites.Shared.Pages.IOpenGraphTags",
+    "Moody.Websites.Cms.Sites.Shared.Interfaces.IHaveBreadcrumbs",
+    "Moody.Websites.Cms.Sites.Shared.Interfaces.IHasTitle",
+    "Moody.Websites.Cms.Sites.Shared.Pages.Search.IHaveMinistryContent",
+    "Moody.Websites.Cms.Sites.Shared.Interfaces.IHomePage",
+    "Moody.Websites.Cms.Sites.Shared.Components.Header.ISiteHeaderPage",
+    "Moody.Websites.Cms.Sites.Shared.Components.Footer.ISiteFooterPage",
+    "Moody.Websites.Cms.Sites.Shared.Components.SiteAlerts.ISiteAlerts",
+    "Moody.Websites.Cms.Sites.Shared.Interfaces.IHasStickyCtaFooter"
+  ],
+  "LanguageMenu": {
+    "EnableLanguageMenu$$bool": false,
+    "ContentTypeID$$number": 70,
+    "___types": [
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLanguageMenuBlock_DynamicProxy",
+      "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLanguageMenuBlock",
+      "EPiServer.Core.BlockData",
+      "EPiServer.Core.ContentData",
+      "System.Object",
+      "EPiServer.Core.IContentData",
+      "EPiServer.Core.IInitializableContent",
+      "EPiServer.Core.IModifiedTrackable",
+      "EPiServer.Data.Entity.IReadOnly",
+      "EPiServer.Data.Entity.IReadOnly`1[[EPiServer.Core.BlockData, EPiServer, Version=12.23.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7]]"
+    ],
+    "LanguageText$$string": "Language",
+    "$type": "Moody.Websites.Cms.Sites.Shared.Components.Header.Blocks.HeaderLanguageMenuBlock, Moody.Websites.Cms"
+  },
+  "ChangedBy$$string": "ian.cunningham@moody.edu",
+  "ExcludeSitemap$$bool": false,
+  "CardTitle$$string": "Moody Bible Institute",
+  "SeoTitle$$string": "Bible College and Ministry Training",
+  "ContentTypeName$$string": "Home Page (Moody Edu)",
+  "PageName$$string": "Moody Edu",
+  "BodyScripts$$string": "\n\n\n ",
+  "RolesWithReadAccess$$string": ["Administrators", "CmsAdmins", "CmsEditors", "Everyone", "WebAdmins", "WebApiAdmins"],
+  "SearchCategories$$string": []
+}

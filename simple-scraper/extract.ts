@@ -4,134 +4,192 @@ import { LinkedInPost } from "../notion";
 export async function extractPosts(activePage: Page): Promise<LinkedInPost[]> {
   console.log("🔍 Scraping visible posts...");
 
-  const evaluateFn = `(() => {
-        // Profile activity page uses li containers; main feed uses div containers
-        const liContainers = Array.from(document.querySelectorAll('li.profile-creator-shared-feed-update__container'));
-        const divContainers = Array.from(document.querySelectorAll('.feed-shared-update-v2:not(.profile-creator-shared-feed-update__container *)'));
-        
-        // Prefer li containers if present (profile activity page), else fall back to div containers (main feed)
-        const useListItems = liContainers.length > 0;
-        const postWrappers = useListItems ? liContainers : divContainers;
+  // Forward browser console logs to Node so we can debug selector hits
+  activePage.on("console", (msg) => {
+    if (msg.text().startsWith("[extract]")) {
+      console.log("[browser]", msg.text());
+    }
+  });
 
-        console.log('[extract] liContainers:', liContainers.length, 'divContainers:', divContainers.length, 'using:', useListItems ? 'li' : 'div');
+  // Wait for at least one post article to appear (up to 15s)
+  try {
+    await activePage.waitForSelector(
+      '[role="article"][data-urn], .feed-shared-update-v2[data-urn]',
+      { timeout: 15000 }
+    );
+  } catch {
+    console.warn("⚠️  Timed out waiting for posts — attempting anyway.");
+  }
 
-        const extracted = [];
-        
-        for (const outerWrapper of postWrappers) {
-            // On profile activity page: real content is inside the inner feed-shared-update-v2
-            const postWrapper = useListItems 
-                ? (outerWrapper.querySelector('.feed-shared-update-v2') || outerWrapper)
-                : outerWrapper;
+  // Use a plain-JS string so tsx/esbuild helpers are never injected into the
+  // browser context (avoids the "__name is not defined" Playwright error).
+  const script = /* js */ `
+    (function () {
+      var articlePosts = Array.from(document.querySelectorAll('[role="article"][data-urn]'));
 
-            const getText = (selector) => {
-                const el = postWrapper.querySelector(selector);
-                return el ? el.innerText.trim() : "";
-            };
+      var liContainers = articlePosts.length === 0
+        ? Array.from(document.querySelectorAll('li.profile-creator-shared-feed-update__container'))
+        : [];
 
-            // Author
-            let authorName = getText('.update-components-actor__title') || getText('.update-components-actor__name');
-            if (!authorName) {
-                const heading = postWrapper.querySelector('h3, .text-view-model');
-                if (heading) authorName = heading.innerText.trim();
-            }
-            if (!authorName) continue;
+      var divContainers = articlePosts.length === 0 && liContainers.length === 0
+        ? Array.from(document.querySelectorAll('.feed-shared-update-v2:not(.profile-creator-shared-feed-update__container *)'))
+        : [];
 
-            const authorHeadline = getText('.update-components-actor__description');
-            const dateTextRaw = getText('.update-components-actor__sub-description');
-            const dateText = dateTextRaw ? dateTextRaw.split("•")[0].trim() : "";
-            
-            // Content — try multiple selectors
-            const contentNode = postWrapper.querySelector(
-                '.update-components-text, .feed-shared-update-v2__description, .feed-shared-update-v2__commentary'
-            );
-            const content = contentNode ? contentNode.innerText.trim() : "";
-            
-            // Stats via aria-label (most reliable on profile activity pages)
-            const parseAriaNumber = (ariaLabel) => {
-                if (!ariaLabel) return 0;
-                // e.g. "Nikola Kotláriková and 418 others" or "332 comments"
-                const match = ariaLabel.replace(/,/g, "").match(/\\d+/);
-                return match ? parseInt(match[0], 10) : 0;
-            };
+      var useListItems = liContainers.length > 0;
+      var postWrappers = articlePosts.length > 0 ? articlePosts
+        : useListItems ? liContainers
+        : divContainers;
 
-            const parseTextNumber = (text) => {
-                if (!text) return 0;
-                const match = text.replace(/,/g, "").match(/\\d+/);
-                return match ? parseInt(match[0], 10) : 0;
-            };
+      console.log('[extract] articlePosts:' + articlePosts.length +
+        ' li:' + liContainers.length +
+        ' div:' + divContainers.length +
+        ' total-articles-on-page:' + document.querySelectorAll('[role="article"]').length);
 
-            // Likes: try aria-label first, then visible text
-            const likesBtn = postWrapper.querySelector('.social-details-social-counts__count-value, .social-details-social-counts__reactions-count');
-            const likes = likesBtn 
-                ? parseAriaNumber(likesBtn.getAttribute('aria-label') || likesBtn.innerText)
-                : 0;
+      function getText(root, selector) {
+        var el = root.querySelector(selector);
+        return el ? (el.innerText || '').trim() : '';
+      }
 
-            // Comments: find button whose aria-label contains "comment"
-            const commentBtns = Array.from(postWrapper.querySelectorAll('button.social-details-social-counts__btn, .social-details-social-counts__comments'));
-            const commentBtn = commentBtns.find(el => (el.getAttribute('aria-label') || el.innerText || '').toLowerCase().includes('comment'));
-            const comments = commentBtn 
-                ? parseAriaNumber(commentBtn.getAttribute('aria-label') || commentBtn.innerText) 
-                : parseTextNumber(getText('.social-details-social-counts__comments'));
+      function parseNumber(str) {
+        if (!str) return 0;
+        var match = str.replace(/,/g, '').match(/\\d+/);
+        return match ? parseInt(match[0], 10) : 0;
+      }
 
-            // Reposts
-            const repostLi = Array.from(postWrapper.querySelectorAll('.social-details-social-counts__item, li button'))
-                .find(el => el.innerText.toLowerCase().includes("repost"));
-            const reposts = repostLi ? parseTextNumber(repostLi.innerText) : 0;
-            
-            // Post URL — try the inner div's data-urn first, then the outer li
-            const urnEl = postWrapper.closest('[data-urn]') || postWrapper.querySelector('[data-urn]') || outerWrapper.querySelector('[data-urn]');
-            const dataUrn = urnEl ? urnEl.getAttribute('data-urn') : null;
-            const postUrl = dataUrn 
-                ? \`https://www.linkedin.com/feed/update/\${dataUrn}/\`
-                : (() => {
-                    const links = Array.from(postWrapper.querySelectorAll('a[href]'));
-                    const postLink = links.find(a => a.href.includes('/posts/') || a.href.includes('/activity/'));
-                    return postLink ? postLink.href.split('?')[0] : "";
-                })();
+      var extracted = [];
 
-            // Profile URL
-            const authorProfileEl = postWrapper.querySelector('a.update-components-actor__image, a.update-components-actor__meta-link');
-            const authorProfileUrl = authorProfileEl ? authorProfileEl.href.split('?')[0] : "";
-            
-            // Image
-            const imgNodes = Array.from(postWrapper.querySelectorAll('.update-components-image__image, .ivm-view-attr__img--centered'));
-            const contentImg = imgNodes.find(img => 
-                !img.classList.contains('update-components-actor__avatar-image') && 
-                !img.classList.contains('EntityPhoto-circle-0')
-            );
-            const imageUrl = contentImg ? contentImg.src : null;
+      for (var i = 0; i < postWrappers.length; i++) {
+        var outerWrapper = postWrappers[i];
 
-            extracted.push({
-                authorName,
-                authorHeadline,
-                authorProfileUrl,
-                content,
-                postUrl,
-                date: dateText,
-                isRepost: false,
-                repostedFrom: null,
-                repostAuthorUrl: null,
-                likes,
-                comments,
-                reposts,
-                imageUrl
-            });
+        // article[data-urn] elements ARE the post wrapper already.
+        // For old li-based layout, look inside for .feed-shared-update-v2.
+        var postWrapper = articlePosts.length > 0
+          ? outerWrapper
+          : useListItems
+            ? (outerWrapper.querySelector('.feed-shared-update-v2') || outerWrapper)
+            : outerWrapper;
+
+        // Author
+        var authorName = getText(postWrapper, '.update-components-actor__title')
+          || getText(postWrapper, '.update-components-actor__name');
+        if (!authorName) {
+          var heading = postWrapper.querySelector('h3, .text-view-model');
+          if (heading) authorName = (heading.innerText || '').trim();
         }
-        return extracted;
-    })()`;
+        if (!authorName) continue;
 
-  const posts = (await activePage.evaluate(evaluateFn)) as LinkedInPost[];
+        var authorHeadline = getText(postWrapper, '.update-components-actor__description');
+        var dateRaw = getText(postWrapper, '.update-components-actor__sub-description');
+        var dateText = dateRaw ? dateRaw.split('•')[0].trim() : '';
+
+        // Content
+        var contentNode = postWrapper.querySelector(
+          '.update-components-text, .feed-shared-update-v2__description, .feed-shared-update-v2__commentary'
+        );
+        var content = contentNode ? (contentNode.innerText || '').trim() : '';
+
+        // Likes — the reactions summary button has aria-label="N reactions"
+        var likesBtn = postWrapper.querySelector('button[data-reaction-details]');
+        var likes = likesBtn
+          ? parseNumber(likesBtn.getAttribute('aria-label') || getText(postWrapper, '.social-details-social-counts__reactions-count'))
+          : 0;
+
+        // Comments
+        var commentBtns = Array.from(postWrapper.querySelectorAll(
+          'button.social-details-social-counts__btn, .social-details-social-counts__comments button'
+        ));
+        var commentBtn = null;
+        for (var c = 0; c < commentBtns.length; c++) {
+          var lbl = (commentBtns[c].getAttribute('aria-label') || commentBtns[c].innerText || '').toLowerCase();
+          if (lbl.includes('comment')) { commentBtn = commentBtns[c]; break; }
+        }
+        var comments = commentBtn
+          ? parseNumber(commentBtn.getAttribute('aria-label') || commentBtn.innerText)
+          : parseNumber(getText(postWrapper, '.social-details-social-counts__comments'));
+
+        // Reposts
+        var repostEls = Array.from(postWrapper.querySelectorAll(
+          '.social-details-social-counts__item button, li button'
+        ));
+        var repostEl = null;
+        for (var r = 0; r < repostEls.length; r++) {
+          if ((repostEls[r].innerText || '').toLowerCase().includes('repost')) {
+            repostEl = repostEls[r]; break;
+          }
+        }
+        var reposts = repostEl ? parseNumber(repostEl.innerText) : 0;
+
+        // Post URL via data-urn
+        var urnEl = postWrapper.closest('[data-urn]')
+          || postWrapper.querySelector('[data-urn]')
+          || outerWrapper.querySelector('[data-urn]');
+        var dataUrn = urnEl ? urnEl.getAttribute('data-urn') : null;
+        var postUrl = dataUrn
+          ? 'https://www.linkedin.com/feed/update/' + dataUrn + '/'
+          : (function () {
+              var links = Array.from(postWrapper.querySelectorAll('a[href]'));
+              for (var l = 0; l < links.length; l++) {
+                if (links[l].href.includes('/posts/') || links[l].href.includes('/activity/')) {
+                  return links[l].href.split('?')[0];
+                }
+              }
+              return '';
+            })();
+
+        // Author profile URL
+        var actorLink = postWrapper.querySelector(
+          'a.update-components-actor__image, a.update-components-actor__meta-link'
+        );
+        var authorProfileUrl = actorLink ? actorLink.href.split('?')[0] : '';
+
+        // Image
+        var imgNodes = Array.from(postWrapper.querySelectorAll(
+          '.update-components-image__image, .ivm-view-attr__img--centered'
+        ));
+        var contentImg = null;
+        for (var img = 0; img < imgNodes.length; img++) {
+          var cl = imgNodes[img].classList;
+          if (!cl.contains('update-components-actor__avatar-image') &&
+              !cl.contains('EntityPhoto-circle-0') &&
+              !cl.contains('EntityPhoto-circle-3')) {
+            contentImg = imgNodes[img]; break;
+          }
+        }
+        var imageUrl = contentImg ? contentImg.src : null;
+
+        extracted.push({
+          authorName: authorName,
+          authorHeadline: authorHeadline,
+          authorProfileUrl: authorProfileUrl,
+          content: content,
+          postUrl: postUrl,
+          date: dateText,
+          isRepost: false,
+          repostedFrom: null,
+          repostAuthorUrl: null,
+          likes: likes,
+          comments: comments,
+          reposts: reposts,
+          imageUrl: imageUrl
+        });
+      }
+
+      return extracted;
+    })()
+  `;
+
+  const posts = (await activePage.evaluate(script)) as LinkedInPost[];
   console.log(`📄 Found ${posts.length} posts on the page.`);
 
-  // Deduplicate posts
-  const uniquePostsMap = new Map();
+  // Deduplicate
+  const uniquePostsMap = new Map<string, LinkedInPost>();
   for (const p of posts) {
     const id = p.postUrl || `${p.authorName}-${p.content.substring(0, 20)}`;
     if (p.authorName && !uniquePostsMap.has(id)) {
       uniquePostsMap.set(id, p);
     }
   }
-  const uniquePosts = Array.from(uniquePostsMap.values()) as LinkedInPost[];
+  const uniquePosts = Array.from(uniquePostsMap.values());
   console.log(`📄 Reduced to ${uniquePosts.length} unique posts.`);
   return uniquePosts;
 }
