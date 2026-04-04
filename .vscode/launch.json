@@ -41,6 +41,15 @@
       "runtimeArgs": ["tsx", "analyzer/export-top-posts.ts"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Frontend (Dev)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/frontend"
     }
   ],
   "compounds": [
