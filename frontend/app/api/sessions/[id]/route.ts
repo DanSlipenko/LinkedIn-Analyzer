@@ -39,26 +39,37 @@ export async function GET(
   return Response.json({ session });
 }
 
-// PATCH /api/sessions/:id — update a post's status
+// PATCH /api/sessions/:id — update a post's status or description
 export async function PATCH(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const { postId, status } = await request.json();
+  const { postId, status, description } = await request.json();
 
   if (!ObjectId.isValid(id)) {
     return Response.json({ error: "Invalid session ID" }, { status: 400 });
   }
 
-  if (!["draft", "in_progress", "posted"].includes(status)) {
+  if (status && !["draft", "in_progress", "posted", "flagged"].includes(status)) {
     return Response.json({ error: "Invalid status" }, { status: 400 });
+  }
+
+  const updateFields: any = {};
+  if (status) updateFields["posts.$.status"] = status;
+  if (description !== undefined) {
+    updateFields["posts.$.description"] = description;
+    updateFields["posts.$.isEdited"] = true;
+  }
+
+  if (Object.keys(updateFields).length === 0) {
+     return Response.json({ error: "No fields to update" }, { status: 400 });
   }
 
   const db = await getDb();
   await db.collection("sessions").updateOne(
     { _id: new ObjectId(id), "posts.id": postId },
-    { $set: { "posts.$.status": status } }
+    { $set: updateFields }
   );
 
   return Response.json({ ok: true });

@@ -1,4 +1,4 @@
-export type PostStatus = "draft" | "in_progress" | "posted";
+export type PostStatus = "draft" | "in_progress" | "posted" | "flagged";
 
 export interface Post {
   id: string;
@@ -9,6 +9,7 @@ export interface Post {
   status: PostStatus;
   hasImage?: boolean;
   imageFileName?: string;
+  isEdited?: boolean;
 }
 
 /**

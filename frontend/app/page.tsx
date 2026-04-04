@@ -28,6 +28,10 @@ import {
   FileImageOutlined,
   DownloadOutlined,
   PictureOutlined,
+  EditOutlined,
+  SaveOutlined,
+  CloseOutlined,
+  FlagOutlined,
 } from "@ant-design/icons";
 import type { Post, PostStatus } from "@/lib/parse-posts";
 import type { ColumnsType } from "antd/es/table";
@@ -57,6 +61,8 @@ export default function Home() {
   // Per-post image state: postId → { url, fileName } | null
   const [postImages, setPostImages] = useState<Record<string, { url: string; fileName: string } | null>>({});
   const [postImageUploading, setPostImageUploading] = useState<string | null>(null);
+  const [editingDescription, setEditingDescription] = useState(false);
+  const [editedDescriptionText, setEditedDescriptionText] = useState("");
   const { message } = App.useApp();
 
   const fetchSessions = useCallback(async () => {
@@ -196,6 +202,33 @@ export default function Home() {
     a.click();
   }
 
+  async function updatePostDescription(postId: string, description: string) {
+    if (!activeSession) return;
+    try {
+      await fetch(`/api/sessions/${activeSession._id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ postId, description }),
+      });
+      setActiveSession((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          posts: prev.posts?.map((p) =>
+            p.id === postId ? { ...p, description, isEdited: true } : p
+          ),
+        };
+      });
+      if (selectedPost?.id === postId) {
+        setSelectedPost((prev) => prev ? { ...prev, description, isEdited: true } : prev);
+      }
+      message.success("Description updated");
+      setEditingDescription(false);
+    } catch {
+      message.error("Failed to update description");
+    }
+  }
+
   async function updatePostStatus(postId: string, status: PostStatus) {
     if (!activeSession) return;
     try {
@@ -243,6 +276,16 @@ export default function Home() {
       dataIndex: "description",
       key: "description",
       ellipsis: true,
+      render: (text: string, post) => (
+        <span>
+          {text}
+          {post.isEdited && (
+            <Text type="secondary" style={{ fontStyle: "italic", marginLeft: 8, fontSize: 12 }}>
+              (edited)
+            </Text>
+          )}
+        </span>
+      ),
     },
     {
       title: "Image Description",
@@ -255,7 +298,7 @@ export default function Home() {
     {
       title: "Status",
       key: "status",
-      width: 220,
+      width: 320,
       render: (_, post) => {
         const status = post.status || "draft";
         return (
@@ -279,25 +322,40 @@ export default function Home() {
             >
               In Progress
             </Button>
-            <Button
-              size="small"
-              type={status === "posted" ? "primary" : "default"}
-              icon={<CheckCircleOutlined />}
-              style={
-                status === "posted"
-                  ? { background: "#52c41a", borderColor: "#52c41a" }
-                  : undefined
-              }
-              onClick={(e) => {
-                e.stopPropagation();
-                updatePostStatus(
-                  post.id,
-                  status === "posted" ? "draft" : "posted"
-                );
-              }}
-            >
-              Posted
-            </Button>
+              <Button
+                size="small"
+                type={status === "posted" ? "primary" : "default"}
+                icon={<CheckCircleOutlined />}
+                style={
+                  status === "posted"
+                    ? { background: "#52c41a", borderColor: "#52c41a" }
+                    : undefined
+                }
+                onClick={(e) => {
+                  e.stopPropagation();
+                  updatePostStatus(
+                    post.id,
+                    status === "posted" ? "draft" : "posted"
+                  );
+                }}
+              >
+                Posted
+              </Button>
+              <Button
+                size="small"
+                type={status === "flagged" ? "primary" : "default"}
+                danger={status === "flagged"}
+                icon={<FlagOutlined />}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  updatePostStatus(
+                    post.id,
+                    status === "flagged" ? "draft" : "flagged"
+                  );
+                }}
+              >
+                Flag
+              </Button>
           </Space>
         );
       },
@@ -361,7 +419,10 @@ export default function Home() {
           title={selectedPost ? `Post ${selectedPost.id}` : ""}
           width={700}
           afterOpenChange={(open) => {
-            if (open && selectedPost) loadPostImage(selectedPost.id);
+            if (open && selectedPost) {
+              loadPostImage(selectedPost.id);
+              setEditingDescription(false);
+            }
           }}
         >
           {selectedPost && (
@@ -411,12 +472,60 @@ export default function Home() {
                 </Space>
               </div>
               <div style={{ marginTop: 16 }}>
-                <Text strong>Description</Text>
-                <Paragraph
-                  style={{ marginTop: 8, whiteSpace: "pre-wrap" }}
-                >
-                  {selectedPost.description}
-                </Paragraph>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <Text strong>
+                    Description
+                    {selectedPost.isEdited && (
+                      <Text
+                        type="secondary"
+                        style={{ fontStyle: "italic", marginLeft: 8, fontWeight: "normal" }}
+                      >
+                        (edited)
+                      </Text>
+                    )}
+                  </Text>
+                  {!editingDescription && (
+                    <Button
+                      type="text"
+                      size="small"
+                      icon={<EditOutlined />}
+                      onClick={() => {
+                        setEditedDescriptionText(selectedPost.description);
+                        setEditingDescription(true);
+                      }}
+                    />
+                  )}
+                </div>
+                {editingDescription ? (
+                  <div style={{ marginTop: 8 }}>
+                    <Input.TextArea
+                      value={editedDescriptionText}
+                      onChange={(e) => setEditedDescriptionText(e.target.value)}
+                      autoSize={{ minRows: 4, maxRows: 12 }}
+                    />
+                    <Space style={{ marginTop: 8 }}>
+                      <Button
+                        type="primary"
+                        icon={<SaveOutlined />}
+                        onClick={() =>
+                          updatePostDescription(selectedPost.id, editedDescriptionText)
+                        }
+                      >
+                        Save
+                      </Button>
+                      <Button
+                        icon={<CloseOutlined />}
+                        onClick={() => setEditingDescription(false)}
+                      >
+                        Cancel
+                      </Button>
+                    </Space>
+                  </div>
+                ) : (
+                  <Paragraph style={{ marginTop: 8, whiteSpace: "pre-wrap" }}>
+                    {selectedPost.description}
+                  </Paragraph>
+                )}
               </div>
               {selectedPost.imageDescription && (
                 <div style={{ marginTop: 16 }}>
