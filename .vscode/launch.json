@@ -22,7 +22,7 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["tsx", "simple-scraper/scraper.ts"],
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
     },
     {
       "name": "Analyze",
@@ -41,6 +41,14 @@
       "runtimeArgs": ["tsx", "analyzer/export-top-posts.ts"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Chrome + Scraper",
+      "configurations": ["Open Chrome (LinkedIn)", "Start (Scraper)"],
+      "stopAll": true,
+      "preLaunchTask": ""
     }
   ]
 }

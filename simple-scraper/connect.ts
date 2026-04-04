@@ -1,40 +1,51 @@
 import { chromium, Browser, Page } from "playwright";
 
-export async function connectToChrome(): Promise<{ browser: Browser, activePage: Page }> {
-    console.log("🔌 Connecting to existing Chrome instance...");
-    let browser;
+const RETRY_ATTEMPTS = 10;
+const RETRY_DELAY_MS = 2000;
+
+export async function connectToChrome(): Promise<{ browser: Browser; activePage: Page }> {
+  console.log("🔌 Connecting to existing Chrome instance...");
+  let browser: Browser | undefined;
+
+  for (let attempt = 1; attempt <= RETRY_ATTEMPTS; attempt++) {
     try {
-        browser = await chromium.connectOverCDP("http://localhost:9222");
-    } catch (error) {
-        console.error("❌ Failed to connect to Chrome. Ensure it's running with --remote-debugging-port=9222");
+      browser = await chromium.connectOverCDP("http://localhost:9222");
+      break; // Connected successfully
+    } catch {
+      if (attempt === RETRY_ATTEMPTS) {
+        console.error(`❌ Failed to connect to Chrome after ${RETRY_ATTEMPTS} attempts.`);
+        console.error("   Ensure Chrome is running with --remote-debugging-port=9222");
+        console.error("   Tip: Use the 'Open Chrome (LinkedIn)' launch config first.");
         process.exit(1);
+      }
+      console.log(`⏳ Chrome not ready, retrying... (${attempt}/${RETRY_ATTEMPTS})`);
+      await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY_MS));
     }
+  }
 
-    const contexts = browser.contexts();
-    if (contexts.length === 0) {
-        console.error("❌ No browser contexts found.");
-        process.exit(1);
-    }
-    
-    const pages = contexts[0].pages();
-    const linkedInPages = pages.filter((p: Page) => p.url().includes("linkedin.com"));
+  const contexts = browser!.contexts();
+  if (contexts.length === 0) {
+    console.error("❌ No browser contexts found.");
+    process.exit(1);
+  }
 
-    if (linkedInPages.length === 0) {
-        console.error("❌ No LinkedIn page found. Please open LinkedIn in your browser.");
-        process.exit(1);
-    }
+  const pages = contexts[0].pages();
+  const linkedInPages = pages.filter((p: Page) => p.url().includes("linkedin.com"));
 
-    // If multiple LinkedIn tabs are open, pick the one with the most content (tallest scroll height)
-    let activePage = linkedInPages[0];
-    if (linkedInPages.length > 1) {
-        const heights = await Promise.all(
-            linkedInPages.map((p: Page) => p.evaluate(() => document.body.scrollHeight))
-        );
-        const tallestIndex = heights.indexOf(Math.max(...heights));
-        activePage = linkedInPages[tallestIndex];
-        console.log(`📑 Found ${linkedInPages.length} LinkedIn tabs — using tallest (${heights[tallestIndex]}px).`);
-    }
+  if (linkedInPages.length === 0) {
+    console.error("❌ No LinkedIn page found. Please open LinkedIn in your browser.");
+    process.exit(1);
+  }
 
-    console.log(`✅ Found LinkedIn page: ${await activePage.title()}`);
-    return { browser, activePage };
+  // If multiple LinkedIn tabs are open, pick the one with the most content (tallest scroll height)
+  let activePage = linkedInPages[0];
+  if (linkedInPages.length > 1) {
+    const heights = await Promise.all(linkedInPages.map((p: Page) => p.evaluate(() => document.body.scrollHeight)));
+    const tallestIndex = heights.indexOf(Math.max(...heights));
+    activePage = linkedInPages[tallestIndex];
+    console.log(`📑 Found ${linkedInPages.length} LinkedIn tabs — using tallest (${heights[tallestIndex]}px).`);
+  }
+
+  console.log(`✅ Found LinkedIn page: ${await activePage.title()}`);
+  return { browser: browser!, activePage };
 }
