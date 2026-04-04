@@ -14,6 +14,8 @@ import {
   App,
   Empty,
   Popconfirm,
+  Collapse,
+  Image,
 } from "antd";
 import {
   PlusOutlined,
@@ -398,6 +400,14 @@ export default function Home() {
                       Copy Image Description
                     </Button>
                   )}
+                  {postImages[selectedPost.id] && (
+                    <Button
+                      icon={<DownloadOutlined />}
+                      onClick={() => downloadPostImage(selectedPost.id)}
+                    >
+                      Download Image
+                    </Button>
+                  )}
                 </Space>
               </div>
               <div style={{ marginTop: 16 }}>
@@ -410,50 +420,38 @@ export default function Home() {
               </div>
               {selectedPost.imageDescription && (
                 <div style={{ marginTop: 16 }}>
-                  <Text strong>Image Description</Text>
-                  <Card
+                  <Collapse
                     size="small"
-                    style={{ marginTop: 8, background: "#fafafa" }}
-                  >
-                    <Paragraph
-                      style={{ margin: 0, whiteSpace: "pre-wrap" }}
-                    >
-                      {selectedPost.imageDescription}
-                    </Paragraph>
-                  </Card>
+                    items={[
+                      {
+                        key: "1",
+                        label: <Text strong>Image Description</Text>,
+                        children: (
+                          <Paragraph
+                            style={{ margin: 0, whiteSpace: "pre-wrap" }}
+                          >
+                            {selectedPost.imageDescription}
+                          </Paragraph>
+                        ),
+                      },
+                    ]}
+                  />
                 </div>
               )}
 
               {/* ── Post Image Section ── */}
               <div style={{ marginTop: 20 }}>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    marginBottom: 8,
-                  }}
-                >
+                <div style={{ marginBottom: 8 }}>
                   <Text strong>
                     <PictureOutlined style={{ marginRight: 6 }} />
                     Post Image
                   </Text>
-                  {postImages[selectedPost.id] && (
-                    <Button
-                      icon={<DownloadOutlined />}
-                      size="small"
-                      onClick={() => downloadPostImage(selectedPost.id)}
-                    >
-                      Download Image
-                    </Button>
-                  )}
                 </div>
 
                 {/* Preview */}
                 {postImages[selectedPost.id] && (
                   <div style={{ marginBottom: 12 }}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                       src={postImages[selectedPost.id]!.url}
                       alt="Post image"
                       style={{
