@@ -112,7 +112,7 @@ export default function Home() {
     setUploading(true);
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("name", sessionName || file.name.replace(/\.txt$/, ""));
+    formData.append("name", sessionName || file.name.replace(/\.json$/, ""));
 
     try {
       const res = await fetch("/api/sessions", {
@@ -767,9 +767,9 @@ export default function Home() {
             />
           </div>
           <div>
-            <Text strong>Post File (.txt)</Text>
+            <Text strong>Post File (.json)</Text>
             <Upload.Dragger
-              accept=".txt,.text"
+              accept=".json"
               maxCount={1}
               fileList={fileList}
               beforeUpload={(file) => {
@@ -786,9 +786,88 @@ export default function Home() {
               <p>
                 <UploadOutlined style={{ fontSize: 24, color: "#999" }} />
               </p>
-              <p>Click or drag a .txt file here</p>
+              <p>Click or drag a .json file here</p>
             </Upload.Dragger>
           </div>
+          <Collapse
+            size="small"
+            items={[
+              {
+                key: "1",
+                label: "View expected JSON format",
+                children: (
+                  <div>
+                    <pre
+                      style={{
+                        background: "#f5f5f5",
+                        padding: 12,
+                        borderRadius: 6,
+                        fontSize: 12,
+                        overflow: "auto",
+                        maxHeight: 260,
+                        margin: 0,
+                      }}
+                    >
+{`{
+  "posts": [
+    {
+      "id": "001",
+      "persona": "2",
+      "postNumber": "1",
+      "description": "Your LinkedIn post text here...",
+      "imageDescription": "Optional image description or empty string"
+    },
+    {
+      "id": "002",
+      "persona": "2",
+      "postNumber": "2",
+      "description": "Another post text...",
+      "imageDescription": ""
+    }
+  ]
+}`}
+                    </pre>
+                    <Button
+                      icon={<CopyOutlined />}
+                      size="small"
+                      style={{ marginTop: 8 }}
+                      onClick={() => {
+                        const exampleFormat = JSON.stringify(
+                          {
+                            posts: [
+                              {
+                                id: "001",
+                                persona: "2",
+                                postNumber: "1",
+                                description: "Your LinkedIn post text here...",
+                                imageDescription: "Optional image description or empty string",
+                              },
+                              {
+                                id: "002",
+                                persona: "2",
+                                postNumber: "2",
+                                description: "Another post text...",
+                                imageDescription: "",
+                              },
+                            ],
+                          },
+                          null,
+                          2
+                        );
+                        navigator.clipboard.writeText(exampleFormat);
+                        message.success("JSON format copied to clipboard");
+                      }}
+                    >
+                      Copy Format
+                    </Button>
+                    <Text type="secondary" style={{ fontSize: 12, marginTop: 4, display: "block" }}>
+                      Copy and give to AI to structure your posts
+                    </Text>
+                  </div>
+                ),
+              },
+            ]}
+          />
         </div>
       </Modal>
     </div>

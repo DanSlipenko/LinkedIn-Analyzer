@@ -1,5 +1,4 @@
 import { getDb } from "@/lib/mongodb";
-import { parsePosts } from "@/lib/parse-posts";
 
 // GET /api/sessions — list all sessions
 export async function GET() {
@@ -13,7 +12,7 @@ export async function GET() {
   return Response.json({ sessions });
 }
 
-// POST /api/sessions — create a new session from uploaded file
+// POST /api/sessions — create a new session from uploaded JSON file
 export async function POST(request: Request) {
   const formData = await request.formData();
   const file = formData.get("file") as File | null;
@@ -24,14 +23,28 @@ export async function POST(request: Request) {
   }
 
   const text = await file.text();
-  const posts = parsePosts(text);
+  let parsed: any;
+  try {
+    parsed = JSON.parse(text);
+  } catch {
+    return Response.json({ error: "Invalid JSON file" }, { status: 400 });
+  }
 
-  if (posts.length === 0) {
+  if (!parsed || !Array.isArray(parsed.posts) || parsed.posts.length === 0) {
     return Response.json(
-      { error: "No posts found in the file" },
+      { error: 'JSON must have a "posts" array with at least one post' },
       { status: 400 }
     );
   }
+
+  const posts = parsed.posts.map((p: any) => ({
+    id: p.id || Math.random().toString(36).substring(7),
+    persona: p.persona || "",
+    postNumber: p.postNumber || "",
+    description: p.description || "",
+    imageDescription: p.imageDescription || "",
+    status: "draft",
+  }));
 
   const db = await getDb();
   const session = {
