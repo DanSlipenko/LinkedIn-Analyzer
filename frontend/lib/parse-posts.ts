@@ -7,6 +7,7 @@ export interface Post {
   description: string;
   imageDescription: string;
   status: PostStatus;
+  comments?: string;
   hasImage?: boolean;
   imageFileName?: string;
   isEdited?: boolean;

@@ -45,7 +45,7 @@ export async function PATCH(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const { postId, status, description } = await request.json();
+  const { postId, status, description, comments } = await request.json();
 
   if (!ObjectId.isValid(id)) {
     return Response.json({ error: "Invalid session ID" }, { status: 400 });
@@ -61,6 +61,7 @@ export async function PATCH(
     updateFields["posts.$.description"] = description;
     updateFields["posts.$.isEdited"] = true;
   }
+  if (comments !== undefined) updateFields["posts.$.comments"] = comments;
 
   if (Object.keys(updateFields).length === 0) {
      return Response.json({ error: "No fields to update" }, { status: 400 });
