@@ -8,6 +8,7 @@
       "runtimeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
       "runtimeArgs": [
         "--remote-debugging-port=9222",
+        "--user-data-dir=${workspaceFolder}/.chrome-data",
         "--no-first-run",
         "--no-default-browser-check",
         "https://www.linkedin.com/feed/"
