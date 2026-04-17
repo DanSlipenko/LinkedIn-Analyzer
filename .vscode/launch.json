@@ -23,7 +23,7 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["tsx", "simple-scraper/scraper.ts"],
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}"
     },
     {
       "name": "Analyze",
@@ -51,6 +51,24 @@
       "runtimeArgs": ["run", "dev"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}/frontend"
+    },
+    {
+      "name": "Add to List (Sales Nav)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "sales-navigator/add-to-list.ts"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "scrape names",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "sales-navigator/index.ts"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
     }
   ],
   "compounds": [

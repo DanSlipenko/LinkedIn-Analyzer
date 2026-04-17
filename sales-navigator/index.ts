@@ -7,6 +7,7 @@ import { Client } from "@notionhq/client";
 interface Lead {
   name: string;
   company: string;
+  status: string;
 }
 
 const CDP_URL = "http://localhost:9222";
@@ -98,82 +99,150 @@ async function addLeadToNotion(lead: Lead, titleProp: string, descriptionProp: s
 // exist — causing a `ReferenceError: __name is not defined`. Passing a string
 // skips serialization entirely. See scraper.js for the same workaround.
 
-// Sales Navigator lazy-loads each lead as it scrolls into view.
-// Scroll incrementally until the count of rendered leads stops growing.
-async function scrollToLoadAllLeads(page: Page): Promise<void> {
-  const scrollScript = `(async () => {
+// Sales Navigator virtualizes the list — items unmount when scrolled out of
+// view, so we must collect lead data incrementally while scrolling, not after.
+// Also, the list may live inside an inner scrollable container rather than the
+// window, so we detect that first (matching the approach in add-to-list.ts).
+async function scrapeAllLeadsOnPage(page: Page): Promise<Lead[]> {
+  const script = `(async () => {
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-    let stable = 0;
-    let lastCount = 0;
-    for (let i = 0; i < 30 && stable < 3; i++) {
-      window.scrollBy(0, 700);
-      await sleep(350);
-      const count = document.querySelectorAll("li.artdeco-list__item").length;
-      if (count === lastCount) stable++;
-      else {
-        stable = 0;
-        lastCount = count;
+    const leadsMap = new Map(); // keyed by name to dedupe
+
+    const findScrollContainer = () => {
+      const anyItem = document.querySelector("li.artdeco-list__item");
+      let el = anyItem ? anyItem.parentElement : null;
+      while (el && el !== document.body) {
+        const style = getComputedStyle(el);
+        const canScroll = /(auto|scroll)/.test(style.overflowY + style.overflow);
+        if (canScroll && el.scrollHeight > el.clientHeight + 10) return el;
+        el = el.parentElement;
       }
+      return null;
+    };
+    const container = findScrollContainer();
+    const scrollY = () => (container ? container.scrollTop : window.scrollY);
+    const scrollBy = (dy) => {
+      if (container) container.scrollTop += dy;
+      else window.scrollBy(0, dy);
+    };
+    const scrollToTop = async () => {
+      for (let i = 0; i < 15; i++) {
+        if (container) container.scrollTop = 0;
+        window.scrollTo(0, 0);
+        await sleep(200);
+        if (scrollY() === 0) break;
+      }
+    };
+    const scrollToBottom = () => {
+      if (container) container.scrollTop = container.scrollHeight;
+      else window.scrollTo(0, document.documentElement.scrollHeight);
+    };
+    const atBottom = () => {
+      if (container) {
+        return container.scrollTop + container.clientHeight >= container.scrollHeight - 10;
+      }
+      return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 10;
+    };
+
+    const collect = () => {
+      document.querySelectorAll("li.artdeco-list__item").forEach((item) => {
+        const nameEl = item.querySelector('[data-anonymize="person-name"]');
+        if (!nameEl) return;
+        const name = nameEl.innerText.trim();
+        if (!name || leadsMap.has(name)) return;
+
+        let company = "";
+        const companyEl = item.querySelector('[data-anonymize="company-name"]');
+        if (companyEl && companyEl.innerText) {
+          company = companyEl.innerText.trim();
+        }
+        if (!company) {
+          const hovercardBtn = item.querySelector('button[aria-label^="See more about"]');
+          if (hovercardBtn) {
+            const label = hovercardBtn.getAttribute("aria-label") || "";
+            company = label.replace(/^See more about\\s*/i, "").trim();
+          }
+        }
+        if (!company) {
+          const subtitle = item.querySelector('.artdeco-entity-lockup__subtitle');
+          if (subtitle) {
+            const clone = subtitle.cloneNode(true);
+            const titleSpan = clone.querySelector('[data-anonymize="title"]');
+            if (titleSpan) titleSpan.remove();
+            const btns = clone.querySelectorAll('button');
+            btns.forEach((b) => b.remove());
+            company = (clone.textContent || "").replace(/\\s+/g, " ").replace(/^[·•\\s]+/, "").trim();
+          }
+        }
+
+        leadsMap.set(name, { name, company, status: "in progress" });
+      });
+    };
+
+    // Start from top
+    await scrollToTop();
+    await sleep(400);
+    collect();
+
+    // Scroll down incrementally, collecting as we go
+    let stable = 0;
+    let lastY = -1;
+    for (let i = 0; i < 60 && stable < 3; i++) {
+      scrollBy(600);
+      await sleep(400);
+      collect();
+
+      const y = scrollY();
+      if (atBottom() || y === lastY) stable++;
+      else stable = 0;
+      lastY = y;
     }
-    window.scrollTo(0, 0);
-    await sleep(300);
+
+    // Final pass at bottom
+    scrollToBottom();
+    await sleep(400);
+    collect();
+
+    // Scroll back to top
+    await scrollToTop();
+    await sleep(400);
+    collect();
+
+    return Array.from(leadsMap.values());
   })()`;
-  await page.evaluate(scrollScript);
+  return (await page.evaluate(script)) as Lead[];
 }
 
-async function scrapeLeadsOnPage(page: Page): Promise<Lead[]> {
-  await scrollToLoadAllLeads(page);
+async function goToNextPage(page: Page): Promise<boolean> {
+  const script = `(async () => {
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-  // Company extraction has three tiers:
-  //   1) <a data-anonymize="company-name"> — present when LinkedIn has a
-  //      company page (e.g. "ISA" in the Ashley example).
-  //   2) hovercard button aria-label="See more about <Company>" — present for
-  //      unlinked companies too (e.g. "SLUNKS clothing" in the Sharon example).
-  //   3) Subtitle text after the middot — last-ditch fallback when neither of
-  //      the above exists.
-  const extractScript = `(() => {
-    const items = Array.from(document.querySelectorAll("li.artdeco-list__item"));
-    const leads = [];
-    for (const item of items) {
-      const nameEl = item.querySelector('[data-anonymize="person-name"]');
-      if (!nameEl) continue;
-      const name = nameEl.innerText.trim();
-      if (!name) continue;
+    // Find the current page number from the active pagination button.
+    const activeBtn = document.querySelector(
+      'li.artdeco-pagination__indicator--number.active button,' +
+      'li.artdeco-pagination__indicator--number.selected button'
+    );
+    if (!activeBtn) return false;
 
-      let company = "";
+    const currentLabel = activeBtn.getAttribute("aria-label") || "";
+    const currentNum = parseInt(currentLabel.replace(/\\D/g, ""), 10);
+    if (!currentNum) return false;
 
-      const companyEl = item.querySelector('[data-anonymize="company-name"]');
-      if (companyEl && companyEl.innerText) {
-        company = companyEl.innerText.trim();
-      }
+    const nextNum = currentNum + 1;
 
-      if (!company) {
-        const hovercardBtn = item.querySelector('button[aria-label^="See more about"]');
-        if (hovercardBtn) {
-          const label = hovercardBtn.getAttribute("aria-label") || "";
-          company = label.replace(/^See more about\\s*/i, "").trim();
-        }
-      }
+    // Look for a button with aria-label="Page N+1" anywhere in the pagination.
+    const nextBtn = document.querySelector(
+      'button[aria-label="Page ' + nextNum + '"]'
+    );
+    if (!nextBtn) return false;
 
-      if (!company) {
-        const subtitle = item.querySelector('.artdeco-entity-lockup__subtitle');
-        if (subtitle) {
-          // Clone so we can strip the role <span data-anonymize="title"> first.
-          const clone = subtitle.cloneNode(true);
-          const titleSpan = clone.querySelector('[data-anonymize="title"]');
-          if (titleSpan) titleSpan.remove();
-          const btns = clone.querySelectorAll('button');
-          btns.forEach((b) => b.remove());
-          company = (clone.textContent || "").replace(/\\s+/g, " ").replace(/^[·•\\s]+/, "").trim();
-        }
-      }
-
-      leads.push({ name, company });
-    }
-    return leads;
+    nextBtn.scrollIntoView({ block: "center" });
+    await sleep(200);
+    nextBtn.click();
+    await sleep(2500);
+    return true;
   })()`;
-
-  return (await page.evaluate(extractScript)) as Lead[];
+  return (await page.evaluate(script)) as boolean;
 }
 
 (async () => {
@@ -195,26 +264,45 @@ async function scrapeLeadsOnPage(page: Page): Promise<Lead[]> {
     console.warn("⚠️ Notion not configured (missing NOTION_API or NOTION_DB_ID). JSON only.");
   }
 
-  console.log("\n📄 Scraping current page...");
-  const leads = await scrapeLeadsOnPage(page);
-  console.log(`   Rendered ${leads.length} leads.`);
+  const allLeads: Lead[] = [];
+  let pageNum = 1;
 
-  for (const lead of leads) {
-    if (notion && NOTION_DB_ID) {
-      try {
-        await addLeadToNotion(lead, titleProp, descriptionProp);
-        console.log(`   ✅ ${lead.name} — ${lead.company}`);
-        await new Promise((r) => setTimeout(r, 350)); // rate-limit
-      } catch (err) {
-        console.log(`   ❌ Notion failed for ${lead.name}: ${(err as Error).message}`);
+  while (true) {
+    console.log(`\n📄 Scraping page ${pageNum}...`);
+
+    // Scroll through the page collecting leads incrementally (virtualized list)
+    const leads = await scrapeAllLeadsOnPage(page);
+    console.log(`   Found ${leads.length} leads on page ${pageNum}.`);
+
+    // Step 3: Add leads to Notion
+    for (const lead of leads) {
+      if (notion && NOTION_DB_ID) {
+        try {
+          await addLeadToNotion(lead, titleProp, descriptionProp);
+          console.log(`   ✅ ${lead.name} — ${lead.company}`);
+          await new Promise((r) => setTimeout(r, 350)); // rate-limit
+        } catch (err) {
+          console.log(`   ❌ Notion failed for ${lead.name}: ${(err as Error).message}`);
+        }
+      } else {
+        console.log(`   • ${lead.name} — ${lead.company}`);
       }
-    } else {
-      console.log(`   • ${lead.name} — ${lead.company}`);
     }
+
+    allLeads.push(...leads);
+
+    // Step 4: Go to next page
+    console.log(`\n➡️ Going to page ${pageNum + 1}...`);
+    const hasNext = await goToNextPage(page);
+    if (!hasNext) {
+      console.log("\n📍 No more pages.");
+      break;
+    }
+    pageNum++;
   }
 
-  writeFileSync(OUTPUT_FILE, JSON.stringify(leads, null, 2));
-  console.log(`\n💾 Saved ${leads.length} leads → ${OUTPUT_FILE}`);
+  writeFileSync(OUTPUT_FILE, JSON.stringify(allLeads, null, 2));
+  console.log(`\n💾 Saved ${allLeads.length} leads (${pageNum} pages) → ${OUTPUT_FILE}`);
   console.log("🎉 Done.");
   process.exit(0);
 })();

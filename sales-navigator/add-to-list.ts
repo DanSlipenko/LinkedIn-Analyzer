@@ -12,7 +12,7 @@ interface Lead {
 
 const CDP_URL = "http://localhost:9222";
 const DIR = __dirname;
-const TARGET_LIST = process.env.TARGET_LIST || "Q2 Leads";
+const TARGET_LIST = process.env.TARGET_LIST || "Dripify 1.1";
 
 function normalize(s: string): string {
   return (s || "").trim().toLowerCase().replace(/\s+/g, " ");
@@ -367,12 +367,30 @@ async function addLeadToList(
 async function goToNextPage(page: Page): Promise<boolean> {
   const script = `(async () => {
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-    const nextBtn = document.querySelector('button[aria-label="Next"]');
-    if (!nextBtn || nextBtn.disabled) return false;
+
+    // Find the current page number from the active pagination button.
+    const activeBtn = document.querySelector(
+      'li.artdeco-pagination__indicator--number.active button,' +
+      'li.artdeco-pagination__indicator--number.selected button'
+    );
+    if (!activeBtn) return false;
+
+    const currentLabel = activeBtn.getAttribute("aria-label") || "";
+    const currentNum = parseInt(currentLabel.replace(/\\D/g, ""), 10);
+    if (!currentNum) return false;
+
+    const nextNum = currentNum + 1;
+
+    // Look for a button with aria-label="Page N+1" anywhere in the pagination.
+    const nextBtn = document.querySelector(
+      'button[aria-label="Page ' + nextNum + '"]'
+    );
+    if (!nextBtn) return false;
+
     nextBtn.scrollIntoView({ block: "center" });
     await sleep(200);
     nextBtn.click();
-    await sleep(1800);
+    await sleep(2500);
     return true;
   })()`;
   return (await page.evaluate(script)) as boolean;
