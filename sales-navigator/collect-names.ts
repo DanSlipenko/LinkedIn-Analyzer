@@ -291,6 +291,9 @@ async function goToNextPage(page: Page): Promise<boolean> {
 
     allLeads.push(...leads);
 
+    writeFileSync(OUTPUT_FILE, JSON.stringify(allLeads, null, 2));
+    console.log(`   💾 Saved ${allLeads.length} leads so far → ${OUTPUT_FILE}`);
+
     // Step 4: Go to next page
     console.log(`\n➡️ Going to page ${pageNum + 1}...`);
     const hasNext = await goToNextPage(page);

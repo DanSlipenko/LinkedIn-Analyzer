@@ -53,7 +53,7 @@
       "cwd": "${workspaceFolder}/frontend"
     },
     {
-      "name": "Add to List (Sales Nav)",
+      "name": "SalesNavigator | Add To List",
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "npx",
@@ -62,11 +62,11 @@
       "cwd": "${workspaceFolder}"
     },
     {
-      "name": "scrape names",
+      "name": "SalesNavigator | Collect Names",
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["tsx", "sales-navigator/index.ts"],
+      "runtimeArgs": ["tsx", "sales-navigator/collect-names.ts"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     }

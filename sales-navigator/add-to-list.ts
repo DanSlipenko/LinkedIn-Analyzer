@@ -12,16 +12,37 @@ interface Lead {
 
 const CDP_URL = "http://localhost:9222";
 const DIR = __dirname;
-const TARGET_LIST = process.env.TARGET_LIST || "Dripify 1.1";
+const TARGET_LIST = process.env.TARGET_LIST || "2Q2 Leads";
 
 function normalize(s: string): string {
-  return (s || "").trim().toLowerCase().replace(/\s+/g, " ");
+  return (s || "")
+    .trim()
+    .toLowerCase()
+    // Normalize curly/smart apostrophes to a plain ASCII apostrophe so
+    // "Doesn't Work" and "Doesn’t Work" compare equal.
+    .replace(/[\u2018\u2019\u02BC]/g, "'")
+    .replace(/\s+/g, " ");
 }
 
-// Matches "works" / "Works" but NOT "don't work" / "Not work".
+// Status values used across the JSON files:
+//   "Works"        → eligible to add to the target list
+//   "Doesn't Work" → explicitly excluded (also: legacy "Not work" / "don't work")
+// Anything else is treated as unknown and surfaced as a warning so typos
+// don't get silently lumped into the "not works" bucket.
 function isWorks(status?: string): boolean {
+  return normalize(status || "") === "works";
+}
+
+function isDoesntWork(status?: string): boolean {
   const s = normalize(status || "");
-  return s === "works" || s === "work";
+  return (
+    s === "doesn't work" ||
+    s === "does not work" ||
+    s === "don't work" ||
+    s === "do not work" ||
+    s === "not work" ||
+    s === "not works"
+  );
 }
 
 function loadWorksLeads(): Map<string, { lead: Lead; file: string }> {
@@ -38,8 +59,31 @@ function loadWorksLeads(): Map<string, { lead: Lead; file: string }> {
     if (!Array.isArray(data)) continue;
 
     const leads = data as Lead[];
-    const worksCount = leads.filter((l) => isWorks(l.status)).length;
-    console.log(`📖 ${file}: ${worksCount}/${leads.length} marked "works"`);
+    let worksCount = 0;
+    let doesntWorkCount = 0;
+    const unknownStatuses = new Map<string, number>();
+
+    for (const lead of leads) {
+      if (isWorks(lead.status)) {
+        worksCount++;
+      } else if (isDoesntWork(lead.status)) {
+        doesntWorkCount++;
+      } else {
+        const key = (lead.status || "<empty>").trim();
+        unknownStatuses.set(key, (unknownStatuses.get(key) || 0) + 1);
+      }
+    }
+
+    console.log(
+      `📖 ${file}: ${worksCount} works, ${doesntWorkCount} doesn't work, ` +
+        `${leads.length - worksCount - doesntWorkCount} other / ${leads.length} total`,
+    );
+    if (unknownStatuses.size > 0) {
+      const summary = Array.from(unknownStatuses.entries())
+        .map(([s, n]) => `"${s}"×${n}`)
+        .join(", ");
+      console.log(`   ⚠️  Unrecognized statuses in ${file}: ${summary}`);
+    }
 
     for (const lead of leads) {
       if (!lead.name || !isWorks(lead.status)) continue;
@@ -47,6 +91,31 @@ function loadWorksLeads(): Map<string, { lead: Lead; file: string }> {
     }
   }
   return map;
+}
+
+function loadPastLeadNames(): Set<string> {
+  const file = "past-leads.json";
+  const path = join(DIR, file);
+  const names = new Set<string>();
+
+  let data: unknown;
+  try {
+    data = JSON.parse(readFileSync(path, "utf8"));
+  } catch {
+    console.log(`⚠️  ${file} not found or invalid JSON; continuing without past-lead skipping.`);
+    return names;
+  }
+  if (!Array.isArray(data)) {
+    console.log(`⚠️  ${file} is not an array; continuing without past-lead skipping.`);
+    return names;
+  }
+
+  for (const lead of data as Lead[]) {
+    if (!lead.name) continue;
+    names.add(normalize(lead.name));
+  }
+  console.log(`🗂️  Loaded ${names.size} past lead names from ${file}`);
+  return names;
 }
 
 async function connectToSalesNav(): Promise<{ browser: Browser; page: Page }> {
@@ -398,8 +467,11 @@ async function goToNextPage(page: Page): Promise<boolean> {
 
 (async () => {
   const worksMap = loadWorksLeads();
+  const pastLeadNames = loadPastLeadNames();
+  const uniqueWorksNotInPast = Array.from(worksMap.keys()).filter((name) => !pastLeadNames.has(name)).length;
   console.log(`\n🎯 Target list: "${TARGET_LIST}"`);
   console.log(`📋 Total unique "works" leads loaded: ${worksMap.size}`);
+  console.log(`🆕 Unique "works" leads not in past leads: ${uniqueWorksNotInPast}`);
 
   if (worksMap.size === 0) {
     console.error('❌ No leads with status "works" found in any JSON file. Exiting.');
@@ -414,6 +486,7 @@ async function goToNextPage(page: Page): Promise<boolean> {
   let totalAdded = 0;
   let totalAlreadyAdded = 0;
   let totalFailed = 0;
+  let totalSkippedPast = 0;
 
   while (true) {
     console.log(`\n📄 Page ${pageNum}`);
@@ -427,6 +500,7 @@ async function goToNextPage(page: Page): Promise<boolean> {
     let pageMatched = 0;
     let pageAdded = 0;
     let pageAlreadyAdded = 0;
+    let pageSkippedPast = 0;
 
     // Pass 2: for each matching lead, scroll it back into view and save it.
     // We must re-mount the row before clicking — it may have been unmounted
@@ -435,6 +509,13 @@ async function goToNextPage(page: Page): Promise<boolean> {
       const entry = worksMap.get(normalize(name));
       if (!entry) continue;
       pageMatched++;
+
+      if (pastLeadNames.has(normalize(name))) {
+        pageSkippedPast++;
+        totalSkippedPast++;
+        console.log(`   ⏭️  Skipped (already targeted in past leads): ${name}`);
+        continue;
+      }
 
       const scrolled = await scrollLeadIntoView(page, name);
       if (!scrolled) {
@@ -458,7 +539,7 @@ async function goToNextPage(page: Page): Promise<boolean> {
     }
 
     console.log(
-      `   📊 Page ${pageNum}: ${pageAdded} added, ${pageAlreadyAdded} already in list, out of ${names.length} (${pageMatched} matched JSON)`,
+      `   📊 Page ${pageNum}: ${pageAdded} added, ${pageAlreadyAdded} already in list, ${pageSkippedPast} skipped (past leads), out of ${names.length} (${pageMatched} matched JSON)`,
     );
     totalMatched += pageMatched;
     totalAdded += pageAdded;
@@ -474,8 +555,9 @@ async function goToNextPage(page: Page): Promise<boolean> {
   }
 
   console.log(
-    `\n📈 Summary: ${totalAdded} added to "${TARGET_LIST}", ${totalAlreadyAdded} already in list, ` +
-      `out of ${totalScanned} scanned (${totalMatched} matched "works" in JSON, ${totalFailed} failed)`,
+    `\n📈 Summary: ${totalAdded} added to "${TARGET_LIST}", ${totalAlreadyAdded} already in list, ${totalSkippedPast} skipped (past leads), ` +
+      `out of ${totalScanned} scanned (${totalMatched} matched "works" in JSON, ${totalFailed} failed). ` +
+      `Unique "works" not in past leads: ${uniqueWorksNotInPast}`,
   );
   process.exit(0);
 })();

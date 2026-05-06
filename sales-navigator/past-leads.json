@@ -1,5 +1,2352 @@
 [
   {
+    "name": "Patty Hernandez",
+    "company": "Ventura Holdings Group",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Joel Kjellberg Vagsether",
+    "company": "Magic Wear",
+    "status": "Works"
+  },
+  {
+    "name": "Aaron Park",
+    "company": "Arch Apparel",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ian Flanagan",
+    "company": "C\u00f3modo",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Scott M.",
+    "company": "BlackInc",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Megan Szwast",
+    "company": "Toy Box Brands",
+    "status": "Works"
+  },
+  {
+    "name": "Michelle Puopolo",
+    "company": "The Hive",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Aaron Dodez",
+    "company": "Katin USA",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Erin Garrett",
+    "company": "1r Agency - Shopify Platinum Agency",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Wakkas Sachwani",
+    "company": "Threads of Apollo",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Aimee L",
+    "company": "Jaxson Maximus",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Janie Harasymtzuk Scopp",
+    "company": "Shear Enterprises. LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kseniya Ruvinskaya",
+    "company": "Rookline",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rithiga Vijayakumar",
+    "company": "Emfique",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Meredith Hall",
+    "company": "Noble Outfitters",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Farmon Akmalov",
+    "company": "Milkyway X AI",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Michelle Nicolard",
+    "company": "Vector Apparel Projects, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "ALKAMA ANSARI",
+    "company": "Attitude Designers Ltd.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rebecca Chavez",
+    "company": "Connected Apparel",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Dominic Rosacci",
+    "company": "Superior Ink Printing",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ashley Hemming",
+    "company": "apr\u00e8s-pickle",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Lisa Attea",
+    "company": "PLANET by Lauren G",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Laura Berens",
+    "company": "Love and Fit",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Marcus Dedina",
+    "company": "Fabritech",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Mike Borsellino",
+    "company": "Stork",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Cristian Romero",
+    "company": "Paper Planes LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Andrea Iniguez",
+    "company": "American Giant",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Derrick Richards",
+    "company": "Done Deal Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "John VanBeber",
+    "company": "Aethera Design",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Robert Galindo",
+    "company": "STAMPD",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "David Yassky",
+    "company": "Driver Digital",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Matt McMahon",
+    "company": "Apex8",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Amy Glick",
+    "company": "MilkRun",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Imani Nia",
+    "company": "Brandon Blackwood New York",
+    "status": "Works"
+  },
+  {
+    "name": "Michael K.",
+    "company": "Avease",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Heather S.",
+    "company": "Piper & Skye",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Christina Brown",
+    "company": "The Golf Bar",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tia B.",
+    "company": "Softlimit",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Taaj Darwish",
+    "company": "Uneekor, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Courtney Elias",
+    "company": "Gretchen Scott Designs",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tunde O.",
+    "company": "+FRESH.i.AM+",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rachel Ford",
+    "company": "Milano Collection",
+    "status": "Works"
+  },
+  {
+    "name": "Isabel Cappo",
+    "company": "December Thieves",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jonathan H.",
+    "company": "Flyclothing, LLC",
+    "status": "Works"
+  },
+  {
+    "name": "Paul White",
+    "company": "Emi Jay, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Shauna Podruzny",
+    "company": "GlobeChat\u00ae",
+    "status": "Works"
+  },
+  {
+    "name": "Cole Shannon, M.S.",
+    "company": "A+ School Apparel",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ananda Bhavani",
+    "company": "TUSCAN LEVELING, INC.\u00ae",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Christopher Bonilla",
+    "company": "Colmado Market",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Erin Hochstein",
+    "company": "Good Man Brand",
+    "status": "Works"
+  },
+  {
+    "name": "Marissa G.",
+    "company": "Fashion Statement",
+    "status": "Works"
+  },
+  {
+    "name": "Samantha Tse",
+    "company": "Sarah Flint, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Lauri Wax",
+    "company": "Pearls",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ileana F.",
+    "company": "Teri Jon",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Marcia Currie",
+    "company": "Courser",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Nigeria Ealey, M.A.",
+    "company": "TIER INC.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Brahm Rosenberg",
+    "company": "SnapWrite",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "TerriWan Peters",
+    "company": "Michael Ngo",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Simran Gill",
+    "company": "Harleen Kaur",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Heather Franco",
+    "company": "LVHR",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tomoko Butler",
+    "company": "Kut From the Kloth",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Susan Locke",
+    "company": "Creative Sourcing, LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Brittany P.",
+    "company": "Lovestitch Clothing",
+    "status": "Works"
+  },
+  {
+    "name": "Heather Geiger",
+    "company": "Rage Nation Apparel LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kerynn Molnar, MBA",
+    "company": "Swell Creative | Marketing Concierge",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kirsten Mogg",
+    "company": "Trends Magazine",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Aishwarya Mahulikar",
+    "company": "Loomstate",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tist One",
+    "company": "EPTM",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Michael Horrey",
+    "company": "Neat Tucks LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Mimi Tran",
+    "company": "Huega House",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Mark Northrop",
+    "company": "Podium Industries",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rebekah Miranda",
+    "company": "Jeffrey Campbell Shoes",
+    "status": "Works"
+  },
+  {
+    "name": "Taylor Smith",
+    "company": "Logan Tay",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Lisa Lavin",
+    "company": "Freemark Apparel Brands International Inc.",
+    "status": "Works"
+  },
+  {
+    "name": "Kai Noriesta",
+    "company": "Kazoku Festival",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jaime Snyder",
+    "company": "ellesse US",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Daisy Chen",
+    "company": "Nicholas the Label",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Burak T.",
+    "company": "Fox Group Canada",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Christine Marconi",
+    "company": "Drive Marketing & Events",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Natalie Mogavero",
+    "company": "Jane + Willow",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Stefanie Moxnes",
+    "company": "Make Them Chat",
+    "status": "Works"
+  },
+  {
+    "name": "Allison Bochman",
+    "company": "Habitat Clothes To Live In",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Thomas DePaola",
+    "company": "High Alchemy Showroom",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Susu Zheng",
+    "company": "SUSU",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kareen Dong",
+    "company": "Titan Industries Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Mark J Kwoka",
+    "company": "Moonlight Bridal, JLM Couture, Ema Savahl, Angel Sanchez",
+    "status": "Works"
+  },
+  {
+    "name": "jay L.",
+    "company": "Noend Denim",
+    "status": "Works"
+  },
+  {
+    "name": "Ashley Washburn",
+    "company": "Taylor Stitch",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tyana Perez",
+    "company": "Olsen Solutions",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jessica Bester",
+    "company": "Poppy Barley Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Khusroo Ansari",
+    "company": "Park & Fifth",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Andrew W.",
+    "company": "Lootbloc",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jasmine P.",
+    "company": "Shoes \u2018N\u2019 More Inc.",
+    "status": "Works"
+  },
+  {
+    "name": "Mitch Fraser",
+    "company": "Thief &amp; Bandit",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Alexander Koford",
+    "company": "Dinking Buddies",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Austin Marie Davis",
+    "company": "JLUXLABEL",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rosa Ragusa",
+    "company": "Freemark Apparel Brands International Inc.",
+    "status": "Works"
+  },
+  {
+    "name": "Nick Friedberg",
+    "company": "NSF PRODUCTIONS",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "John L.",
+    "company": "3L",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Mich\u00e9lle Figari",
+    "company": "Wallflower Merch",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Gabrielle S.",
+    "company": "COBIA Beauty",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kevin Mayo",
+    "company": "Apollo Bagels",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Morgan Martino",
+    "company": "Headsweats",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Glenny Medina",
+    "company": "Estilo Mu\u00f1eca Boutique",
+    "status": "Works"
+  },
+  {
+    "name": "Stacy Cho",
+    "company": "SESINKO NEWYORK",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ashleigh Bachand",
+    "company": "Bird &amp; Bear Collective",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Lindy Doinog",
+    "company": "Thunda Thighs",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jakob Mounts",
+    "company": "Greater Half, LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Yamila Girard Hall",
+    "company": "Hat Attack Inc",
+    "status": "Works"
+  },
+  {
+    "name": "Jaime Rheingold",
+    "company": "Love, Lisa",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Sophie Joyner",
+    "company": "Gwynn's",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Danielle Siess",
+    "company": "Icelandic Design",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kayla Barbera",
+    "company": "Echo Lake Industries Inc",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kathleen E.",
+    "company": "ICON Luxury Group",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Diana C. Bolivar",
+    "company": "Fivestory New York",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jennifer Knopf",
+    "company": "Elu (formerly Henry Beguelin)",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jessyca Jones-Gordon",
+    "company": "23 Threads",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Priscilla Martinez",
+    "company": "Youshouldbehair",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Shannon Cattapan",
+    "company": "Becoming",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Nia-Ceri Young",
+    "company": "Only Hearts",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Cara Guerrero-Mendiola",
+    "company": "Eagle Eyes Optics",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Michael Ziobrowski",
+    "company": "Contravisual Brands Group",
+    "status": "Works"
+  },
+  {
+    "name": "Ivan Faraldo",
+    "company": "ApparelMagic",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Laura Owen",
+    "company": "Laura Jean\u2019s Studio, Callie Go Designs",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Abby Parece",
+    "company": "Resell Bunny LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rebecca Anne Geraci",
+    "company": "Ash & Willow Eco Salon and Beauty Apothecary",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Amanda Goddard",
+    "company": "BOUTIQUE 44",
+    "status": "Works"
+  },
+  {
+    "name": "Biff Boswell",
+    "company": "Robert Jeffery",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Julian Torrecampo",
+    "company": "Renarts",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Abriana Smith",
+    "company": "Petit Moments LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Thonthi Raj Balamurugan, CSCP",
+    "company": "Koos Manufacturing",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Geanetta Shaw",
+    "company": "NUFFology by Genie Sweetness",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Sarah Hesky",
+    "company": "American Recycled Clothing Co",
+    "status": "Works"
+  },
+  {
+    "name": "Shay Troisi",
+    "company": "The Noli Shop",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Matt Mazer",
+    "company": "Apparel Hotline",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kelyn Alvarado",
+    "company": "Guadalupe Design",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Annslee Bassett",
+    "company": "Fifth Street Interiors",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tristan Lorico",
+    "company": "Ring of Fire Clothing",
+    "status": "Works"
+  },
+  {
+    "name": "Pete Campbell",
+    "company": "ZOIC Clothing",
+    "status": "Works"
+  },
+  {
+    "name": "Yasmin Maleki",
+    "company": "Tourist Souvenirs",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Eliana Galdamez",
+    "company": "LNA CLOTHING INC",
+    "status": "Works"
+  },
+  {
+    "name": "EDUARDO ALICEA",
+    "company": "YankeeKicks",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Kathrine Hebert",
+    "company": "Olive & Piper",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Isabelle Fillon",
+    "company": "BEAUTIISOLES",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Lillian Pimentel",
+    "company": "Hat Attack,Inc.",
+    "status": "Works"
+  },
+  {
+    "name": "Joshua Jackai",
+    "company": "Y Scouts",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Gian-Paolo Mazzotta",
+    "company": "ILLI Bespoke",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Dawson Chaney",
+    "company": "Pickett, Chaney & McMullen LLP",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tatum Mohagen",
+    "company": "CLAIM CLOTHING, INC.",
+    "status": "Works"
+  },
+  {
+    "name": "Arturo Sanchez",
+    "company": "Triple D Gear LLC.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Tima Khademi",
+    "company": "NAZZAR",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Sol Valentin",
+    "company": "R&M Richards, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Zella Running",
+    "company": "Burke Electrical",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ginger McGuinness",
+    "company": "Doulala",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "April Marie J.",
+    "company": "Hype and Vice",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ashley Roberts",
+    "company": "Bridals By Lori",
+    "status": "Works"
+  },
+  {
+    "name": "Sammi Manning",
+    "company": "Kristi Brooks",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ashton Kight",
+    "company": "Libby Story, Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Karina Aguilar",
+    "company": "Cross Colours",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Katie Collins",
+    "company": "Gigi&#39;s Boutique &amp; Outfitters",
+    "status": "Works"
+  },
+  {
+    "name": "Ben Driebe",
+    "company": "Apliiq",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Wendy Grayson Smith",
+    "company": "The Rosegold Smith",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Bruce Lee",
+    "company": "3:16 Collection",
+    "status": "Works"
+  },
+  {
+    "name": "Lauryn Robertson",
+    "company": "Elle and Co. Boutique",
+    "status": "Works"
+  },
+  {
+    "name": "Jann Quinn",
+    "company": "5Kount LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Savanna T.",
+    "company": "Minnie Rose",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Macie Jones",
+    "company": "Brianna Cannon",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Chris Heller",
+    "company": "Short Par 4",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Emily Stawinski",
+    "company": "Blue Chip Athletic",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Chenchen X.",
+    "company": "Park & Fifth",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Ashley Riehl",
+    "company": "Southern Point Co.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "James McKinney",
+    "company": "JAM Originals",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Carly Wall",
+    "company": "Shannon Passero",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Dave Buchwald",
+    "company": "Insanely Cozy Designs LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "David Horn",
+    "company": "Self Employed",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Amy Wright",
+    "company": "Katherine Tash Bridal",
+    "status": "Works"
+  },
+  {
+    "name": "Ashley J. Castillo",
+    "company": "ArtOuro & Gemas",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Erynn Santos",
+    "company": "MELODY EHSANI",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Candice Shaw",
+    "company": "Gameday Couture, LLC",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Britt Stevens",
+    "company": "Big Bear Canada &amp; Reflections of Muskoka",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Hannah Kik",
+    "company": "MADE Foundation",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Margarita Ayala",
+    "company": "H&M",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Robin F.",
+    "company": "Consulting for Apparel",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rohit Nair",
+    "company": "7Diamonds",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jon Sutton",
+    "company": "Misen",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Marge Pietrera",
+    "company": "Real Fashion Index",
+    "status": "Works"
+  },
+  {
+    "name": "Natalie G.",
+    "company": "Posh Tech",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Matthew Rossy",
+    "company": "Chez Robin March\u00e9 Local",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Pamela Hopson",
+    "company": "North Standard Trading Post",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Jorge Garcia",
+    "company": "CAM",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rajvizithi singh",
+    "company": "SilkRoll",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Wendy Wong",
+    "company": "June Adaptive",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Nicolas Garc\u00eda",
+    "company": "Unfriendlynyc",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "chloe brown",
+    "company": "Magid Inc.",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Natasha Lambert, MS",
+    "company": "Iowa State University HCI",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Alexa Nunn",
+    "company": "Three Bird Nest",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Latonia Smith, D.D.S.",
+    "company": "Valor Driven Solutions",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Anna Grace Jones",
+    "company": "The Booth",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Candice C. Carter",
+    "company": "Candice Carter LTD",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Alanna Witherspoon",
+    "company": "My Wedding Dresser",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Allison Duda",
+    "company": "Loyola of Los Angeles Law Review",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Thalia J. Tassy",
+    "company": "Chelsea exclusive",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Samuel Supreme Harper",
+    "company": "Spectrum",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Leah Niswonger",
+    "company": "FindMine",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Joshua Myers",
+    "company": "Zz Athletic Wear LLC",
+    "status": "Works"
+  },
+  {
+    "name": "Virginia Lee",
+    "company": "Forsyth County Probate Court",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Rachel Hammond",
+    "company": "Terra Cotta Savannah",
+    "status": "Doesn't Work"
+  },
+  {
+    "name": "Stephanie Parker",
+    "company": "Brimmz Hats",
+    "status": "Works"
+  },
+  {
+    "name": "Susan Flores",
+    "company": "Lovestitch Clothing",
+    "status": "Works",
+    "reason": "Women’s clothing brand with dresses, tops, sweaters, outerwear, and cover-ups; clear apparel fit."
+  },
+  {
+    "name": "Donna Valcich",
+    "company": "North American Wax Co.",
+    "status": "Not work",
+    "reason": "Waxing/personal care business, not apparel."
+  },
+  {
+    "name": "Tiana Gamble",
+    "company": "Goodmerch Supply by CDH",
+    "status": "Not work",
+    "reason": "Custom merchandise and promo-products company, not a direct apparel brand."
+  },
+  {
+    "name": "Natalya Wise",
+    "company": "Adam Ross Custom",
+    "status": "Works",
+    "reason": "Custom clothier focused on bespoke and custom garments; still apparel."
+  },
+  {
+    "name": "Jessica Kay Murray",
+    "company": "Gateway Disc Sports",
+    "status": "Not work",
+    "reason": "Disc golf equipment brand; business centers on disc sports rather than clothing."
+  },
+  {
+    "name": "Ryan McAfee",
+    "company": "OP2 Labs",
+    "status": "Not work",
+    "reason": "Not primarily an apparel brand."
+  },
+  {
+    "name": "Ron Petrucci",
+    "company": "Birch Outfitters / LIV Outdoor apparel company",
+    "status": "Works",
+    "reason": "Outdoor-oriented apparel/activewear brand; still fundamentally clothing."
+  },
+  {
+    "name": "Michael Darr",
+    "company": "Marina Sailing Newport Beach",
+    "status": "Not work",
+    "reason": "Sailing school/club/charter business, not apparel."
+  },
+  {
+    "name": "Zacharie Elmaleh",
+    "company": "Deux par Deux",
+    "status": "Works",
+    "reason": "Children’s clothing brand with clear apparel collections."
+  },
+  {
+    "name": "Shannon Ashcraft-Kirk",
+    "company": "AK Consulting",
+    "status": "Not work",
+    "reason": "Consulting business, not apparel."
+  },
+  {
+    "name": "Nikos Dimopoulos",
+    "company": "Phantom Global Shop",
+    "status": "Works",
+    "reason": "Appears to be a streetwear/apparel label selling clothing items."
+  },
+  {
+    "name": "Amanda Eli",
+    "company": "January Spirits",
+    "status": "Not work",
+    "reason": "Spirits brand, not apparel."
+  },
+  {
+    "name": "Nupur Singh",
+    "company": "Monday Chill",
+    "status": "Works",
+    "reason": "Clothing brand selling bamboo apparel for men, women, babies, and kids."
+  },
+  {
+    "name": "Jenna B.",
+    "company": "Electric Picks Jewelry",
+    "status": "Not work",
+    "reason": "Jewelry brand, not clothing."
+  },
+  {
+    "name": "Jonathan Bultron Teran",
+    "company": "MODALUX INC.",
+    "status": "Not work",
+    "reason": "Primarily handbags/accessories rather than apparel."
+  },
+  {
+    "name": "Lyndsay Borschke",
+    "company": "The Taylor Statten Camps",
+    "status": "Not work",
+    "reason": "Summer camp organization, not apparel."
+  },
+  {
+    "name": "Liliana Younger",
+    "company": "PedsMrkt",
+    "status": "Not work",
+    "reason": "Marketplace/platform, not a clothing brand."
+  },
+  {
+    "name": "Greg Hagerman",
+    "company": "Wes and Willy",
+    "status": "Works",
+    "reason": "Apparel brand selling boys’, girls’, baby, and men’s clothing, including swim."
+  },
+  {
+    "name": "Nick Henderson",
+    "company": "Big Block Realty",
+    "status": "Not work",
+    "reason": "Realty business, not apparel."
+  },
+  {
+    "name": "Sarah Herrick-Smisek",
+    "company": "DLH Clothing",
+    "status": "Works",
+    "reason": "Apparel brand/store focused on lifestyle clothing."
+  },
+  {
+    "name": "Jennifer Uhll",
+    "company": "LifetimeWishes.com",
+    "status": "Not work",
+    "reason": "Not a clothing brand based on the available results."
+  },
+  {
+    "name": "Janet Hu",
+    "company": "Nanjing JXD-SPY Outerwear Im&Export Co.,Ltd",
+    "status": "Not work",
+    "reason": "Apparel manufacturer/exporter, not a consumer clothing brand."
+  },
+  {
+    "name": "Josephine Carr",
+    "company": "Betabrand",
+    "status": "Works",
+    "reason": "Apparel brand selling women’s workwear and casual clothing."
+  },
+  {
+    "name": "Dan Jason",
+    "company": "NOVUS Clothing Company, INC.",
+    "status": "Works",
+    "reason": "Sportswear/apparel brand; counts under your broader apparel filter."
+  },
+  {
+    "name": "Patrick Milligan",
+    "company": "The Man's Shop By Wally Hardin",
+    "status": "Works",
+    "reason": "Men’s clothing store selling suits, shirts, and sportswear; clearly apparel-focused."
+  },
+  {
+    "name": "Ashley Attianese",
+    "company": "ISA",
+    "status": "don't work"
+  },
+  {
+    "name": "Sharon Maister",
+    "company": "SLUNKS clothing",
+    "status": "works"
+  },
+  {
+    "name": "Victor Maldonado",
+    "company": "ONS Clothing",
+    "status": "works"
+  },
+  {
+    "name": "Nick Lewis",
+    "company": "Plus Plus",
+    "status": "don't work"
+  },
+  {
+    "name": "Jenny Choi",
+    "company": "The Commerce Collective",
+    "status": "don't work"
+  },
+  {
+    "name": "Adam Derry",
+    "company": "ADBD",
+    "status": "don't work"
+  },
+  {
+    "name": "John-Pierre Kamel",
+    "company": "Rabble Clothing",
+    "status": "works"
+  },
+  {
+    "name": "Terry Pierson Jr.",
+    "company": "Varcity Unltd",
+    "status": "works"
+  },
+  {
+    "name": "Matthew Galetto",
+    "company": "Monte's Fine Foods",
+    "status": "don't work"
+  },
+  {
+    "name": "Dexter Loscher",
+    "company": "Civil Regime",
+    "status": "works"
+  },
+  {
+    "name": "Tully Burgoon",
+    "company": "Amble Clothing",
+    "status": "works"
+  },
+  {
+    "name": "Dannah Chambers",
+    "company": "Clairvaux",
+    "status": "works"
+  },
+  {
+    "name": "Olivia Consoli",
+    "company": "BRANDON MAXWELL",
+    "status": "works"
+  },
+  {
+    "name": "Paul Shaked",
+    "company": "Meissonier Group",
+    "status": "don't work"
+  },
+  {
+    "name": "Öwen Geronimo",
+    "company": "Fashion Tech PR",
+    "status": "don't work"
+  },
+  {
+    "name": "Logan Roberts",
+    "company": "Marsh Wear LLC",
+    "status": "works"
+  },
+  {
+    "name": "Philip Cohen",
+    "company": "Simplifyber",
+    "status": "don't work"
+  },
+  {
+    "name": "Love V.",
+    "company": "Light After Death Monuments",
+    "status": "don't work"
+  },
+  {
+    "name": "John Barba",
+    "company": "Brands and Logos",
+    "status": "don't work"
+  },
+  {
+    "name": "Erdinc (Ardie) Ulukaya",
+    "company": "Rabek Tekstil San. Tic. A.Ş.",
+    "status": "don't work"
+  },
+  {
+    "name": "Alexa Gauthier-Reade",
+    "company": "Yoga Jeans®",
+    "status": "works"
+  },
+  {
+    "name": "Gabriel Kattan",
+    "company": "Perk Clothing",
+    "status": "works"
+  },
+  {
+    "name": "Randy Choi",
+    "company": "Thompson Tee Inc",
+    "status": "works"
+  },
+  {
+    "name": "Sarah Engel",
+    "company": "Rebel Nell",
+    "status": "don't work"
+  },
+  {
+    "name": "Kevin Swan",
+    "company": "VIANDANTE",
+    "status": "works"
+  },
+  {
+    "name": "Aaron Sipe",
+    "company": "WYR Clothing",
+    "status": "Works",
+    "reason": "Lifestyle clothing and accessories brand with apparel for men, women, and youth."
+  },
+  {
+    "name": "George Baker, Sr.",
+    "company": "2 the Moon Ventures",
+    "status": "Not work",
+    "reason": "Venture/investment firm, not an apparel brand."
+  },
+  {
+    "name": "Tara Scibetta",
+    "company": "Indah Clothing",
+    "status": "Works",
+    "reason": "Indah is explicitly a retail apparel and fashion company."
+  },
+  {
+    "name": "Dustin Hardy",
+    "company": "RSVLTS",
+    "status": "Works",
+    "reason": "Well-known apparel brand focused on shirts and lifestyle clothing."
+  },
+  {
+    "name": "Jackie Cespedes Johnsen",
+    "company": "The Go-To Creative Agency",
+    "status": "Not work",
+    "reason": "Creative agency serving fashion clients, not a clothing brand itself."
+  },
+  {
+    "name": "Eric Lowe",
+    "company": "Project Social T",
+    "status": "Works",
+    "reason": "Clothing label focused on casual apparel basics."
+  },
+  {
+    "name": "Hannahstazia Dai M.",
+    "company": "InnerLight Marketing",
+    "status": "Not work",
+    "reason": "Marketing company, not apparel."
+  },
+  {
+    "name": "MARIA JOSE ALMINA",
+    "company": "iSarti Italian Menswear",
+    "status": "Works",
+    "reason": "Clearly a menswear label."
+  },
+  {
+    "name": "Michelle C.",
+    "company": "LAPOINTE",
+    "status": "Works",
+    "reason": "Women’s ready-to-wear fashion label."
+  },
+  {
+    "name": "Mauricio Orozco",
+    "company": "Gas natural Ganamex S de R L de CV",
+    "status": "Not work",
+    "reason": "Energy/gas company, not apparel."
+  },
+  {
+    "name": "Avani Patel",
+    "company": "The Ember Company",
+    "status": "Not work",
+    "reason": "Advisory/investment/startup platform, not a clothing brand."
+  },
+  {
+    "name": "Sydney Locker",
+    "company": "Marlo Laz",
+    "status": "Not work",
+    "reason": "Fine jewelry brand, not apparel."
+  },
+  {
+    "name": "Tin Tran",
+    "company": "Made by Delphi",
+    "status": "Not work",
+    "reason": "Could not verify this as a clothing brand from reliable results."
+  },
+  {
+    "name": "Jason Geter",
+    "company": "Heavy Sound Labs",
+    "status": "Not work",
+    "reason": "Music/media venture, not an apparel brand."
+  },
+  {
+    "name": "Michael Downing",
+    "company": "DOSSR ENTERTAINMENT, LLC",
+    "status": "Not work",
+    "reason": "Entertainment company, not fundamentally a clothing brand."
+  },
+  {
+    "name": "David Herzka",
+    "company": "Suits of kindness 501c3",
+    "status": "Works",
+    "reason": "Clothing-focused nonprofit providing dress clothing at reduced pricing."
+  },
+  {
+    "name": "Jimmy Chen",
+    "company": "EdwardsX",
+    "status": "Works",
+    "reason": "Custom apparel and uniform brand; apparel-focused."
+  },
+  {
+    "name": "Analiese Ifould",
+    "company": "Réalisation Par",
+    "status": "Works",
+    "reason": "Fashion/apparel label."
+  },
+  {
+    "name": "Rick Belton",
+    "company": "LEI Home Enhancements of Pittsburgh",
+    "status": "Not work",
+    "reason": "Home improvement business, not apparel."
+  },
+  {
+    "name": "Armando Acosta",
+    "company": "Well Done Mitigation",
+    "status": "Not work",
+    "reason": "Mitigation/restoration business, not apparel."
+  },
+  {
+    "name": "Kyle Rhodes",
+    "company": "Domenico’s Restaurants",
+    "status": "Not work",
+    "reason": "Restaurant business, not apparel."
+  },
+  {
+    "name": "April Hornbuckle",
+    "company": "Bespoke Manufacturing Company",
+    "status": "Works",
+    "reason": "Apparel/manufacturing for fashion collections; clothing-focused."
+  },
+  {
+    "name": "Alexandra Thomas",
+    "company": "Construct South Inc.",
+    "status": "Not work",
+    "reason": "Construction company, not apparel."
+  },
+  {
+    "name": "Kait Reagle",
+    "company": "Ragtag Team LLC",
+    "status": "Not work",
+    "reason": "Not identifiable as an apparel brand from the available results."
+  },
+  {
+    "name": "miss knockout",
+    "company": "Floss Magazine",
+    "status": "Not work",
+    "reason": "Media/magazine role, not apparel."
+  },
+  {
+    "name": "Alex Marx",
+    "company": "Soft Goods",
+    "status": "Works",
+    "reason": "Apparel/textile product side; apparel-adjacent enough to count."
+  },
+  {
+    "name": "Alvina Gilani",
+    "company": "Fine Clothing Ltd.",
+    "status": "Works",
+    "reason": "Clothing company."
+  },
+  {
+    "name": "Andie Verbance",
+    "company": "SÆMDI",
+    "status": "Works",
+    "reason": "Fashion/apparel brand signal."
+  },
+  {
+    "name": "Andrea Hackett",
+    "company": "Industry Clothing",
+    "status": "Works",
+    "reason": "Clothing brand / apparel store."
+  },
+  {
+    "name": "Anna Nordstrom",
+    "company": "Vara Barn",
+    "status": "Works",
+    "reason": "Children’s clothing signal."
+  },
+  {
+    "name": "anne Ye",
+    "company": "Gr.Dano",
+    "status": "Works",
+    "reason": "Clothing/fashion signal."
+  },
+  {
+    "name": "Astrid Vincendet",
+    "company": "Simple Laguna Beach",
+    "status": "Works",
+    "reason": "Women’s and men’s clothing retailer/brand."
+  },
+  {
+    "name": "Aubrey Krekeler",
+    "company": "SEW VALLEY",
+    "status": "Works",
+    "reason": "Sewing/apparel production and clothing signal."
+  },
+  {
+    "name": "Ben Peyser",
+    "company": "Andy & Evan",
+    "status": "Works",
+    "reason": "Kidswear/apparel brand."
+  },
+  {
+    "name": "Carla Klein",
+    "company": "Samira 13",
+    "status": "Works",
+    "reason": "Fashion label signal."
+  },
+  {
+    "name": "Cassi Medina",
+    "company": "Arthur + Lucca",
+    "status": "Works",
+    "reason": "Boutique/apparel label signal."
+  },
+  {
+    "name": "Christina McDaniel",
+    "company": "Lola Lifestyle Corp.",
+    "status": "Works",
+    "reason": "Clothing/lifestyle apparel signal, including activewear-style products."
+  },
+  {
+    "name": "Claire Wilson",
+    "company": "Lovely Little Things Boutique",
+    "status": "Works",
+    "reason": "Boutique apparel retail."
+  },
+  {
+    "name": "Cody Wright",
+    "company": "Devereux Golf",
+    "status": "Works",
+    "reason": "Golf apparel brand."
+  },
+  {
+    "name": "Faccani Chiara",
+    "company": "Stone Rose",
+    "status": "Works",
+    "reason": "Men’s clothing brand, including shirts, jackets, and swimwear."
+  },
+  {
+    "name": "Francesco Franco",
+    "company": "golden brand clothing",
+    "status": "Works",
+    "reason": "Clothing brand."
+  },
+  {
+    "name": "GuoWei Su",
+    "company": "Birth Of Royal Child",
+    "status": "Works",
+    "reason": "Children’s apparel signal."
+  },
+  {
+    "name": "Jayson B",
+    "company": "GrindKing clothing unltd....",
+    "status": "Works",
+    "reason": "Clothing brand."
+  },
+  {
+    "name": "José Alexandre",
+    "company": "Simple Laguna Beach",
+    "status": "Works",
+    "reason": "Clothing retailer/brand with women’s and men’s apparel."
+  },
+  {
+    "name": "Kayla Vopat",
+    "company": "Finding Foxtale",
+    "status": "Works",
+    "reason": "Boutique/apparel signal."
+  },
+  {
+    "name": "Kevin Walker",
+    "company": "Avalon Kids LLC",
+    "status": "Works",
+    "reason": "Kids/apparel signal."
+  },
+  {
+    "name": "Kyle H.",
+    "company": "Fishers Finery",
+    "status": "Works",
+    "reason": "Sells men’s and women’s clothing."
+  },
+  {
+    "name": "Leron Mcclain",
+    "company": "Alpha Male Nation Clothing",
+    "status": "Works",
+    "reason": "Clothing brand."
+  },
+  {
+    "name": "Luke Daschko",
+    "company": "Saint Javelin",
+    "status": "Works",
+    "reason": "Clothing and merch are a core part of the brand."
+  },
+  {
+    "name": "Madeleine Johnson",
+    "company": "All Time Favorite",
+    "status": "Works",
+    "reason": "Apparel/lifestyle clothing brand."
+  },
+  {
+    "name": "Marissa B.",
+    "company": "Hanna Intimates Inc.",
+    "status": "Works",
+    "reason": "Intimates are apparel."
+  },
+  {
+    "name": "Mark Goldfarb",
+    "company": "Mark Thomas Men's Apparel",
+    "status": "Works",
+    "reason": "Men’s apparel store/brand."
+  },
+  {
+    "name": "Meryl Pressman",
+    "company": "Chookhare & Sons",
+    "status": "Works",
+    "reason": "Menswear/apparel signal."
+  },
+  {
+    "name": "MICHAEL RICHARD GRAF",
+    "company": "Rosie Assoulin",
+    "status": "Works",
+    "reason": "Luxury womenswear label."
+  },
+  {
+    "name": "Peggy George",
+    "company": "Paradise Clothing Co.",
+    "status": "Works",
+    "reason": "Clothing company."
+  },
+  {
+    "name": "Robert Galindo",
+    "company": "STAMPD",
+    "status": "Works",
+    "reason": "Fashion/streetwear brand."
+  },
+  {
+    "name": "Ryan R Brown",
+    "company": "Civil Regime // Darc Sport",
+    "status": "Works",
+    "reason": "Apparel/streetwear/fitness brands."
+  },
+  {
+    "name": "Sarah R.",
+    "company": "Alice Walk",
+    "status": "Works",
+    "reason": "Apparel brand with dresses, outerwear, sweaters, pants, and tops."
+  },
+  {
+    "name": "Scott Fraley",
+    "company": "Simulacra NYC",
+    "status": "Works",
+    "reason": "Fashion/streetwear label."
+  },
+  {
+    "name": "Sean Fresco",
+    "company": "Orchard & Broome",
+    "status": "Works",
+    "reason": "Apparel/lifestyle label signal."
+  },
+  {
+    "name": "Simone Skaff",
+    "company": "ffg - Formans Fashion Group",
+    "status": "Works",
+    "reason": "Fashion group/apparel side."
+  },
+  {
+    "name": "Vanessa Davoli",
+    "company": "Commonwealth Proper (CMMP)",
+    "status": "Works",
+    "reason": "Menswear/custom clothing brand."
+  },
+  {
+    "name": "Vivian Vassar",
+    "company": "Hey Viv Inc / Hey Viv Wholesale / Hey Viv ! Vintage Clothing",
+    "status": "Works",
+    "reason": "Vintage clothing / apparel retail."
+  },
+  {
+    "name": "Aileen Taylor",
+    "company": "KZ_K STUDIO",
+    "status": "Not work",
+    "reason": "Studio/creative signal, not clearly apparel."
+  },
+  {
+    "name": "Alice Martin",
+    "company": "city hunter",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Amber Mullins (Vauthier)",
+    "company": "Alchemy Event Lab",
+    "status": "Not work",
+    "reason": "Events company, not apparel."
+  },
+  {
+    "name": "Dan Sheehan",
+    "company": "Retail Network Inc",
+    "status": "Not work",
+    "reason": "Retail services/network, not apparel brand."
+  },
+  {
+    "name": "Daniel Kit Fung",
+    "company": "Top Image Services",
+    "status": "Not work",
+    "reason": "Services company, not apparel."
+  },
+  {
+    "name": "Diana Montilla",
+    "company": "MIZUTANI SCISSORS",
+    "status": "Not work",
+    "reason": "Beauty tools/scissors, not clothing."
+  },
+  {
+    "name": "Dylan Ferguson",
+    "company": "Consolidated Appraisal Services Ltd",
+    "status": "Not work",
+    "reason": "Appraisal services, not apparel."
+  },
+  {
+    "name": "Emily Gradess-Hartman",
+    "company": "Cloutier Remix",
+    "status": "Not work",
+    "reason": "Consulting/agency side, not clearly apparel."
+  },
+  {
+    "name": "Eric Fulton",
+    "company": "Botanical Dwellings",
+    "status": "Not work",
+    "reason": "Home/interiors, not apparel."
+  },
+  {
+    "name": "Jack Pohani",
+    "company": "York Street",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Jake Huffmyer",
+    "company": "Pittsburgh Print House",
+    "status": "Not work",
+    "reason": "Print shop, not apparel."
+  },
+  {
+    "name": "Janice H.",
+    "company": "King Windsor Group",
+    "status": "Not work",
+    "reason": "Holding/group signal, not clearly apparel."
+  },
+  {
+    "name": "Javier Antonio Anguiano Robles",
+    "company": "Grupo Piomikron Autos",
+    "status": "Not work",
+    "reason": "Automotive company, not apparel."
+  },
+  {
+    "name": "Jennifer Villar",
+    "company": "Print & Design Solutions (PDS) | Las Vegas, NV",
+    "status": "Not work",
+    "reason": "Print/design services, not apparel."
+  },
+  {
+    "name": "Jinah Oh",
+    "company": "Tangent.ai",
+    "status": "Not work",
+    "reason": "AI/software company, not apparel."
+  },
+  {
+    "name": "Joshua Hebreo",
+    "company": "Groupie",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Libby Trentadue",
+    "company": "DeSL",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Lillian Virtanen",
+    "company": "Fiveloaves Twofish",
+    "status": "Not work",
+    "reason": "Not clearly apparel."
+  },
+  {
+    "name": "Maria Morioka",
+    "company": "SOL INTERNATIONAL Co. Ltd,",
+    "status": "Not work",
+    "reason": "Broad trading/import-export signal, not clearly a clothing brand."
+  },
+  {
+    "name": "Marie Dyrda",
+    "company": "Lone Fox",
+    "status": "Not work",
+    "reason": "Primarily home/interiors brand."
+  },
+  {
+    "name": "Mckenna Wale",
+    "company": "Arizona Bounce Around",
+    "status": "Not work",
+    "reason": "Event/inflatables business, not apparel."
+  },
+  {
+    "name": "Meghan Early",
+    "company": "Precision Nurse Aesthetics",
+    "status": "Not work",
+    "reason": "Aesthetics/medspa, not apparel."
+  },
+  {
+    "name": "Melanie D.",
+    "company": "Liberty Lounge & Bohemian Penthouse",
+    "status": "Not work",
+    "reason": "Hospitality/lounge, not apparel."
+  },
+  {
+    "name": "Michel Kupferman",
+    "company": "Semiphi Empreendimentos Imobiliarios",
+    "status": "Not work",
+    "reason": "Real estate company, not apparel."
+  },
+  {
+    "name": "Michelle Russell",
+    "company": "JDM Studio",
+    "status": "Not work",
+    "reason": "Studio/agency signal, not clearly apparel."
+  },
+  {
+    "name": "Phongmanas Sawaddichai",
+    "company": "Future Treasure LLC",
+    "status": "Not work",
+    "reason": "Broad LLC / unclear apparel signal."
+  },
+  {
+    "name": "Rebecca Schwab-Talpas",
+    "company": "THE GREEN PINEAPPLE, BAHAMA VILLAGE",
+    "status": "Not work",
+    "reason": "Boutique/gift/home/lifestyle retail, not clearly apparel-first."
+  },
+  {
+    "name": "Rebecca Way",
+    "company": "Snack Size",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Robert Simpson",
+    "company": "DDA Holdings",
+    "status": "Not work",
+    "reason": "Holdings company, not apparel."
+  },
+  {
+    "name": "Ryan Zanette",
+    "company": "The Juice Wine Company",
+    "status": "Not work",
+    "reason": "Wine company, not apparel."
+  },
+  {
+    "name": "Shannon Shiang",
+    "company": "Sponstar",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Simone Wciorka",
+    "company": "Brand2fit LLC",
+    "status": "Not work",
+    "reason": "Not clearly apparel."
+  },
+  {
+    "name": "Steve Leventhal",
+    "company": "Wholesale Imprints & Promotions",
+    "status": "Not work",
+    "reason": "Promo/wholesale imprinting, not a direct apparel brand."
+  },
+  {
+    "name": "Tara Gerard-Mattsson",
+    "company": "TG Private Label",
+    "status": "Not work",
+    "reason": "Private-label/manufacturing side, not a direct brand."
+  },
+  {
+    "name": "Thomas Filbert",
+    "company": "A Flash Flood of Gear",
+    "status": "Not work",
+    "reason": "Gear business, not apparel brand."
+  },
+  {
+    "name": "Tia Dumas G.",
+    "company": "Mode Brand Haus",
+    "status": "Not work",
+    "reason": "Branding/agency side, not apparel brand."
+  },
+  {
+    "name": "Wendy Zhu",
+    "company": "TRENDSETTER INTERNATIONAL, INC.",
+    "status": "Not work",
+    "reason": "Sourcing/import-export style company, not clearly a direct apparel brand."
+  },
+  {
+    "name": "Adam Hanan",
+    "company": "RBX Direct LLC",
+    "status": "Works",
+    "reason": "Activewear/apparel."
+  },
+  {
+    "name": "Adelin Lee",
+    "company": "Raquel Allegra (Raquel Allegra Los Angeles Store)",
+    "status": "Works",
+    "reason": "Fashion brand."
+  },
+  {
+    "name": "Alberd Hoajahan Simanjuntak",
+    "company": "Simple Laguna Beach",
+    "status": "Works",
+    "reason": "Apparel retailer/brand."
+  },
+  {
+    "name": "Alivia McNulty",
+    "company": "HENRY's Clothing Store",
+    "status": "Works",
+    "reason": "Clothing store."
+  },
+  {
+    "name": "Anne-Marie Joyce",
+    "company": "Liberty Clothing Company",
+    "status": "Works",
+    "reason": "Clothing company."
+  },
+  {
+    "name": "Beau Wollens",
+    "company": "Scenario.NYC",
+    "status": "Works",
+    "reason": "Marked as Works per your instruction."
+  },
+  {
+    "name": "Cassie Bonthoux",
+    "company": "Duke & Duchess Apparel",
+    "status": "Works",
+    "reason": "Apparel brand."
+  },
+  {
+    "name": "Chad Seale",
+    "company": "Waters Bluff Clothing Co",
+    "status": "Works",
+    "reason": "Clothing brand."
+  },
+  {
+    "name": "Chazz Hawks",
+    "company": "Haus of Transcendent",
+    "status": "Works",
+    "reason": "Fashion/apparel signal."
+  },
+  {
+    "name": "Dylan Yarom",
+    "company": "Ruby and Jenna",
+    "status": "Works",
+    "reason": "Marked as Works per your instruction."
+  },
+  {
+    "name": "Eliver Maria",
+    "company": "Ema Savahl Fashion Studio",
+    "status": "Works",
+    "reason": "Fashion label."
+  },
+  {
+    "name": "Emily Fischer",
+    "company": "Vicki Brown",
+    "status": "Works",
+    "reason": "Fashion/clothing signal."
+  },
+  {
+    "name": "Fabiola Sifontes",
+    "company": "FRANKIE",
+    "status": "Works",
+    "reason": "Marked as Works per your instruction."
+  },
+  {
+    "name": "Gabriele Arrigoni",
+    "company": "VICKI BROWN",
+    "status": "Works",
+    "reason": "Clothing/fashion signal."
+  },
+  {
+    "name": "Jennifer Oliver",
+    "company": "Stone Rose",
+    "status": "Works",
+    "reason": "Men’s apparel brand."
+  },
+  {
+    "name": "John R. Hanson",
+    "company": "Golf West Sales, LLC",
+    "status": "Works",
+    "reason": "Golf-apparel-adjacent and fits your expanded filter."
+  },
+  {
+    "name": "Johnny Sewell",
+    "company": "Commonwealth Proper (CMMP)",
+    "status": "Works",
+    "reason": "Menswear/custom clothing brand."
+  },
+  {
+    "name": "Karina Farias Romero",
+    "company": "Hecho con amor",
+    "status": "Works",
+    "reason": "Apparel/boutique signal."
+  },
+  {
+    "name": "Kayla Antoine",
+    "company": "Gr.Dano",
+    "status": "Works",
+    "reason": "Women’s clothing label."
+  },
+  {
+    "name": "Kelvin Tohar",
+    "company": "Puppies Make Me Happy",
+    "status": "Works",
+    "reason": "Apparel brand."
+  },
+  {
+    "name": "Kristen Naiman",
+    "company": "The RealReal",
+    "status": "Works",
+    "reason": "Apparel resale platform with strong fashion/clothing category."
+  },
+  {
+    "name": "Laura Bonventre",
+    "company": "AsherKate",
+    "status": "Works",
+    "reason": "Boutique clothing brand."
+  },
+  {
+    "name": "Marta Hardin",
+    "company": "Divalani Style",
+    "status": "Works",
+    "reason": "Marked as Works per your instruction."
+  },
+  {
+    "name": "Mary-Ann Kowala",
+    "company": "Kowala Wear",
+    "status": "Works",
+    "reason": "Apparel brand."
+  },
+  {
+    "name": "Molly Alexander",
+    "company": "Second Thoughts Brand LLC",
+    "status": "Works",
+    "reason": "Marked as Works per your instruction."
+  },
+  {
+    "name": "Ngoc Linh Nguyen",
+    "company": "RAOUL.E",
+    "status": "Works",
+    "reason": "Fashion/apparel signal."
+  },
+  {
+    "name": "Olivia C",
+    "company": "Atelier Lumière",
+    "status": "Works",
+    "reason": "Fashion/apparel signal."
+  },
+  {
+    "name": "Richard Butler",
+    "company": "Gr.Dano",
+    "status": "Works",
+    "reason": "Women’s clothing label."
+  },
+  {
+    "name": "Stay Open Apparel",
+    "company": "Stay Open Apparel",
+    "status": "Works",
+    "reason": "Apparel brand."
+  },
+  {
+    "name": "The MORE Brand",
+    "company": "The MORE Brand",
+    "status": "Works",
+    "reason": "Apparel/brand signal."
+  },
+  {
+    "name": "Tim Ellis",
+    "company": "MILWORKS",
+    "status": "Works",
+    "reason": "Apparel/workwear signal."
+  },
+  {
+    "name": "Trenell Floyd",
+    "company": "Image lab clothing",
+    "status": "Works",
+    "reason": "Clothing brand."
+  },
+  {
+    "name": "Zoe Littman",
+    "company": "Splendid, a contemporary lifestyle brand",
+    "status": "Works",
+    "reason": "Apparel brand."
+  },
+  {
+    "name": "Adalchi Markus",
+    "company": "TODAY FOR TOMORROW INITIATIVE (TFT)",
+    "status": "Not work",
+    "reason": "Initiative/nonprofit signal, not apparel."
+  },
+  {
+    "name": "Alessandra Palacios",
+    "company": "KZ_K STUDIO",
+    "status": "Not work",
+    "reason": "Studio/creative, not clearly apparel."
+  },
+  {
+    "name": "Alexandra W.",
+    "company": "Vermont Retail & Grocers Association",
+    "status": "Not work",
+    "reason": "Association, not apparel brand."
+  },
+  {
+    "name": "Andrew Diaz",
+    "company": "Royal Bartending Co.",
+    "status": "Not work",
+    "reason": "Bartending/services, not apparel."
+  },
+  {
+    "name": "Barbara Seidman",
+    "company": "Central Illinois Home Furnishings, Inc.",
+    "status": "Not work",
+    "reason": "Home furnishings, not apparel."
+  },
+  {
+    "name": "Bryan Morawiecki",
+    "company": "Downeast Trading Company Inc",
+    "status": "Not work",
+    "reason": "Broad trading company, not clearly apparel."
+  },
+  {
+    "name": "Christine Huynh",
+    "company": "Novella Bridal",
+    "status": "Not work",
+    "reason": "Bridal; outside your preferred target."
+  },
+  {
+    "name": "Clarissa Garcia",
+    "company": "Omni",
+    "status": "Not work",
+    "reason": "Too broad/unclear."
+  },
+  {
+    "name": "Clint Miller",
+    "company": "Golden Sombrero Licensing",
+    "status": "Not work",
+    "reason": "Licensing company, not apparel brand."
+  },
+  {
+    "name": "Craig Turnbull Smith",
+    "company": "Coldstream Concrete | Celebrating 75 years in business",
+    "status": "Not work",
+    "reason": "Concrete/construction, not apparel."
+  },
+  {
+    "name": "Daniela Reed Leal",
+    "company": "Zoo Parque Loro Puebla",
+    "status": "Not work",
+    "reason": "Zoo/park, not apparel."
+  },
+  {
+    "name": "Danielle Haberman",
+    "company": "LaunchTeam",
+    "status": "Not work",
+    "reason": "Agency/services, not apparel."
+  },
+  {
+    "name": "Ella Mearns",
+    "company": "Greenberry's Coffee Co.",
+    "status": "Not work",
+    "reason": "Coffee business, not apparel."
+  },
+  {
+    "name": "Firebird Business Ventures Ltd",
+    "company": "Firebird Business Ventures Ltd. - Business Incubator - Business Accelerator - Investor - Shareholder",
+    "status": "Not work",
+    "reason": "Incubator/investment business, not apparel."
+  },
+  {
+    "name": "Forever BB LLC",
+    "company": "HomeTown Lending Div of TMBG",
+    "status": "Not work",
+    "reason": "Lending/finance, not apparel."
+  },
+  {
+    "name": "Jerry Hicks",
+    "company": "Caesar",
+    "status": "Not work",
+    "reason": "Unclear apparel signal."
+  },
+  {
+    "name": "Johnny Santiago",
+    "company": "Johnny’s Bar",
+    "status": "Not work",
+    "reason": "Bar/restaurant, not apparel."
+  },
+  {
+    "name": "Jordan Anderson",
+    "company": "Cornell Cuts for Kids",
+    "status": "Not work",
+    "reason": "Haircuts/barber, not apparel."
+  },
+  {
+    "name": "Jordan Jennings, PSM I",
+    "company": "Fashion Business Association",
+    "status": "Not work",
+    "reason": "Association, not brand."
+  },
+  {
+    "name": "Joseph Belveduto",
+    "company": "407 & Beyond Vacation Co.",
+    "status": "Not work",
+    "reason": "Travel/vacation company, not apparel."
+  },
+  {
+    "name": "Kevin Ullman",
+    "company": "Savage Tacticians",
+    "status": "Not work",
+    "reason": "Not clearly apparel."
+  },
+  {
+    "name": "Kylee Murphy",
+    "company": "HeadStart Shoes",
+    "status": "Not work",
+    "reason": "Shoes/footwear, not apparel."
+  },
+  {
+    "name": "LEON CYRIL",
+    "company": "The Port Group  USA",
+    "status": "Not work",
+    "reason": "Not clearly an apparel brand."
+  },
+  {
+    "name": "Marc Di Schiavi",
+    "company": "Raised Edge Inc",
+    "status": "Not work",
+    "reason": "Not enough signal to count as apparel."
+  },
+  {
+    "name": "Marcos Gomez",
+    "company": "KZ_K STUDIO",
+    "status": "Not work",
+    "reason": "Studio/creative, not clearly apparel."
+  },
+  {
+    "name": "Matthew Rodgers",
+    "company": "Mercer County Courthouse",
+    "status": "Not work",
+    "reason": "Government/courthouse, not apparel."
+  },
+  {
+    "name": "Melissa Akkaway",
+    "company": "MAKE-A-WISH FOUNDATION OF SOUTHERN NEVADA",
+    "status": "Not work",
+    "reason": "Nonprofit foundation, not apparel."
+  },
+  {
+    "name": "Michelle Hodak Macdonald",
+    "company": "Irrigation Pros LLC",
+    "status": "Not work",
+    "reason": "Irrigation/services business, not apparel."
+  },
+  {
+    "name": "Natalia Garcia",
+    "company": "Independent fashion jewelry design",
+    "status": "Not work",
+    "reason": "Jewelry, not clothing."
+  },
+  {
+    "name": "Rich Cremin",
+    "company": "Self Employed",
+    "status": "Not work",
+    "reason": "No company to qualify."
+  },
+  {
+    "name": "Ronald Arndt",
+    "company": "Independent fashion jewelry design",
+    "status": "Not work",
+    "reason": "Jewelry, not clothing."
+  },
+  {
+    "name": "Sara Sears",
+    "company": "OFF BROADWAY MUSIC VENUE",
+    "status": "Not work",
+    "reason": "Music venue, not apparel."
+  },
+  {
+    "name": "Shawn McCormick",
+    "company": "go dog go! llc",
+    "status": "Not work",
+    "reason": "Pet-related, not clothing-first."
+  },
+  {
+    "name": "Shelby Pflugh",
+    "company": "Milk House Meats",
+    "status": "Not work",
+    "reason": "Food/meat business, not apparel."
+  },
+  {
+    "name": "Tamires Schramm",
+    "company": "Sea Wolf Group Corp",
+    "status": "Not work",
+    "reason": "Unclear/non-apparel company signal."
+  },
+  {
+    "name": "Tiffany Browning",
+    "company": "NeoTech, LLC",
+    "status": "Not work",
+    "reason": "Tech/manufacturing, not apparel."
+  },
+  {
+    "name": "Tran NgocAn",
+    "company": "Worldwide Glomac Development Sdn Bhd.",
+    "status": "Not work",
+    "reason": "Development company, not apparel."
+  },
+  {
+    "name": "Tyler Palmer",
+    "company": "A. Palmer Roofing",
+    "status": "Not work",
+    "reason": "Roofing business, not apparel."
+  },
+  {
+    "name": "Valeria Alvez",
+    "company": "Body By Val",
+    "status": "Not work",
+    "reason": "Fitness/body brand, not clearly apparel."
+  },
+  {
     "name": "付香云",
     "company": "Dongguan Lovelybabies Apparel Co., Ltd",
     "status": "Works",
@@ -1650,12 +3997,6 @@
     "reason": "apparel company"
   },
   {
-    "name": "Logan Roberts",
-    "company": "Marsh Wear LLC",
-    "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
-  },
-  {
     "name": "Long Nguyen",
     "company": "Castlewood Apparel Corp.",
     "status": "Works",
@@ -2130,12 +4471,6 @@
     "reason": "apparel company"
   },
   {
-    "name": "Randy Choi",
-    "company": "Thompson Tee Inc",
-    "status": "Works",
-    "reason": "recognized apparel brand"
-  },
-  {
     "name": "Ranessa Potier",
     "company": "Fit for A Queen of Atlanta",
     "status": "Works",
@@ -2442,12 +4777,6 @@
     "reason": "recognized apparel brand"
   },
   {
-    "name": "Terry Pierson Jr.",
-    "company": "Varcity Unltd",
-    "status": "Works",
-    "reason": "recognized apparel brand"
-  },
-  {
     "name": "Thyai Dunn",
     "company": "ReptailHawke Clothing",
     "status": "Works",
@@ -2680,12 +5009,6 @@
     "company": "Custom Graphics Printing",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
-  },
-  {
-    "name": "Adam Derry",
-    "company": "ADBD",
-    "status": "Not work",
-    "reason": "known non-apparel or services business"
   },
   {
     "name": "Adria Streeter",
@@ -3572,12 +5895,6 @@
   {
     "name": "Ashlee Clinton",
     "company": "Concepts T.V",
-    "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
-  },
-  {
-    "name": "Ashley Attianese",
-    "company": "ISA",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
   },
@@ -5454,12 +7771,6 @@
     "reason": "no clear apparel signal from the company name"
   },
   {
-    "name": "Dexter Loscher",
-    "company": "Civil Regime",
-    "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
-  },
-  {
     "name": "Dheen Weening",
     "company": "MEMETICS",
     "status": "Not work",
@@ -5972,12 +8283,6 @@
   {
     "name": "Emmett McCarthy",
     "company": "The Educational Center for the Arts",
-    "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
-  },
-  {
-    "name": "Erdinc (Ardie) Ulukaya",
-    "company": "Rabek Tekstil San. Tic. A.Ş.",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
   },
@@ -7844,12 +10149,6 @@
   {
     "name": "Johannes Sandoval",
     "company": "Industry Standard",
-    "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
-  },
-  {
-    "name": "John Barba",
-    "company": "Brands and Logos",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
   },
@@ -11062,12 +13361,6 @@
     "company": "Fabric Traditions",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
-  },
-  {
-    "name": "Nick Lewis",
-    "company": "Plus Plus",
-    "status": "Not work",
-    "reason": "known non-apparel or services business"
   },
   {
     "name": "Nicolas García",

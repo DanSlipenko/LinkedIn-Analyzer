@@ -1,0 +1,28 @@
+## 1
+
+Open Chrome and filtered sales navigator page
+
+## 2
+
+Create leads.json file
+
+## 3
+
+Run collect-names
+
+## 4
+
+Input new names into ChatGPT
+
+## 5
+
+Input an updated leads into (leads-update.json) into the folder
+
+## 6
+
+Create new List in Linkedin
+Run Add to List
+
+## 7
+
+Input leads-updated into past-leads.json
