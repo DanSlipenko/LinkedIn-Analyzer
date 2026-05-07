@@ -16,8 +16,11 @@
   },
   {
     "name": "Ian Flanagan",
-    "company": "C\u00f3modo",
-    "status": "Doesn't Work"
+    "company": "Cómodo",
+    "status": "Doesn't Work",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Scott M.",
@@ -101,7 +104,7 @@
   },
   {
     "name": "Ashley Hemming",
-    "company": "apr\u00e8s-pickle",
+    "company": "après-pickle",
     "status": "Doesn't Work"
   },
   {
@@ -217,7 +220,10 @@
   {
     "name": "Jonathan H.",
     "company": "Flyclothing, LLC",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Paul White",
@@ -226,7 +232,7 @@
   },
   {
     "name": "Shauna Podruzny",
-    "company": "GlobeChat\u00ae",
+    "company": "GlobeChat®",
     "status": "Works"
   },
   {
@@ -236,7 +242,7 @@
   },
   {
     "name": "Ananda Bhavani",
-    "company": "TUSCAN LEVELING, INC.\u00ae",
+    "company": "TUSCAN LEVELING, INC.®",
     "status": "Doesn't Work"
   },
   {
@@ -461,7 +467,7 @@
   },
   {
     "name": "Jasmine P.",
-    "company": "Shoes \u2018N\u2019 More Inc.",
+    "company": "Shoes ‘N’ More Inc.",
     "status": "Works"
   },
   {
@@ -495,7 +501,7 @@
     "status": "Doesn't Work"
   },
   {
-    "name": "Mich\u00e9lle Figari",
+    "name": "Michélle Figari",
     "company": "Wallflower Merch",
     "status": "Doesn't Work"
   },
@@ -516,7 +522,7 @@
   },
   {
     "name": "Glenny Medina",
-    "company": "Estilo Mu\u00f1eca Boutique",
+    "company": "Estilo Muñeca Boutique",
     "status": "Works"
   },
   {
@@ -616,7 +622,7 @@
   },
   {
     "name": "Laura Owen",
-    "company": "Laura Jean\u2019s Studio, Callie Go Designs",
+    "company": "Laura Jean’s Studio, Callie Go Designs",
     "status": "Doesn't Work"
   },
   {
@@ -936,7 +942,7 @@
   },
   {
     "name": "Matthew Rossy",
-    "company": "Chez Robin March\u00e9 Local",
+    "company": "Chez Robin Marché Local",
     "status": "Doesn't Work"
   },
   {
@@ -960,7 +966,7 @@
     "status": "Doesn't Work"
   },
   {
-    "name": "Nicolas Garc\u00eda",
+    "name": "Nicolas García",
     "company": "Unfriendlynyc",
     "status": "Doesn't Work"
   },
@@ -2548,7 +2554,10 @@
     "name": "April Simmons",
     "company": "Eastside Golf",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "April Vander-Heyden",
@@ -2620,7 +2629,10 @@
     "name": "Bella I.",
     "company": "Ivory Couture Denim",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ben Schaffner",
@@ -3226,7 +3238,10 @@
     "name": "Farah Naz",
     "company": "Farah Naz New York",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Farhan Khaleque",
@@ -3370,7 +3385,10 @@
     "name": "Hunter Bell",
     "company": "Hunter Bell",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Iman Tatum",
@@ -3400,7 +3418,10 @@
     "name": "Ivi Kyratzi",
     "company": "IVI LOS ANGELES, Inc",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jack Davidson",
@@ -3448,7 +3469,10 @@
     "name": "Jaleh A.",
     "company": "LEZAT",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "james hall",
@@ -3502,13 +3526,19 @@
     "name": "Jarod Lee",
     "company": "Standard Issue",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jason Bauch",
     "company": "REVISE CLOTHING, Inc.",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "jason lim",
@@ -3532,7 +3562,10 @@
     "name": "Jennie Teubner Lowe",
     "company": "Onzie",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Kennedy",
@@ -3988,7 +4021,10 @@
     "name": "Lisa Kulson",
     "company": "Kulson Official",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lizeth Alba",
@@ -4252,7 +4288,10 @@
     "name": "Michelle Ochs",
     "company": "Herve Leger",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michelle Wenke",
@@ -4384,7 +4423,10 @@
     "name": "Omar Jermaine",
     "company": "Dunning Golf",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Omar Quiambao",
@@ -4558,7 +4600,10 @@
     "name": "Ruby Pope",
     "company": "Ruby Laine Apparel LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ruby T.",
@@ -4582,7 +4627,10 @@
     "name": "Samantha Taylor",
     "company": "Parke",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Sarah Gordon-Odle",
@@ -4678,7 +4726,10 @@
     "name": "Simran Sethi",
     "company": "Nanette Lepore",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Sini Mattila",
@@ -4726,7 +4777,10 @@
     "name": "Susan Altimari",
     "company": "Belyn Key",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Susan Levy",
@@ -4870,13 +4924,19 @@
     "name": "Will Fosdick",
     "company": "S&R Denim Co",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Willy Chavarria",
     "company": "WILLY CHAVARRIA",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Woodsmill Apparel",
@@ -5074,7 +5134,10 @@
     "name": "Alan Lee",
     "company": "FFORME",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alberto Clark",
@@ -5542,7 +5605,10 @@
     "name": "Andrew Livingston",
     "company": "Knickerbocker",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andrew Payne",
@@ -5974,7 +6040,10 @@
     "name": "Audrey Alegre",
     "company": "Favorite Daughter",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Audrey Conway",
@@ -6988,7 +7057,10 @@
     "name": "Ciaraleaf Meaney",
     "company": "Tropic of C",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cinda Steiner",
@@ -7000,7 +7072,10 @@
     "name": "Cindy Bosch",
     "company": "BRANDON MAXWELL",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cindy Prouty",
@@ -7066,7 +7141,10 @@
     "name": "Claudia Pegus",
     "company": "Claudia Pegus Designs Limited",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Claudia Ramírez",
@@ -7540,7 +7618,10 @@
     "name": "David Hart",
     "company": "DAVID HART",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "David Lawson",
@@ -7690,7 +7771,10 @@
     "name": "Deborah Koenigsberger",
     "company": "Noir et Blanc NYC",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Deborah Lindquist-Vanatta",
@@ -8470,7 +8554,10 @@
     "name": "Faith Lucas",
     "company": "GSTQ",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Faraz Zaidi",
@@ -10252,7 +10339,10 @@
     "name": "Jong Lee",
     "company": "Flag & Anthem",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jonny Cota",
@@ -10600,7 +10690,10 @@
     "name": "Justin Gloston",
     "company": "We Are Enough LLC",
     "status": "Not work",
-    "reason": "company does not clearly indicate an apparel brand"
+    "reason": "company does not clearly indicate an apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Justin Van Epps",
@@ -11188,7 +11281,10 @@
     "name": "Kristin Bear",
     "company": "KILO BRAVA",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristin Coia",
@@ -12910,7 +13006,10 @@
     "name": "Michelle T",
     "company": "Vintage Havana",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michelle Wu",
@@ -13876,7 +13975,10 @@
     "name": "Pooja Kharbanda",
     "company": "6 Shore Road",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Pooja Sachan",
@@ -13936,7 +14038,10 @@
     "name": "Raan Parton",
     "company": "Apolis",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Rachael Russell Saiger",
@@ -13966,7 +14071,10 @@
     "name": "Rachel Macutay",
     "company": "BLKSWN",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "rachel nichelson",
@@ -14896,7 +15004,10 @@
     "name": "shanon kramer",
     "company": "Costa Sur",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Shara Cook",
@@ -14944,7 +15055,10 @@
     "name": "Shawn Pean",
     "company": "June79",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Shawn Steward",
@@ -15616,7 +15730,10 @@
     "name": "Taylor Rae Archer",
     "company": "RAD + RAE",
     "status": "Not work",
-    "reason": "no clear apparel signal from the company name"
+    "reason": "no clear apparel signal from the company name",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Taylor Whisenand",
@@ -16259,5 +16376,2129 @@
     "company": "Astherion",
     "status": "Not work",
     "reason": "no clear apparel signal from the company name"
+  },
+  {
+    "name": "Bijan Shahvali",
+    "company": "Corridor",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jan Erickson",
+    "company": "Janska Clothing",
+    "status": "Works",
+    "reason": "Explicit consumer-facing clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Terrance Cook",
+    "company": "Maison CHAPAL",
+    "status": "Works",
+    "reason": "Consumer-facing leather/fashion apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Olivia Verma Smith",
+    "company": "Star of India Fashions (Angie Clothing)",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "R. Jeffery Diduch",
+    "company": "Robert Jeffery",
+    "status": "Works",
+    "reason": "Menswear/retail apparel brand signal; consumer-facing clothing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Leah McSweeney",
+    "company": "Married to the Mob Clothing",
+    "status": "Works",
+    "reason": "Explicit consumer-facing clothing/streetwear brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "William Wilson",
+    "company": "William Wilson Clothing",
+    "status": "Works",
+    "reason": "Explicit clothing brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tom Williamson",
+    "company": "Sportif USA, Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/sportswear brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Burt D.",
+    "company": "Pink Rose Clothing",
+    "status": "Works",
+    "reason": "Explicit consumer-facing clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Stephen Liquori",
+    "company": "Goodwear USA",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Shipra Mathur",
+    "company": "Monday Chill",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/loungewear brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Bridgette Morphew",
+    "company": "MORPHEW",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/vintage apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Bobby Katuzian",
+    "company": "Elevate Clothing",
+    "status": "Works",
+    "reason": "Explicit consumer-facing clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Akhil Kumar",
+    "company": "Revise Clothing / Vanilla Star Jeans",
+    "status": "Works",
+    "reason": "Consumer-facing clothing/denim brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Amir Bahar",
+    "company": "Pink Martini Collection",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Pete Lucchesi",
+    "company": "Streaker Sports",
+    "status": "Works",
+    "reason": "Consumer-facing sports/lifestyle apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kayti O'Connell Carr",
+    "company": "MATE the Label",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jeff Blee",
+    "company": "Dunning Golf",
+    "status": "Works",
+    "reason": "Consumer-facing golf apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Erin Magee",
+    "company": "supremenewyork",
+    "status": "Works",
+    "reason": "Consumer-facing streetwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jeremy Funderburk",
+    "company": "Full Salvation Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Scott Morrison",
+    "company": "RADMOR",
+    "status": "Works",
+    "reason": "Consumer-facing golf apparel brand; golf clothing is included.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Vincenzo Defrancesco",
+    "company": "SoYou Clothing",
+    "status": "Works",
+    "reason": "Explicit clothing brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Leslie Stanford",
+    "company": "Duck Head Apparel",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Adelle Renaud",
+    "company": "Peau De Loup",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kymber McClay",
+    "company": "NAVEN",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Azadeh Riaz",
+    "company": "House of Azadeh  | Azadeh Couture",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/couture apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Eleanor Turner",
+    "company": "The Big Favorite",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Russell Weerth",
+    "company": "Flag & Anthem",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ramon Martin",
+    "company": "Universal Standard",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Mod Apparel",
+    "company": "Mod Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Fayaz Hami",
+    "company": "Hami Wear",
+    "status": "Works",
+    "reason": "Explicit wear/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Danittza Zimic",
+    "company": "Danittza Zimic Label",
+    "status": "Works",
+    "reason": "Fashion label with consumer apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Heather Raney",
+    "company": "Wild Rye",
+    "status": "Works",
+    "reason": "Consumer-facing women’s outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nadeem Khan",
+    "company": "New Prince Fashion",
+    "status": "Works",
+    "reason": "Fashion/apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Brooke Savona",
+    "company": "Flora Vintage",
+    "status": "Works",
+    "reason": "Consumer-facing vintage fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kevin Meehan",
+    "company": "JustLive",
+    "status": "Works",
+    "reason": "Consumer-facing activewear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Dan Norcross",
+    "company": "Sartor NYC",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jeffrey Schultz",
+    "company": "JS7 Apparel",
+    "status": "Works",
+    "reason": "Explicit consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Alaina Holmes",
+    "company": "Stretch Is Comfort",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jorge Solorzano",
+    "company": "MONFRÈRE",
+    "status": "Works",
+    "reason": "Consumer-facing denim/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lambros Papadatos",
+    "company": "REDVANLY",
+    "status": "Works",
+    "reason": "Golf/performance apparel brand; golf clothing is included in your ICP.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Amy Sawicz",
+    "company": "Jude Connally Clothing",
+    "status": "Works",
+    "reason": "Explicit consumer-facing clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kate Hewko",
+    "company": "Kate Hewko",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Alex Moller",
+    "company": "Generation Love",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sonia Parvaneh",
+    "company": "NIA The Brand",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Dre Hayes",
+    "company": "Alice Hollywood Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Alicia Leffel",
+    "company": "P.J. Salvage",
+    "status": "Works",
+    "reason": "Consumer-facing sleepwear/loungewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ricky Angelo Carrillo",
+    "company": "David August Inc",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Susan White Morrissey",
+    "company": "White & Warren",
+    "status": "Works",
+    "reason": "Consumer-facing cashmere/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Usman K.",
+    "company": "Negative Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Dwight Lillard",
+    "company": "k & d menswear",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Paul Kwon",
+    "company": "OTIVM",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jessica Darwin",
+    "company": "JOHN ELLIOTT",
+    "status": "Works",
+    "reason": "Consumer-facing designer apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jennifer Kline",
+    "company": "Carve Designs",
+    "status": "Works",
+    "reason": "Consumer-facing women’s outdoor/swim apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jared Spiegel",
+    "company": "Siegelman Stable",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/lifestyle brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Louisa Y.",
+    "company": "Isalis",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel boutique/brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lytisia Shanee",
+    "company": "D'IYANU",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Chris Kolbe",
+    "company": "HyperNatural - Wearable Wellness",
+    "status": "Works",
+    "reason": "Consumer-facing wearable/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jin Kim",
+    "company": "SMYTHE",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Mia Mirabile",
+    "company": "Khy",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Amy Wu",
+    "company": "Lisette L Montréal",
+    "status": "Works",
+    "reason": "Consumer-facing women’s apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rubina Hamid",
+    "company": "Ruby's Fashion",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Derek Sciacqua",
+    "company": "Gecko Hawaii",
+    "status": "Works",
+    "reason": "Consumer-facing surf/lifestyle apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Burton Zwick",
+    "company": "Keren Hart",
+    "status": "Works",
+    "reason": "Consumer-facing women’s apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Larry Tsui",
+    "company": "White Sierra Sportswear",
+    "status": "Works",
+    "reason": "Consumer-facing sportswear/outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nicholas Ragosta",
+    "company": "Stòffa",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Janet Hoernschemeyer",
+    "company": "John Elliott",
+    "status": "Works",
+    "reason": "Consumer-facing designer apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Erica Bent",
+    "company": "WUNDERKIND",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Peter Georgiou",
+    "company": "Grayers America Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Katie Waters",
+    "company": "Beach Riot LLC",
+    "status": "Works",
+    "reason": "Consumer-facing swim/activewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Elaine Tran",
+    "company": "Dippin'​ Daisy's",
+    "status": "Works",
+    "reason": "Consumer-facing swimwear brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Walter Gonzalez",
+    "company": "Paula Hian Designs",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lorenza Pearson",
+    "company": "Raw Elegance",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Angelina Knister",
+    "company": "DL1961 Premium Denim",
+    "status": "Works",
+    "reason": "Consumer-facing denim apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Liliana Casabal",
+    "company": "Morgane Le Fay",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Menny Alon",
+    "company": "Underoutfit Inc",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lauren Stephens",
+    "company": "Dudley Stephens",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fleece brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rick Meza",
+    "company": "Fly by Night LA",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ruhani Galhotra",
+    "company": "Payal Pratap",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tess Knoebel",
+    "company": "VEDA NYC",
+    "status": "Works",
+    "reason": "Consumer-facing leather/fashion apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Christos Dovas",
+    "company": "Christos Dovas New York",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Cynthia Kim",
+    "company": "Love Classic",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "April Choi",
+    "company": "O & K, INC. DBA ONE CLOTHING",
+    "status": "Works",
+    "reason": "Consumer-facing clothing/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Milan Chaudhary",
+    "company": "Brown Boy Nation LLC",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/streetwear brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nancy Fullerton",
+    "company": "Lighthouse Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Scott Jordan",
+    "company": "SCOTTeVEST, Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Aras B.",
+    "company": "Christy Dawn",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Helaine Peters",
+    "company": "FDJ French Dressing Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing women’s apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "sunghee kim",
+    "company": "AUGUST SILK, INC",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Emily Oberg",
+    "company": "Sporty & Rich",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/lifestyle brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Julie Guevara",
+    "company": "Cara Cara New York",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jordan Greenberg",
+    "company": "Jordan Taylor Beachwear",
+    "status": "Works",
+    "reason": "Consumer-facing beachwear/swim apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sevag Kazanci",
+    "company": "Parks Project",
+    "status": "Works",
+    "reason": "Consumer-facing outdoor/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kelly Urban",
+    "company": "AMO DENIM",
+    "status": "Works",
+    "reason": "Consumer-facing denim apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Mario Canizales",
+    "company": "Estilo Golf Co.",
+    "status": "Works",
+    "reason": "Consumer-facing golf apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tamara Chaponot",
+    "company": "Clever Alice LLC",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel boutique/brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rachel DeLuca",
+    "company": "Beach Riot LLC",
+    "status": "Works",
+    "reason": "Consumer-facing swim/activewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Amelia Omer",
+    "company": "By Together Apparel",
+    "status": "Works",
+    "reason": "Explicit consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jennifer Ferguson",
+    "company": "Handful",
+    "status": "Works",
+    "reason": "Consumer-facing activewear/intimates apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Marissa Confair",
+    "company": "eMCee Apparel, L.L.C.",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Allyse Cirillo",
+    "company": "SAINT Jō",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Cinque Cerra-Saunders",
+    "company": "Young & Reckless",
+    "status": "Works",
+    "reason": "Consumer-facing streetwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jim Kuerschner",
+    "company": "ATM",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sean Rimler",
+    "company": "Goodie Two Sleeves and Whatever Company",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jennifer Epstein",
+    "company": "LaQuan Smith",
+    "status": "Works",
+    "reason": "Consumer-facing designer fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nicolai Kielstrup",
+    "company": "OW Collection",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Britt Galeas",
+    "company": "MuskOx",
+    "status": "Works",
+    "reason": "Consumer-facing outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Caitlin Farmer",
+    "company": "ETERNE",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jen Zmrhal",
+    "company": "AFLALO",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "RAFAEL MOGUEL",
+    "company": "2253 Apparel, Inc.",
+    "status": "Works",
+    "reason": "Explicit consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Chris Thompson",
+    "company": "Zippo Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Margarita Romero",
+    "company": "Prabal Gurung, LLC",
+    "status": "Works",
+    "reason": "Consumer-facing designer fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jack Thekkekara",
+    "company": "Dolce Vita Intimates,LLC",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Laguna Blue",
+    "company": "Laguna Blue Inc",
+    "status": "Works",
+    "reason": "Consumer-facing swim/resortwear brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Thomas Speight",
+    "company": "ALPHX",
+    "status": "Works",
+    "reason": "Consumer-facing underwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Carrie Kieva",
+    "company": "Beach Riot LLC",
+    "status": "Works",
+    "reason": "Consumer-facing swim/activewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Dorienne Raynolds",
+    "company": "RADMOR Golf",
+    "status": "Works",
+    "reason": "Consumer-facing golf apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Taryn Young",
+    "company": "White & Warren",
+    "status": "Works",
+    "reason": "Consumer-facing cashmere/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Gloria Bijou",
+    "company": "Wren + Glory",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Seth Prezioso",
+    "company": "Flow Society",
+    "status": "Works",
+    "reason": "Consumer-facing sports/lifestyle apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ana Serna",
+    "company": "BEE QUEEN FASHION BOUTIQUE",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel boutique.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Hayley Tiegs",
+    "company": "True Classic",
+    "status": "Works",
+    "reason": "Consumer-facing apparel basics brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Susan DeMusis",
+    "company": "Miraclesuit",
+    "status": "Works",
+    "reason": "Consumer-facing swimwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rob Thomson",
+    "company": "MyPakage Apparel Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing underwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Robin Hall",
+    "company": "Central Park West Sportswear",
+    "status": "Works",
+    "reason": "Consumer-facing sportswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Trisha A.",
+    "company": "Lost + Wander",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Shira Libhaber",
+    "company": "Marcella New York",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kristen Adishian Bozzo",
+    "company": "LE JEAN",
+    "status": "Works",
+    "reason": "Consumer-facing denim/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Julius Spognardi III",
+    "company": "Carter Young",
+    "status": "Works",
+    "reason": "Consumer-facing designer apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sara Bagheriyeh",
+    "company": "Lily’s Fashion Creations",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Bradley Flickstein",
+    "company": "Collaboration Cashmere",
+    "status": "Works",
+    "reason": "Consumer-facing cashmere/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Carrie K.",
+    "company": "CASEY (we are CASEY)",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Charlotte Yi",
+    "company": "INTHIS ERA",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "STEVEN ALAN",
+    "company": "STEVEN ALAN",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sandra Rossi",
+    "company": "We Thieves",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kathy Olson (Morrissey)",
+    "company": "COCO + CARMEN by tgbBRANDS",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Chelsea Rizzo",
+    "company": "Hikerkind",
+    "status": "Works",
+    "reason": "Consumer-facing outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Alex Novak",
+    "company": "entire studios",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lydia Miller",
+    "company": "Zubaz - The Original",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Page Gorski",
+    "company": "keepsake",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Pamela Bell",
+    "company": "prinkshop",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jamie Banks",
+    "company": "Change of Scenery",
+    "status": "Works",
+    "reason": "Consumer-facing swim/resortwear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Katherine Charlson",
+    "company": "Coral & Hand",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Annette Smith",
+    "company": "Montelle Intimates Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Margaret O'Leary",
+    "company": "Margaret O'Leary Inc",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/knitwear brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Stacey Novelli",
+    "company": "Addison Bay",
+    "status": "Works",
+    "reason": "Consumer-facing activewear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tori-Nichel Gibbs",
+    "company": "Maison Black New York",
+    "status": "Works",
+    "reason": "Fashion-label/DTC-style brand signal; no service/manufacturing wording.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Marsela K.",
+    "company": "Luvmemore",
+    "status": "Works",
+    "reason": "Consumer-facing lifestyle/fashion brand signal; not service/manufacturing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jennifer Ricketts",
+    "company": "Dawson Forte Cashmere",
+    "status": "Works",
+    "reason": "Cashmere apparel brand signal with product-category fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Alexis Rorke",
+    "company": "NICOBLU",
+    "status": "Works",
+    "reason": "Fashion/apparel brand signal; likely consumer-facing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Suzie P. Lee",
+    "company": "ETERNE",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand with collection-style positioning.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Allyson Kelding",
+    "company": "Gameday Social Apparel Co.®",
+    "status": "Works",
+    "reason": "Apparel brand; sports/gameday apparel is still wearable consumer clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "TracyAnn Wallace",
+    "company": "Von Dutch",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/streetwear brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Stella Carakasi",
+    "company": "Stella Carakasi",
+    "status": "Works",
+    "reason": "Designer fashion/apparel brand with consumer-facing collections.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jane Mangan",
+    "company": "NAKEDCASHMERE",
+    "status": "Works",
+    "reason": "Consumer-facing cashmere apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Julien Remi Nguyen",
+    "company": "HONOR",
+    "status": "Works",
+    "reason": "Fashion-label style brand with consumer apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ted Ballard",
+    "company": "True Victory",
+    "status": "Works",
+    "reason": "Brand-style fashion/apparel signal; no service/manufacturing wording.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kate Reeve",
+    "company": "Tko Evolution Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sally Daliege",
+    "company": "TA3",
+    "status": "Works",
+    "reason": "Consumer swimwear/shapewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tori Wells",
+    "company": "Feline Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Brad Miller",
+    "company": "YoColorado",
+    "status": "Works",
+    "reason": "Consumer outdoor/lifestyle apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Joel Tirinanzi",
+    "company": "Jaclyn Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Susan Teich",
+    "company": "Hawke & Co",
+    "status": "Works",
+    "reason": "Consumer outerwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kathy Burke",
+    "company": "Cole Sport",
+    "status": "Works",
+    "reason": "Sport/lifestyle apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Maria Donoghue",
+    "company": "Carrie Amber Intimates",
+    "status": "Works",
+    "reason": "Consumer-facing intimates apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Larry Ramirez",
+    "company": "Dunbrooke Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Scott Bailey",
+    "company": "PATH projects LLC",
+    "status": "Works",
+    "reason": "Consumer performance apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Veronica Green",
+    "company": "Daily Drills",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/activewear brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Bibiana Laurent, PMP",
+    "company": "Warren Lotas",
+    "status": "Works",
+    "reason": "Consumer-facing streetwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Deborah Hsu",
+    "company": "Ivy City Co.",
+    "status": "Works",
+    "reason": "Consumer-facing apparel/dress brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lara Underwood",
+    "company": "Lara Taylor",
+    "status": "Works",
+    "reason": "Fashion-label style brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Wayne Best",
+    "company": "PVCK",
+    "status": "Works",
+    "reason": "Brand-style apparel/fashion signal; no service/manufacturing wording.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Catherine Wilson",
+    "company": "TKO Evolution Apparel Inc.",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Julianne Applegate",
+    "company": "Smart SwimSuits Inc",
+    "status": "Works",
+    "reason": "Consumer-facing swimwear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Walter Bassano",
+    "company": "Fair Harbor",
+    "status": "Works",
+    "reason": "Consumer-facing swim/outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Beatriz G.",
+    "company": "House Of Nomads, LLC",
+    "status": "Works",
+    "reason": "Boutique/fashion brand signal; likely consumer apparel.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Karen Wood",
+    "company": "Neu Nomads",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Carlie England",
+    "company": "Love Olive Co",
+    "status": "Works",
+    "reason": "Consumer-facing boutique/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "J Spencer, CPIM",
+    "company": "P E L T",
+    "status": "Works",
+    "reason": "Fashion-label style brand signal; no service/manufacturing wording.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "TERRY M.",
+    "company": "Nineteen87 Denim - Mens and Womens Denim",
+    "status": "Works",
+    "reason": "Explicit denim apparel brand with men’s/women’s product signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Travis Wright",
+    "company": "Ten Thousand, Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing men’s activewear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Gabriella Bilotta",
+    "company": "Scarlett Gasque",
+    "status": "Works",
+    "reason": "Consumer-facing lingerie/fashion brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Emily Kaelin",
+    "company": "KAVU True Outdoor Wear",
+    "status": "Works",
+    "reason": "Consumer outdoor apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Richard Kim",
+    "company": "Lily Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kate Odom Wellons",
+    "company": "Tank Air",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Yesenia Torres",
+    "company": "CUUP",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ronny Petrucci",
+    "company": "LIV Outdoor",
+    "status": "Works",
+    "reason": "Consumer outdoor apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tiana Ravden ✴️",
+    "company": "eroe | lingerie and shapewear",
+    "status": "Works",
+    "reason": "Consumer-facing lingerie/shapewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Hannah Rose Gokllani",
+    "company": "Hannah Childs Lifestyle",
+    "status": "Works",
+    "reason": "Lifestyle/apparel brand signal; consumer-facing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Paulette K. Disburg",
+    "company": "CAT apparel",
+    "status": "Works",
+    "reason": "Consumer apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Lisa Engelhardt Robinson",
+    "company": "My Top Drawer Fine Lingerie and Swimwear Boutique",
+    "status": "Works",
+    "reason": "Retail-facing lingerie/swimwear apparel boutique.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Ronnie Demichael",
+    "company": "Paper Planes LLC",
+    "status": "Works",
+    "reason": "Consumer-facing streetwear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Wendy Herman",
+    "company": "BRABAR",
+    "status": "Works",
+    "reason": "Consumer-facing bra/intimates apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jerred Ciresi",
+    "company": "Jeff Hamilton",
+    "status": "Works",
+    "reason": "Consumer designer jacket/outerwear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Benny Zafrani",
+    "company": "Honeydew",
+    "status": "Works",
+    "reason": "Consumer intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jungin You",
+    "company": "Karl Lagerfeld Paris",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Priscilla Carvalho",
+    "company": "Priscilla Couture",
+    "status": "Works",
+    "reason": "Fashion/couture apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Eugene Park",
+    "company": "Shaka Wear",
+    "status": "Works",
+    "reason": "Consumer streetwear/blanks apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Clayton Dahl",
+    "company": "2253 Apparel LLC",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "SERIN YOON-ZARAGOZA",
+    "company": "WILLY CHAVARRIA",
+    "status": "Works",
+    "reason": "Consumer-facing designer apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Megan Fennessy",
+    "company": "Negative Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing intimates/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Holly F.",
+    "company": "DIMMI DIMMI",
+    "status": "Works",
+    "reason": "Fashion-label style brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kevin Willis",
+    "company": "Willis & Walker",
+    "status": "Works",
+    "reason": "Menswear/clothier-style apparel brand signal; consumer-facing clothing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Staffon Adams",
+    "company": "STAFFON EUGENE",
+    "status": "Works",
+    "reason": "Designer fashion/apparel brand signal; consumer-facing label.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nicholas Picchione",
+    "company": "Robert Talbott",
+    "status": "Works",
+    "reason": "Established consumer-facing menswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tara-Lynn Sabourin",
+    "company": "Weslynn",
+    "status": "Works",
+    "reason": "Brand-style fashion/apparel signal with no service/manufacturing wording.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Nicole Murray",
+    "company": "NIKI ROXX",
+    "status": "Works",
+    "reason": "Fashion/apparel brand-style signal; likely consumer-facing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jael Thorpe",
+    "company": "Gameday Social Apparel Co.®",
+    "status": "Works",
+    "reason": "Consumer-facing apparel brand; gameday/sports apparel is wearable clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rachel Davis",
+    "company": "Chic Soul",
+    "status": "Works",
+    "reason": "Consumer-facing clothing boutique/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Rebecca O'Connor",
+    "company": "Kittenish by Jessie James Decker",
+    "status": "Works",
+    "reason": "Consumer-facing boutique/apparel brand with product catalog signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Jon Carne",
+    "company": "Port City Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Julia Capriotti",
+    "company": "Trixxi Clothing Inc",
+    "status": "Works",
+    "reason": "Consumer-facing women’s clothing/fashion brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Karlee Smith",
+    "company": "Karlee Smith Bras",
+    "status": "Works",
+    "reason": "Consumer-facing bras/intimates apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Deepak Agnani",
+    "company": "KaraChic By NF",
+    "status": "Works",
+    "reason": "Fashion/apparel brand-style signal; consumer-facing.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Eric Capo",
+    "company": "Betsy & Adam | Blondie Nites | Xscape Evenings",
+    "status": "Works",
+    "reason": "Consumer-facing dress/fashion brands with product lines; not a service provider.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tj Harlin",
+    "company": "Allora by Laura",
+    "status": "Works",
+    "reason": "Fashion-label/boutique brand signal; consumer-facing apparel fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Aishwarya Subramanian",
+    "company": "Blazer For Men",
+    "status": "Works",
+    "reason": "Men’s apparel product/category signal with consumer-facing intent.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kati Miller",
+    "company": "Kindred Bravely",
+    "status": "Works",
+    "reason": "Consumer-facing maternity/nursing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "JANINE A.",
+    "company": "Pelagic Inc.",
+    "status": "Works",
+    "reason": "Consumer-facing outdoor/fishing apparel brand; apparel catalog signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Erik Jørgensen",
+    "company": "DRK CNCRT",
+    "status": "Works",
+    "reason": "Streetwear/fashion brand-style signal; consumer-facing apparel fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Zoya Jarrett",
+    "company": "Mirror Palais",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/apparel brand with collection signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Whitney Bansin",
+    "company": "The Wild Collective",
+    "status": "Works",
+    "reason": "Consumer-facing fashion/sports-lifestyle apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Chelsea Maxine Agawa",
+    "company": "Star Style Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Marc Hershkin",
+    "company": "Plugg & IRON Jeans",
+    "status": "Works",
+    "reason": "Denim/jeans apparel brand with product-category fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Sue Sajewicz",
+    "company": "THE WRKSHP",
+    "status": "Works",
+    "reason": "Fashion/streetwear brand-style signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "kyu chun",
+    "company": "Sigma Six Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Anthony Bolognese",
+    "company": "Capitol Hill Clothiers",
+    "status": "Works",
+    "reason": "Menswear/clothier apparel business; consumer-facing clothing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Cherrie Luzon",
+    "company": "REN Athletics",
+    "status": "Works",
+    "reason": "Athletic apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Shankar Durai",
+    "company": "July Apparel LLC",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kat H. Valenti",
+    "company": "Topknot La Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fashion fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Annie Shimell",
+    "company": "Deep Blue Sea Apparel",
+    "status": "Works",
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Tom Gilmour",
+    "company": "Seek Discomfort",
+    "status": "Works",
+    "reason": "Consumer-facing lifestyle/apparel brand with product catalog signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Stanley Major",
+    "company": "Sea Leather Wear",
+    "status": "Works",
+    "reason": "Wear/apparel product signal; consumer-facing fashion fit.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Kara Allen Lacayo",
+    "company": "YITTY",
+    "status": "Works",
+    "reason": "Consumer-facing shapewear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Zhanna Alekseeva",
+    "company": "Fitsū",
+    "status": "Works",
+    "reason": "Consumer-facing activewear/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
+  },
+  {
+    "name": "Natalia Giacomelli",
+    "company": "Beach Riot LLC",
+    "status": "Works",
+    "reason": "Consumer-facing swimwear/activewear apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   }
 ]
