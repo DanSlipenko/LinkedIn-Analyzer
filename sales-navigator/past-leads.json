@@ -7,7 +7,10 @@
   {
     "name": "Joel Kjellberg Vagsether",
     "company": "Magic Wear",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Aaron Park",
@@ -30,7 +33,10 @@
   {
     "name": "Megan Szwast",
     "company": "Toy Box Brands",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michelle Puopolo",
@@ -150,7 +156,10 @@
   {
     "name": "Robert Galindo",
     "company": "STAMPD",
-    "status": "Doesn't Work"
+    "status": "Doesn't Work",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "David Yassky",
@@ -170,7 +179,10 @@
   {
     "name": "Imani Nia",
     "company": "Brandon Blackwood New York",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michael K.",
@@ -210,7 +222,10 @@
   {
     "name": "Rachel Ford",
     "company": "Milano Collection",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Isabel Cappo",
@@ -233,7 +248,10 @@
   {
     "name": "Shauna Podruzny",
     "company": "GlobeChat®",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cole Shannon, M.S.",
@@ -318,7 +336,10 @@
   {
     "name": "Brittany P.",
     "company": "Lovestitch Clothing",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Heather Geiger",
@@ -363,7 +384,10 @@
   {
     "name": "Rebekah Miranda",
     "company": "Jeffrey Campbell Shoes",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Taylor Smith",
@@ -373,7 +397,10 @@
   {
     "name": "Lisa Lavin",
     "company": "Freemark Apparel Brands International Inc.",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kai Noriesta",
@@ -388,7 +415,10 @@
   {
     "name": "Daisy Chen",
     "company": "Nicholas the Label",
-    "status": "Doesn't Work"
+    "status": "Doesn't Work",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Burak T.",
@@ -408,7 +438,10 @@
   {
     "name": "Stefanie Moxnes",
     "company": "Make Them Chat",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Allison Bochman",
@@ -433,12 +466,18 @@
   {
     "name": "Mark J Kwoka",
     "company": "Moonlight Bridal, JLM Couture, Ema Savahl, Angel Sanchez",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "jay L.",
     "company": "Noend Denim",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ashley Washburn",
@@ -468,7 +507,10 @@
   {
     "name": "Jasmine P.",
     "company": "Shoes ‘N’ More Inc.",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Mitch Fraser",
@@ -488,7 +530,10 @@
   {
     "name": "Rosa Ragusa",
     "company": "Freemark Apparel Brands International Inc.",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Nick Friedberg",
@@ -523,7 +568,10 @@
   {
     "name": "Glenny Medina",
     "company": "Estilo Muñeca Boutique",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Stacy Cho",
@@ -548,7 +596,10 @@
   {
     "name": "Yamila Girard Hall",
     "company": "Hat Attack Inc",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jaime Rheingold",
@@ -578,7 +629,10 @@
   {
     "name": "Diana C. Bolivar",
     "company": "Fivestory New York",
-    "status": "Doesn't Work"
+    "status": "Doesn't Work",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Knopf",
@@ -613,7 +667,10 @@
   {
     "name": "Michael Ziobrowski",
     "company": "Contravisual Brands Group",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ivan Faraldo",
@@ -638,7 +695,10 @@
   {
     "name": "Amanda Goddard",
     "company": "BOUTIQUE 44",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Biff Boswell",
@@ -668,7 +728,10 @@
   {
     "name": "Sarah Hesky",
     "company": "American Recycled Clothing Co",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Shay Troisi",
@@ -698,7 +761,10 @@
   {
     "name": "Pete Campbell",
     "company": "ZOIC Clothing",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Yasmin Maleki",
@@ -708,7 +774,10 @@
   {
     "name": "Eliana Galdamez",
     "company": "LNA CLOTHING INC",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "EDUARDO ALICEA",
@@ -728,7 +797,10 @@
   {
     "name": "Lillian Pimentel",
     "company": "Hat Attack,Inc.",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Joshua Jackai",
@@ -748,7 +820,10 @@
   {
     "name": "Tatum Mohagen",
     "company": "CLAIM CLOTHING, INC.",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Arturo Sanchez",
@@ -783,7 +858,10 @@
   {
     "name": "Ashley Roberts",
     "company": "Bridals By Lori",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Sammi Manning",
@@ -803,7 +881,10 @@
   {
     "name": "Katie Collins",
     "company": "Gigi&#39;s Boutique &amp; Outfitters",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ben Driebe",
@@ -883,7 +964,10 @@
   {
     "name": "Amy Wright",
     "company": "Katherine Tash Bridal",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ashley J. Castillo",
@@ -893,7 +977,10 @@
   {
     "name": "Erynn Santos",
     "company": "MELODY EHSANI",
-    "status": "Doesn't Work"
+    "status": "Doesn't Work",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Candice Shaw",
@@ -933,7 +1020,10 @@
   {
     "name": "Marge Pietrera",
     "company": "Real Fashion Index",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Natalie G.",
@@ -1043,13 +1133,19 @@
   {
     "name": "Stephanie Parker",
     "company": "Brimmz Hats",
-    "status": "Works"
+    "status": "Works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Susan Flores",
     "company": "Lovestitch Clothing",
     "status": "Works",
-    "reason": "Women’s clothing brand with dresses, tops, sweaters, outerwear, and cover-ups; clear apparel fit."
+    "reason": "Women’s clothing brand with dresses, tops, sweaters, outerwear, and cover-ups; clear apparel fit.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Donna Valcich",
@@ -1067,7 +1163,10 @@
     "name": "Natalya Wise",
     "company": "Adam Ross Custom",
     "status": "Works",
-    "reason": "Custom clothier focused on bespoke and custom garments; still apparel."
+    "reason": "Custom clothier focused on bespoke and custom garments; still apparel.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jessica Kay Murray",
@@ -1085,7 +1184,10 @@
     "name": "Ron Petrucci",
     "company": "Birch Outfitters / LIV Outdoor apparel company",
     "status": "Works",
-    "reason": "Outdoor-oriented apparel/activewear brand; still fundamentally clothing."
+    "reason": "Outdoor-oriented apparel/activewear brand; still fundamentally clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michael Darr",
@@ -1097,7 +1199,10 @@
     "name": "Zacharie Elmaleh",
     "company": "Deux par Deux",
     "status": "Works",
-    "reason": "Children’s clothing brand with clear apparel collections."
+    "reason": "Children’s clothing brand with clear apparel collections.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Shannon Ashcraft-Kirk",
@@ -1109,7 +1214,10 @@
     "name": "Nikos Dimopoulos",
     "company": "Phantom Global Shop",
     "status": "Works",
-    "reason": "Appears to be a streetwear/apparel label selling clothing items."
+    "reason": "Appears to be a streetwear/apparel label selling clothing items.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Amanda Eli",
@@ -1121,7 +1229,10 @@
     "name": "Nupur Singh",
     "company": "Monday Chill",
     "status": "Works",
-    "reason": "Clothing brand selling bamboo apparel for men, women, babies, and kids."
+    "reason": "Clothing brand selling bamboo apparel for men, women, babies, and kids.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jenna B.",
@@ -1151,7 +1262,10 @@
     "name": "Greg Hagerman",
     "company": "Wes and Willy",
     "status": "Works",
-    "reason": "Apparel brand selling boys’, girls’, baby, and men’s clothing, including swim."
+    "reason": "Apparel brand selling boys’, girls’, baby, and men’s clothing, including swim.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Nick Henderson",
@@ -1163,7 +1277,10 @@
     "name": "Sarah Herrick-Smisek",
     "company": "DLH Clothing",
     "status": "Works",
-    "reason": "Apparel brand/store focused on lifestyle clothing."
+    "reason": "Apparel brand/store focused on lifestyle clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Uhll",
@@ -1181,19 +1298,28 @@
     "name": "Josephine Carr",
     "company": "Betabrand",
     "status": "Works",
-    "reason": "Apparel brand selling women’s workwear and casual clothing."
+    "reason": "Apparel brand selling women’s workwear and casual clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dan Jason",
     "company": "NOVUS Clothing Company, INC.",
     "status": "Works",
-    "reason": "Sportswear/apparel brand; counts under your broader apparel filter."
+    "reason": "Sportswear/apparel brand; counts under your broader apparel filter.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Patrick Milligan",
     "company": "The Man's Shop By Wally Hardin",
     "status": "Works",
-    "reason": "Men’s clothing store selling suits, shirts, and sportswear; clearly apparel-focused."
+    "reason": "Men’s clothing store selling suits, shirts, and sportswear; clearly apparel-focused.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ashley Attianese",
@@ -1203,12 +1329,18 @@
   {
     "name": "Sharon Maister",
     "company": "SLUNKS clothing",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Victor Maldonado",
     "company": "ONS Clothing",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Nick Lewis",
@@ -1228,12 +1360,18 @@
   {
     "name": "John-Pierre Kamel",
     "company": "Rabble Clothing",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Terry Pierson Jr.",
     "company": "Varcity Unltd",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Matthew Galetto",
@@ -1243,22 +1381,34 @@
   {
     "name": "Dexter Loscher",
     "company": "Civil Regime",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Tully Burgoon",
     "company": "Amble Clothing",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dannah Chambers",
     "company": "Clairvaux",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Olivia Consoli",
     "company": "BRANDON MAXWELL",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Paul Shaked",
@@ -1273,7 +1423,10 @@
   {
     "name": "Logan Roberts",
     "company": "Marsh Wear LLC",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Philip Cohen",
@@ -1298,12 +1451,18 @@
   {
     "name": "Alexa Gauthier-Reade",
     "company": "Yoga Jeans®",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Gabriel Kattan",
     "company": "Perk Clothing",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Randy Choi",
@@ -1318,13 +1477,19 @@
   {
     "name": "Kevin Swan",
     "company": "VIANDANTE",
-    "status": "works"
+    "status": "works",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Aaron Sipe",
     "company": "WYR Clothing",
     "status": "Works",
-    "reason": "Lifestyle clothing and accessories brand with apparel for men, women, and youth."
+    "reason": "Lifestyle clothing and accessories brand with apparel for men, women, and youth.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "George Baker, Sr.",
@@ -1336,13 +1501,19 @@
     "name": "Tara Scibetta",
     "company": "Indah Clothing",
     "status": "Works",
-    "reason": "Indah is explicitly a retail apparel and fashion company."
+    "reason": "Indah is explicitly a retail apparel and fashion company.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dustin Hardy",
     "company": "RSVLTS",
     "status": "Works",
-    "reason": "Well-known apparel brand focused on shirts and lifestyle clothing."
+    "reason": "Well-known apparel brand focused on shirts and lifestyle clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jackie Cespedes Johnsen",
@@ -1354,7 +1525,10 @@
     "name": "Eric Lowe",
     "company": "Project Social T",
     "status": "Works",
-    "reason": "Clothing label focused on casual apparel basics."
+    "reason": "Clothing label focused on casual apparel basics.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Hannahstazia Dai M.",
@@ -1366,7 +1540,10 @@
     "name": "MARIA JOSE ALMINA",
     "company": "iSarti Italian Menswear",
     "status": "Works",
-    "reason": "Clearly a menswear label."
+    "reason": "Clearly a menswear label.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Michelle C.",
@@ -1414,19 +1591,28 @@
     "name": "David Herzka",
     "company": "Suits of kindness 501c3",
     "status": "Works",
-    "reason": "Clothing-focused nonprofit providing dress clothing at reduced pricing."
+    "reason": "Clothing-focused nonprofit providing dress clothing at reduced pricing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jimmy Chen",
     "company": "EdwardsX",
     "status": "Works",
-    "reason": "Custom apparel and uniform brand; apparel-focused."
+    "reason": "Custom apparel and uniform brand; apparel-focused.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Analiese Ifould",
     "company": "Réalisation Par",
     "status": "Works",
-    "reason": "Fashion/apparel label."
+    "reason": "Fashion/apparel label.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Rick Belton",
@@ -1450,7 +1636,10 @@
     "name": "April Hornbuckle",
     "company": "Bespoke Manufacturing Company",
     "status": "Works",
-    "reason": "Apparel/manufacturing for fashion collections; clothing-focused."
+    "reason": "Apparel/manufacturing for fashion collections; clothing-focused.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alexandra Thomas",
@@ -1474,31 +1663,46 @@
     "name": "Alex Marx",
     "company": "Soft Goods",
     "status": "Works",
-    "reason": "Apparel/textile product side; apparel-adjacent enough to count."
+    "reason": "Apparel/textile product side; apparel-adjacent enough to count.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alvina Gilani",
     "company": "Fine Clothing Ltd.",
     "status": "Works",
-    "reason": "Clothing company."
+    "reason": "Clothing company.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andie Verbance",
     "company": "SÆMDI",
     "status": "Works",
-    "reason": "Fashion/apparel brand signal."
+    "reason": "Fashion/apparel brand signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andrea Hackett",
     "company": "Industry Clothing",
     "status": "Works",
-    "reason": "Clothing brand / apparel store."
+    "reason": "Clothing brand / apparel store.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Anna Nordstrom",
     "company": "Vara Barn",
     "status": "Works",
-    "reason": "Children’s clothing signal."
+    "reason": "Children’s clothing signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "anne Ye",
@@ -1510,55 +1714,82 @@
     "name": "Astrid Vincendet",
     "company": "Simple Laguna Beach",
     "status": "Works",
-    "reason": "Women’s and men’s clothing retailer/brand."
+    "reason": "Women’s and men’s clothing retailer/brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Aubrey Krekeler",
     "company": "SEW VALLEY",
     "status": "Works",
-    "reason": "Sewing/apparel production and clothing signal."
+    "reason": "Sewing/apparel production and clothing signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ben Peyser",
     "company": "Andy & Evan",
     "status": "Works",
-    "reason": "Kidswear/apparel brand."
+    "reason": "Kidswear/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Carla Klein",
     "company": "Samira 13",
     "status": "Works",
-    "reason": "Fashion label signal."
+    "reason": "Fashion label signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cassi Medina",
     "company": "Arthur + Lucca",
     "status": "Works",
-    "reason": "Boutique/apparel label signal."
+    "reason": "Boutique/apparel label signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Christina McDaniel",
     "company": "Lola Lifestyle Corp.",
     "status": "Works",
-    "reason": "Clothing/lifestyle apparel signal, including activewear-style products."
+    "reason": "Clothing/lifestyle apparel signal, including activewear-style products.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Claire Wilson",
     "company": "Lovely Little Things Boutique",
     "status": "Works",
-    "reason": "Boutique apparel retail."
+    "reason": "Boutique apparel retail.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cody Wright",
     "company": "Devereux Golf",
     "status": "Works",
-    "reason": "Golf apparel brand."
+    "reason": "Golf apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Faccani Chiara",
     "company": "Stone Rose",
     "status": "Works",
-    "reason": "Men’s clothing brand, including shirts, jackets, and swimwear."
+    "reason": "Men’s clothing brand, including shirts, jackets, and swimwear.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Francesco Franco",
@@ -1570,13 +1801,19 @@
     "name": "GuoWei Su",
     "company": "Birth Of Royal Child",
     "status": "Works",
-    "reason": "Children’s apparel signal."
+    "reason": "Children’s apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jayson B",
     "company": "GrindKing clothing unltd....",
     "status": "Works",
-    "reason": "Clothing brand."
+    "reason": "Clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "José Alexandre",
@@ -1588,55 +1825,82 @@
     "name": "Kayla Vopat",
     "company": "Finding Foxtale",
     "status": "Works",
-    "reason": "Boutique/apparel signal."
+    "reason": "Boutique/apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kevin Walker",
     "company": "Avalon Kids LLC",
     "status": "Works",
-    "reason": "Kids/apparel signal."
+    "reason": "Kids/apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kyle H.",
     "company": "Fishers Finery",
     "status": "Works",
-    "reason": "Sells men’s and women’s clothing."
+    "reason": "Sells men’s and women’s clothing.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Leron Mcclain",
     "company": "Alpha Male Nation Clothing",
     "status": "Works",
-    "reason": "Clothing brand."
+    "reason": "Clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Luke Daschko",
     "company": "Saint Javelin",
     "status": "Works",
-    "reason": "Clothing and merch are a core part of the brand."
+    "reason": "Clothing and merch are a core part of the brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Madeleine Johnson",
     "company": "All Time Favorite",
     "status": "Works",
-    "reason": "Apparel/lifestyle clothing brand."
+    "reason": "Apparel/lifestyle clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Marissa B.",
     "company": "Hanna Intimates Inc.",
     "status": "Works",
-    "reason": "Intimates are apparel."
+    "reason": "Intimates are apparel.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Mark Goldfarb",
     "company": "Mark Thomas Men's Apparel",
     "status": "Works",
-    "reason": "Men’s apparel store/brand."
+    "reason": "Men’s apparel store/brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Meryl Pressman",
     "company": "Chookhare & Sons",
     "status": "Works",
-    "reason": "Menswear/apparel signal."
+    "reason": "Menswear/apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "MICHAEL RICHARD GRAF",
@@ -1648,7 +1912,10 @@
     "name": "Peggy George",
     "company": "Paradise Clothing Co.",
     "status": "Works",
-    "reason": "Clothing company."
+    "reason": "Clothing company.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Robert Galindo",
@@ -1660,43 +1927,64 @@
     "name": "Ryan R Brown",
     "company": "Civil Regime // Darc Sport",
     "status": "Works",
-    "reason": "Apparel/streetwear/fitness brands."
+    "reason": "Apparel/streetwear/fitness brands.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Sarah R.",
     "company": "Alice Walk",
     "status": "Works",
-    "reason": "Apparel brand with dresses, outerwear, sweaters, pants, and tops."
+    "reason": "Apparel brand with dresses, outerwear, sweaters, pants, and tops.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Scott Fraley",
     "company": "Simulacra NYC",
     "status": "Works",
-    "reason": "Fashion/streetwear label."
+    "reason": "Fashion/streetwear label.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Sean Fresco",
     "company": "Orchard & Broome",
     "status": "Works",
-    "reason": "Apparel/lifestyle label signal."
+    "reason": "Apparel/lifestyle label signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Simone Skaff",
     "company": "ffg - Formans Fashion Group",
     "status": "Works",
-    "reason": "Fashion group/apparel side."
+    "reason": "Fashion group/apparel side.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Vanessa Davoli",
     "company": "Commonwealth Proper (CMMP)",
     "status": "Works",
-    "reason": "Menswear/custom clothing brand."
+    "reason": "Menswear/custom clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Vivian Vassar",
     "company": "Hey Viv Inc / Hey Viv Wholesale / Hey Viv ! Vintage Clothing",
     "status": "Works",
-    "reason": "Vintage clothing / apparel retail."
+    "reason": "Vintage clothing / apparel retail.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Aileen Taylor",
@@ -1924,7 +2212,10 @@
     "name": "Adam Hanan",
     "company": "RBX Direct LLC",
     "status": "Works",
-    "reason": "Activewear/apparel."
+    "reason": "Activewear/apparel.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Adelin Lee",
@@ -1936,49 +2227,73 @@
     "name": "Alberd Hoajahan Simanjuntak",
     "company": "Simple Laguna Beach",
     "status": "Works",
-    "reason": "Apparel retailer/brand."
+    "reason": "Apparel retailer/brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alivia McNulty",
     "company": "HENRY's Clothing Store",
     "status": "Works",
-    "reason": "Clothing store."
+    "reason": "Clothing store.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Anne-Marie Joyce",
     "company": "Liberty Clothing Company",
     "status": "Works",
-    "reason": "Clothing company."
+    "reason": "Clothing company.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Beau Wollens",
     "company": "Scenario.NYC",
     "status": "Works",
-    "reason": "Marked as Works per your instruction."
+    "reason": "Marked as Works per your instruction.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cassie Bonthoux",
     "company": "Duke & Duchess Apparel",
     "status": "Works",
-    "reason": "Apparel brand."
+    "reason": "Apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chad Seale",
     "company": "Waters Bluff Clothing Co",
     "status": "Works",
-    "reason": "Clothing brand."
+    "reason": "Clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chazz Hawks",
     "company": "Haus of Transcendent",
     "status": "Works",
-    "reason": "Fashion/apparel signal."
+    "reason": "Fashion/apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dylan Yarom",
     "company": "Ruby and Jenna",
     "status": "Works",
-    "reason": "Marked as Works per your instruction."
+    "reason": "Marked as Works per your instruction.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Eliver Maria",
@@ -1990,13 +2305,19 @@
     "name": "Emily Fischer",
     "company": "Vicki Brown",
     "status": "Works",
-    "reason": "Fashion/clothing signal."
+    "reason": "Fashion/clothing signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Fabiola Sifontes",
     "company": "FRANKIE",
     "status": "Works",
-    "reason": "Marked as Works per your instruction."
+    "reason": "Marked as Works per your instruction.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Gabriele Arrigoni",
@@ -2014,31 +2335,46 @@
     "name": "John R. Hanson",
     "company": "Golf West Sales, LLC",
     "status": "Works",
-    "reason": "Golf-apparel-adjacent and fits your expanded filter."
+    "reason": "Golf-apparel-adjacent and fits your expanded filter.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Johnny Sewell",
     "company": "Commonwealth Proper (CMMP)",
     "status": "Works",
-    "reason": "Menswear/custom clothing brand."
+    "reason": "Menswear/custom clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Karina Farias Romero",
     "company": "Hecho con amor",
     "status": "Works",
-    "reason": "Apparel/boutique signal."
+    "reason": "Apparel/boutique signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kayla Antoine",
     "company": "Gr.Dano",
     "status": "Works",
-    "reason": "Women’s clothing label."
+    "reason": "Women’s clothing label.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kelvin Tohar",
     "company": "Puppies Make Me Happy",
     "status": "Works",
-    "reason": "Apparel brand."
+    "reason": "Apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristen Naiman",
@@ -2056,19 +2392,28 @@
     "name": "Marta Hardin",
     "company": "Divalani Style",
     "status": "Works",
-    "reason": "Marked as Works per your instruction."
+    "reason": "Marked as Works per your instruction.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Mary-Ann Kowala",
     "company": "Kowala Wear",
     "status": "Works",
-    "reason": "Apparel brand."
+    "reason": "Apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Molly Alexander",
     "company": "Second Thoughts Brand LLC",
     "status": "Works",
-    "reason": "Marked as Works per your instruction."
+    "reason": "Marked as Works per your instruction.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ngoc Linh Nguyen",
@@ -2086,7 +2431,10 @@
     "name": "Richard Butler",
     "company": "Gr.Dano",
     "status": "Works",
-    "reason": "Women’s clothing label."
+    "reason": "Women’s clothing label.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Stay Open Apparel",
@@ -2104,19 +2452,28 @@
     "name": "Tim Ellis",
     "company": "MILWORKS",
     "status": "Works",
-    "reason": "Apparel/workwear signal."
+    "reason": "Apparel/workwear signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Trenell Floyd",
     "company": "Image lab clothing",
     "status": "Works",
-    "reason": "Clothing brand."
+    "reason": "Clothing brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Zoe Littman",
     "company": "Splendid, a contemporary lifestyle brand",
     "status": "Works",
-    "reason": "Apparel brand."
+    "reason": "Apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Adalchi Markus",
@@ -2362,13 +2719,19 @@
     "name": "A M Y L I U",
     "company": "Evolutionary apparel",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Abbie Durkee",
     "company": "My Alibi Clothing",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Abigail Cook",
@@ -2392,133 +2755,199 @@
     "name": "Adam Clark",
     "company": "Port City Apparel",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Adrian Sanchez",
     "company": "Active Athlete Inc.",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "alan zhang",
     "company": "Shaka Wear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alejandro Amabile",
     "company": "JYS Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alex Hoeckel",
     "company": "Hybrid Theory Clothing & Apparel Co.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alex Lowry",
     "company": "Primo Golf Apparel",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alexandra Bower",
     "company": "Summit Sportswear",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "ALEXANDRE CAUGANT",
     "company": "GENETIC DENIM",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alexandria Miller",
     "company": "Dottie Couture Boutique",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alice yang",
     "company": "Smart Apparel U.S.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alicia Jones",
     "company": "Alluvial Apparel Company",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Allen Cotogno",
     "company": "Team Edition Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Allison Tillett",
     "company": "Tom Beckbe",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ally Groedel",
     "company": "ALLISON New York",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alpay Ozman",
     "company": "Galtsand Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Alysha Gill",
     "company": "KAPTVA Apparel LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Amara Elspeth",
     "company": "Nanette Lepore",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Amy Lipton",
     "company": "Amy Sport",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Amy Lynn",
     "company": "Troll Co. Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "ANDREA ABAUNZA",
     "company": "ABAUNZA SWIM",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andrew Evans",
     "company": "Homme Femme LA",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andrew Lerner",
     "company": "JAM Apparel Group",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "ANDY SHEN",
@@ -2536,19 +2965,28 @@
     "name": "Angelo Montiel",
     "company": "AMB3R Creative {custom apparel design firm}",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Anita Love",
     "company": "Fun Tees a Division of Delta Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "April Davis",
     "company": "Democracy Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "April Simmons",
@@ -2563,43 +3001,64 @@
     "name": "April Vander-Heyden",
     "company": "Bombie Wear LLC.",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ariana Menichini",
     "company": "Stadium Chic Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ashley Pugh",
     "company": "A.Cherie Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ashley S.",
     "company": "Apolla Performance Wear - as seen on Shark Tank",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Audra Unruh",
     "company": "Darcy Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Aunna Cojocari",
     "company": "OZONE Gymnastics Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Austin Desadier",
     "company": "Properly Tied",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Austin Feger",
@@ -2623,7 +3082,10 @@
     "name": "Beau Nickol",
     "company": "All American Clothing Co.",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Bella I.",
@@ -2638,61 +3100,91 @@
     "name": "Ben Schaffner",
     "company": "Matrix Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Benjamin Hall",
     "company": "Arcade Belt Co.",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Bessie Garcia",
     "company": "5 Star Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Betsy Renwick",
     "company": "Daytona Apparel Group",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "BIBI DOAN",
     "company": "BIBIDOAN-New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Bobby Partoon",
     "company": "Alliance Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Brandon Hallifield",
     "company": "Speedwear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Britni Rosenbauer",
     "company": "Sun Apparel",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Bundit Buaban",
     "company": "4ever Kids Apparel, LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "ＫＥＮ C ＨＥＮ",
     "company": "K E N C H E N Atelier",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Callista Gifford-DeHart",
@@ -2704,25 +3196,37 @@
     "name": "Camille Bucu",
     "company": "Stony Apparel Corp.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Camille Tanoh",
     "company": "The Proper Label Inc",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Candice Munro",
     "company": "Buttercream Clothing Canada",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Canuto Gutierrez",
     "company": "Gramicci",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "carl jones",
@@ -2734,7 +3238,10 @@
     "name": "Carlo Gholami",
     "company": "Couture, The Clothing Co.",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Carlos Antunez",
@@ -2746,7 +3253,10 @@
     "name": "Carly Burnett",
     "company": "TKEES",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Carmen Mejia",
@@ -2758,49 +3268,73 @@
     "name": "Carmen Mejia",
     "company": "jcs apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Carole Jankowitz",
     "company": "Bimini Bay Outfitters / Folsom",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Carolyn Tucker",
     "company": "Los Angeles Trading Co.",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Casey Ferguson",
     "company": "Hutson Clothing Company",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Charles Safonte",
     "company": "Elo Sportswear Llc. -Larry Levine, Sharagano",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Charlie Pennes",
     "company": "White Bark Workwear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chelsea Gleason Mann",
     "company": "ace&jig",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chelsea Monroe-Calderon",
     "company": "Paragon Fitwear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chris Baker",
@@ -2812,31 +3346,46 @@
     "name": "Chris Kosciusko",
     "company": "Techstyles Sportswear, Inc.",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Chris Watchorn",
     "company": "Girton Innovative Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Christina Roman",
     "company": "David Tupaz Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Christina Trupiano",
     "company": "LAPOINTE",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Christopher Breóne Moxley",
     "company": "704 Shop",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Christopher Brown",
@@ -2860,67 +3409,100 @@
     "name": "Christy Kaiser",
     "company": "K & K Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Claire Bockhop Sowell",
     "company": "Dick Ferguson's Clothing Store",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Claudia Ortiz",
     "company": "Weaver Apparel LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Clay Gilliam",
     "company": "Big Fish Sportswear Inc.",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cory Jones",
     "company": "AMO DENIM",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cosmo Di Lillo",
     "company": "Mega Safety and Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Couture Clips",
     "company": "Couture Clips, LLC",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Crystal V.",
     "company": "Dim Mak Collection",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Curtis A.",
     "company": "Rainforest Apparel",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Cybil Jones",
     "company": "Fly Religion (Dagon Apparel Company)",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Daewa Sadiq",
     "company": "The Simple Folk Co",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Daisy Chen",
@@ -2932,13 +3514,19 @@
     "name": "Dana Greechan",
     "company": "Zar Apparel Group, Inc.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Danica Salajko",
     "company": "Bathing Belle Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Daniel Banaga",
@@ -2950,31 +3538,46 @@
     "name": "Daniel Ryan",
     "company": "Arcade Belt Co.",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Daniella Kallmeyer",
     "company": "KALLMEYER New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Danielle Lee",
     "company": "Poor Girl Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dara Sohail",
     "company": "Managing Director, Q- Point Fashions Limited, G8 Garments Limited, SDS Apparel Limited",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Daron Jacob",
     "company": "Brooklyn Cloth",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "DAUDI A ZAYUMBA",
@@ -2986,73 +3589,109 @@
     "name": "David Borofsky",
     "company": "Vivid Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "DAVID D.",
     "company": "Horizon Line Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "David No",
     "company": "Los Angeles Police Protective League",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "david rishty",
     "company": "REAL UNDERWEAR",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Deanna Herron",
     "company": "Rock the Denim",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Deanna Jubran",
     "company": "Late Sunday Afternoon",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Debbie Beltran",
     "company": "Pretty Rebellious Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Debbie Shelton",
     "company": "Image First Professional Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Debra Feldman",
     "company": "August Graphics Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Deena Mistry",
     "company": "God's True Cashmere",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Deepak Alag",
     "company": "Taos Footwear",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Denise Cronwall",
     "company": "Denise Cronwall Activewear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Destiny Ross",
@@ -3076,19 +3715,28 @@
     "name": "Diana G.",
     "company": "Married to the Mob Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Diana Nigro",
     "company": "Walter Baker New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Dominic DiCaprio",
     "company": "Atelier 1200",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Donald Brijmohan",
@@ -3106,13 +3754,19 @@
     "name": "Doug Martin",
     "company": "Entertainment Outfitters LLC",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Eda Cetiner Erturan",
     "company": "New York Accessory Group, Inc.",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Edgar Sellers",
@@ -3124,25 +3778,37 @@
     "name": "Edward Tucker",
     "company": "Miraclesuit Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Eileen Garcia",
     "company": "POP Fit Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Elda de la Rosa",
     "company": "Elda DeLaRosa Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "ELIZABETH \"LIZ\" HOILES",
     "company": "Linksoul",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Elizabeth Tucker",
@@ -3154,37 +3820,55 @@
     "name": "Elle Morrison",
     "company": "Nouveau Eyewear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Elvia Lahman",
     "company": "American Recycled Clothing Co",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ema Savahl Koja",
     "company": "Ema Savahl Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Emily Gonzaga",
     "company": "D'Milikah- Brazilian Fashion House",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Emma Boynton",
     "company": "Canadian Custom Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Emmanuel Tobias",
     "company": "Richard Brooks Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Enrique Denegri",
@@ -3202,13 +3886,19 @@
     "name": "Erik Hoover",
     "company": "Old Smoke Clothing Co.",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Erin Beatty",
     "company": "Rentrayage",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Erynn Santos",
@@ -3226,13 +3916,19 @@
     "name": "Faith M.",
     "company": "Fit for A Queen of Atlanta",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "falandas rolf",
     "company": "urbaneyez apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Farah Naz",
@@ -3247,25 +3943,37 @@
     "name": "Farhan Khaleque",
     "company": "New York University Madrid",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Fevi S.",
     "company": "Label it Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Florinda Fiore",
     "company": "Fashion House of Fiore & Co",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Fran Farmer",
     "company": "Atelier Francesca",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Francesca Padilla",
@@ -3277,13 +3985,19 @@
     "name": "Frank Romita",
     "company": "Caulfeild Apparel Group",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Gale Silvey",
     "company": "Faith Walkers TM / Flip Flops and Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Galina Sobolev",
@@ -3295,31 +4009,46 @@
     "name": "Gary Byck",
     "company": "Castlewood Apparel Corp.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Geoffrey Sykes",
     "company": "Moneyball Sportswear",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Gisela Jimenez",
     "company": "Dynasty Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Grace Powell",
     "company": "Custom Fit Bras and Shapewear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Graham Trusler",
     "company": "Labeltex Mills Inc",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Gretchen Johnson",
@@ -3337,7 +4066,10 @@
     "name": "Hagit H.",
     "company": "ARCHIVED STYLES",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Hanna Deglin",
@@ -3349,7 +4081,10 @@
     "name": "heidi fish",
     "company": "Heidi Fish Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Helen Fraser",
@@ -3361,25 +4096,37 @@
     "name": "Henry Schickerling",
     "company": "TOSCA NEW YORK",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Hermione Elma",
     "company": "Hermione's Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Holly Downes",
     "company": "Hooey Brands",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Holly Lemckert",
     "company": "Fidelity Denim",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Hunter Bell",
@@ -3394,7 +4141,10 @@
     "name": "Iman Tatum",
     "company": "Vintige Apparel Group, LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ingrid Kaczender",
@@ -3406,13 +4156,19 @@
     "name": "Ingrid Wilkinson Jarvis",
     "company": "Brochu Walker",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Iola Gardner",
     "company": "The Mommy 2 Be Clothing Store",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ivi Kyratzi",
@@ -3427,7 +4183,10 @@
     "name": "Jack Davidson",
     "company": "Gitman Bros. / Individualized Apparel Group",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jackie Dodson",
@@ -3445,25 +4204,37 @@
     "name": "jacqueline stone",
     "company": "MYCRA PAC DESIGNER WEAR",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jacqueline Weppner",
     "company": "Merci New York LLC",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jacquelyne Y.",
     "company": "GTex Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jade Audiffred-Mikhael",
     "company": "MISS SPORTSWEAR",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jaleh A.",
@@ -3496,31 +4267,46 @@
     "name": "Jamie McConkey",
     "company": "Chota Outfitters LLC",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Janet Chiu",
     "company": "New York Cafe",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Janice Kajanoff",
     "company": "Zentek Clothing Company",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jannina Figueroa",
     "company": "Madeleine Fig Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jared Smith",
     "company": "Mojo Custom Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jarod Lee",
@@ -3550,13 +4336,19 @@
     "name": "Jason Meyer",
     "company": "MILWORKS",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jenni Rosas",
     "company": "Daydreamer Los Angeles",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennie Teubner Lowe",
@@ -3571,19 +4363,28 @@
     "name": "Jennifer Kennedy",
     "company": "THE OAKS APPAREL CO.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Lipman",
     "company": "Porter Blue Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Rotunno",
     "company": "Ooh! La, La! Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jennifer Walsh",
@@ -3595,61 +4396,91 @@
     "name": "Jeremy Hoke",
     "company": "Royce Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jeremy Wallace",
     "company": "Atelier 1200",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jerod Eller",
     "company": "RELLEC APPAREL GRAPHICS LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jerry Czorny",
     "company": "Cashmere Classics Inc.",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jess Hanebutt Snell",
     "company": "Rockin' B Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jessica Bennett Arbab",
     "company": "Jessica Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jessica Ginty",
     "company": "Cara Cara New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jessica McDermott",
     "company": "Happy Threads Apparel LLC",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jessica Stramer",
     "company": "Fortune Swimwear LLC",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Ji Yeon Lee",
     "company": "Jade Swim, Line&Dot, 4Si3nna, Heiress Beverly Hills, LEAU, LA Collective",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jill Webb",
@@ -3661,61 +4492,91 @@
     "name": "Jimi Lee",
     "company": "JS Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Joan Maree",
     "company": "Couture By Lolita",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Joe Campbell",
     "company": "Signature Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Joe Tabback",
     "company": "Compound Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Joesph DeVito",
     "company": "Jade Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jordan LaGuardia",
     "company": "Meridian Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Jose Febrillet",
     "company": "World Classic Sportswear",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Josh Hiney",
     "company": "American Trench",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Josh Ronisky",
     "company": "Surele Apparel Group",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Judi Rosen",
     "company": "Judi Rosen New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Judy Jana",
@@ -3733,19 +4594,28 @@
     "name": "Julia Oh",
     "company": "Major label group",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Julie Briceland",
     "company": "Dany Tabet Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Julie Lewis",
     "company": "Dynasty Apparel Corporation",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Juliet Lee",
@@ -3757,13 +4627,19 @@
     "name": "Julio Lopez",
     "company": "John Paul Richard Inc",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kaitlin Pugh",
     "company": "The Oaks Apparel Company",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Karla Ronquillo",
@@ -3775,19 +4651,28 @@
     "name": "Kate O'Riley",
     "company": "Line & Label",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Katelynn Evertt",
     "company": "Ecologyst",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Katherine Theofilos",
     "company": "Lunch Money Los Angeles",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kathy Rego",
@@ -3799,43 +4684,64 @@
     "name": "Katie Burdett Plitt",
     "company": "ANASA resort wear",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Katie Morrison Alphen",
     "company": "MISA Los Angeles",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Katy Mendoza",
     "company": "Threadfast Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kee Jae Hwang",
     "company": "New World Creation Inc. of New York dba Smoke Rise NY",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kelli Woo",
     "company": "WET Swim",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kelly Conaway",
     "company": "Kelly Chase Couture LLC",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kelly Schnur",
     "company": "Dyenomite Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kevin Powers",
@@ -3853,61 +4759,91 @@
     "name": "Konstantia Braniotis",
     "company": "Jammers apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Krish Arora",
     "company": "Fun Apparel Inc",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristen Forget",
     "company": "Vintage Summer Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristen Naiman",
     "company": "Apiece Apart",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristen Puckhaber",
     "company": "Urbanity Clothing Store",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kristine Van Galder",
     "company": "US Blanks, LAB APPAREL & 1776",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Krystle McKay",
     "company": "K.Lorayne Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Krystsina Sinkevich",
     "company": "Denimist",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kwok-Shan Poon",
     "company": "Grand National Apparel Inc.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kyle Castner",
     "company": "Titleist Golf Division-Scotty Cameron-Acushnet",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Kyle Penn",
@@ -3919,49 +4855,73 @@
     "name": "Kyle S.",
     "company": "Uncommon Man",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "L V",
     "company": "Jade Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Larissa Stefani",
     "company": "Lloyd & Wolf Couture",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lauralyn Renn",
     "company": "Renn New York",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lauren Domio",
     "company": "Atelier Domio",
     "status": "Works",
-    "reason": "likely fashion or apparel brand based on company identity"
+    "reason": "likely fashion or apparel brand based on company identity",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Leah Todd-Borden",
     "company": "Flote Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lelia Nelson",
     "company": "Wild Horses Apparel",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lena Desai",
     "company": "Mirror Palais",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lexi Greenstein",
@@ -3973,31 +4933,46 @@
     "name": "Liisa Jackson",
     "company": "Bombshell Sportswear",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Linda K.",
     "company": "Blue Sky Swimwear",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Linda White",
     "company": "Linda White Antique Clothing",
     "status": "Works",
-    "reason": "clothing brand or store"
+    "reason": "clothing brand or store",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lindsay Ladas",
     "company": "SHOP ALMARI",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lindsey Monnin",
     "company": "atlantis sportswear inc.",
     "status": "Works",
-    "reason": "sportswear or apparel brand"
+    "reason": "sportswear or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lindsey Peattie",
@@ -4009,13 +4984,19 @@
     "name": "Lindsey Winter",
     "company": "MIRI COUTURE",
     "status": "Works",
-    "reason": "fashion or apparel brand"
+    "reason": "fashion or apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Linsey Rae Lali (McTaggart)",
     "company": "Lago Apparel Co.",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lisa Kulson",
@@ -4030,7 +5011,10 @@
     "name": "Lizeth Alba",
     "company": "Apparel Network",
     "status": "Works",
-    "reason": "apparel company"
+    "reason": "apparel company",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Long Nguyen",
@@ -4387,7 +5371,10 @@
     "name": "Nellie Partow",
     "company": "PARTOW",
     "status": "Works",
-    "reason": "recognized apparel brand"
+    "reason": "recognized apparel brand",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Nicholas Chalmers",

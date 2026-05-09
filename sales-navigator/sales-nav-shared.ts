@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "fs";
+import { readFileSync, readdirSync, writeFileSync } from "fs";
 import { join } from "path";
 import { chromium, Browser, Page } from "playwright";
 
@@ -135,6 +135,36 @@ export function loadLinkedInAddedNames(dir: string): Set<string> {
 
   console.log(`📌 Loaded ${names.size} names with linkedIn.status=added (all JSON files)`);
   return names;
+}
+
+/**
+ * Sets `linkedIn: { status: "added" }` on the matching lead inside a JSON array file.
+ * Matches by normalized name + company first, then name alone.
+ */
+export function markLeadLinkedInAddedInFile(filePath: string, lead: Lead): boolean {
+  let data: unknown;
+  try {
+    data = JSON.parse(readFileSync(filePath, "utf8"));
+  } catch {
+    return false;
+  }
+  if (!Array.isArray(data)) return false;
+
+  const leads = data as Lead[];
+  const nameN = normalize(lead.name);
+  const companyN = normalize(lead.company || "");
+
+  let index = leads.findIndex(
+    (l) => normalize(l.name) === nameN && normalize(l.company || "") === companyN,
+  );
+  if (index < 0) {
+    index = leads.findIndex((l) => normalize(l.name) === nameN);
+  }
+  if (index < 0) return false;
+
+  leads[index].linkedIn = { ...leads[index].linkedIn, status: "added" };
+  writeFileSync(filePath, JSON.stringify(leads, null, 2) + "\n", "utf8");
+  return true;
 }
 
 export async function connectToSalesNav(): Promise<{ browser: Browser; page: Page }> {

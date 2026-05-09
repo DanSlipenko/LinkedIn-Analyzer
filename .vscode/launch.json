@@ -69,6 +69,15 @@
       "runtimeArgs": ["tsx", "sales-navigator/collect-names.ts"],
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "SalesNavigator | Search & Add to List",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "sales-navigator/search-and-add-to-list.ts"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
     }
   ],
   "compounds": [

@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { join } from "path";
 import { Page } from "playwright";
 import {
   type Lead,
@@ -8,6 +9,7 @@ import {
   addCurrentProfileToList,
   loadWorksLeadsFromJsonFiles,
   loadLinkedInAddedNames,
+  markLeadLinkedInAddedInFile,
   normalize,
 } from "./sales-nav-shared";
 
@@ -202,6 +204,18 @@ async function ensureSalesNavHome(page: Page): Promise<void> {
     } else {
       totalFailed++;
       console.log(`   ❌ Failed (${result.reason})`);
+    }
+
+    if (result.ok) {
+      const entry = worksMap.get(normalize(lead.name));
+      if (entry) {
+        const saved = markLeadLinkedInAddedInFile(join(DIR, entry.file), lead);
+        if (saved) {
+          console.log(`   💾 Updated linkedIn.status=added → ${entry.file}`);
+        } else {
+          console.log(`   ⚠️  Could not persist linkedIn added (no matching row in ${entry.file})`);
+        }
+      }
     }
 
     // The search input is in the global nav on every Sales Nav page,

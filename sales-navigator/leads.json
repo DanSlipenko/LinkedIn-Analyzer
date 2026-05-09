@@ -15126,7 +15126,10 @@
     "name": "Rachel Skyman",
     "company": "Abernathy’s",
     "status": "Works",
-    "reason": "Consumer-facing boutique/retail apparel signal."
+    "reason": "Consumer-facing boutique/retail apparel signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Nadeem Khan",
@@ -15168,7 +15171,10 @@
     "name": "Herbert Flores",
     "company": "2253 Apparel, Inc.",
     "status": "Works",
-    "reason": "Explicit apparel brand signal; consumer-facing fit."
+    "reason": "Explicit apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Roxana B.",
@@ -15180,13 +15186,19 @@
     "name": "Kimberley Gordon",
     "company": "Selkie",
     "status": "Works",
-    "reason": "Consumer-facing fashion/apparel brand with collections."
+    "reason": "Consumer-facing fashion/apparel brand with collections.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Marissa G.",
     "company": "Fashion Statement",
     "status": "Works",
-    "reason": "Fashion/apparel brand signal; consumer-facing fit."
+    "reason": "Fashion/apparel brand signal; consumer-facing fit.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Paul Silvertown",
@@ -15210,7 +15222,10 @@
     "name": "Cristina W.",
     "company": "Goodwear USA",
     "status": "Works",
-    "reason": "Consumer-facing apparel brand."
+    "reason": "Consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Andrew Klein",
@@ -15228,7 +15243,10 @@
     "name": "Filippa Rogers",
     "company": "Cecilie Bahnsen",
     "status": "Works",
-    "reason": "Consumer-facing designer fashion/apparel brand."
+    "reason": "Consumer-facing designer fashion/apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Mei N.",
@@ -15240,7 +15258,10 @@
     "name": "Denise O.",
     "company": "AETHER Apparel",
     "status": "Works",
-    "reason": "Explicit consumer-facing apparel brand."
+    "reason": "Explicit consumer-facing apparel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Shari Stancer",
@@ -15258,13 +15279,19 @@
     "name": "Hitesh Sharma®,MBA",
     "company": "The Great Canadian Sox Co.",
     "status": "Works",
-    "reason": "Consumer-facing apparel/socks brand with product catalog."
+    "reason": "Consumer-facing apparel/socks brand with product catalog.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Charles Harbison",
     "company": "Harbison Studio",
     "status": "Works",
-    "reason": "Designer fashion/apparel label with consumer-facing collection signal."
+    "reason": "Designer fashion/apparel label with consumer-facing collection signal.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Rod Foley",
@@ -15318,7 +15345,10 @@
     "name": "Jamie LaBo",
     "company": "The Vermont Flannel Company",
     "status": "Works",
-    "reason": "Consumer-facing apparel/flannel brand."
+    "reason": "Consumer-facing apparel/flannel brand.",
+    "linkedIn": {
+      "status": "added"
+    }
   },
   {
     "name": "Lindsay Lorusso",
@@ -15429,10 +15459,7 @@
     "name": "Jeremy Funderburk",
     "company": "Full Salvation Apparel",
     "status": "Works",
-    "reason": "Explicit apparel brand signal; consumer-facing fit.",
-    "linkedIn": {
-      "status": "added"
-    }
+    "reason": "Explicit apparel brand signal; consumer-facing fit."
   },
   {
     "name": "Jon Warren",
@@ -15510,10 +15537,7 @@
     "name": "Nellie Partow",
     "company": "PARTOW",
     "status": "Works",
-    "reason": "Consumer-facing designer fashion/apparel brand.",
-    "linkedIn": {
-      "status": "added"
-    }
+    "reason": "Consumer-facing designer fashion/apparel brand."
   },
   {
     "name": "John Rusk",
