@@ -1,5 +1,17 @@
 import { getDb } from "@/lib/mongodb";
 
+interface UploadedPostInput {
+  id?: unknown;
+  persona?: unknown;
+  postNumber?: unknown;
+  description?: unknown;
+  imageDescription?: unknown;
+}
+
+interface UploadedPostsFile {
+  posts?: unknown;
+}
+
 // GET /api/sessions — list all sessions
 export async function GET() {
   const db = await getDb();
@@ -23,7 +35,7 @@ export async function POST(request: Request) {
   }
 
   const text = await file.text();
-  let parsed: any;
+  let parsed: UploadedPostsFile;
   try {
     parsed = JSON.parse(text);
   } catch {
@@ -37,12 +49,12 @@ export async function POST(request: Request) {
     );
   }
 
-  const posts = parsed.posts.map((p: any) => ({
-    id: p.id || Math.random().toString(36).substring(7),
-    persona: p.persona || "",
-    postNumber: p.postNumber || "",
-    description: p.description || "",
-    imageDescription: p.imageDescription || "",
+  const posts = parsed.posts.map((p: UploadedPostInput) => ({
+    id: String(p.id || Math.random().toString(36).substring(7)),
+    persona: String(p.persona || ""),
+    postNumber: String(p.postNumber || ""),
+    description: String(p.description || ""),
+    imageDescription: String(p.imageDescription || ""),
     status: "draft",
   }));
 

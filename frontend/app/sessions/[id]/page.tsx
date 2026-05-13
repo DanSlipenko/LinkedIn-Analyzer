@@ -31,6 +31,7 @@ import {
   CloseOutlined,
   FlagOutlined,
   CommentOutlined,
+  PlusOutlined,
 } from "@ant-design/icons";
 import type { Post, PostStatus } from "@/lib/parse-posts";
 import type { ColumnsType } from "antd/es/table";
@@ -46,6 +47,22 @@ interface Session {
   posts?: Post[];
 }
 
+interface ManualPostForm {
+  id: string;
+  persona: string;
+  postNumber: string;
+  description: string;
+  imageDescription: string;
+}
+
+const emptyManualPost: ManualPostForm = {
+  id: "",
+  persona: "",
+  postNumber: "",
+  description: "",
+  imageDescription: "",
+};
+
 export default function SessionPage() {
   const params = useParams();
   const router = useRouter();
@@ -60,6 +77,9 @@ export default function SessionPage() {
   const [editedDescriptionText, setEditedDescriptionText] = useState("");
   const [editingComments, setEditingComments] = useState(false);
   const [editedCommentsText, setEditedCommentsText] = useState("");
+  const [showAddPost, setShowAddPost] = useState(false);
+  const [addingPost, setAddingPost] = useState(false);
+  const [manualPost, setManualPost] = useState<ManualPostForm>(emptyManualPost);
   const { message } = App.useApp();
 
   const fetchSession = useCallback(async () => {
@@ -235,6 +255,57 @@ export default function SessionPage() {
     }
   }
 
+  function resetManualPostForm() {
+    setManualPost(emptyManualPost);
+  }
+
+  async function addManualPost() {
+    if (!session) return;
+
+    const description = manualPost.description.trim();
+    if (!description) {
+      message.warning("Please add a post description");
+      return;
+    }
+
+    setAddingPost(true);
+    try {
+      const res = await fetch(`/api/sessions/${session._id}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          id: manualPost.id.trim(),
+          persona: manualPost.persona.trim(),
+          postNumber: manualPost.postNumber.trim(),
+          description,
+          imageDescription: manualPost.imageDescription.trim(),
+        }),
+      });
+      const data = await res.json();
+
+      if (!res.ok) {
+        message.error(data.error || "Failed to add post");
+        return;
+      }
+
+      setSession((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          postCount: prev.postCount + 1,
+          posts: [...(prev.posts || []), data.post],
+        };
+      });
+      resetManualPostForm();
+      setShowAddPost(false);
+      message.success("Post added");
+    } catch {
+      message.error("Failed to add post");
+    } finally {
+      setAddingPost(false);
+    }
+  }
+
   const postColumns: ColumnsType<Post> = [
     {
       title: "Post ID",
@@ -380,7 +451,7 @@ export default function SessionPage() {
             type="text"
             onClick={() => router.push("/")}
           />
-          <div>
+          <div style={{ flex: 1 }}>
             <Title level={4} style={{ margin: 0 }}>
               {session.name}
             </Title>
@@ -388,6 +459,13 @@ export default function SessionPage() {
               {posts.length} posts &middot; {session.fileName}
             </Text>
           </div>
+          <Button
+            type="primary"
+            icon={<PlusOutlined />}
+            onClick={() => setShowAddPost(true)}
+          >
+            Add Manually
+          </Button>
         </div>
       </div>
 
@@ -405,11 +483,97 @@ export default function SessionPage() {
       </div>
 
       <Modal
+        open={showAddPost}
+        onCancel={() => {
+          setShowAddPost(false);
+          resetManualPostForm();
+        }}
+        title="Add Post Manually"
+        onOk={addManualPost}
+        okText="Add Post"
+        confirmLoading={addingPost}
+      >
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          <div>
+            <Text strong>Post ID</Text>
+            <Input
+              placeholder="Leave blank to auto-generate"
+              value={manualPost.id}
+              onChange={(e) =>
+                setManualPost((prev) => ({ ...prev, id: e.target.value }))
+              }
+              style={{ marginTop: 4 }}
+            />
+          </div>
+          <Space.Compact style={{ width: "100%" }}>
+            <div style={{ flex: 1 }}>
+              <Text strong>Persona</Text>
+              <Input
+                placeholder="e.g. 2"
+                value={manualPost.persona}
+                onChange={(e) =>
+                  setManualPost((prev) => ({
+                    ...prev,
+                    persona: e.target.value,
+                  }))
+                }
+                style={{ marginTop: 4 }}
+              />
+            </div>
+            <div style={{ flex: 1 }}>
+              <Text strong>Post #</Text>
+              <Input
+                placeholder="e.g. 1"
+                value={manualPost.postNumber}
+                onChange={(e) =>
+                  setManualPost((prev) => ({
+                    ...prev,
+                    postNumber: e.target.value,
+                  }))
+                }
+                style={{ marginTop: 4 }}
+              />
+            </div>
+          </Space.Compact>
+          <div>
+            <Text strong>Description</Text>
+            <Input.TextArea
+              placeholder="Paste or write the LinkedIn post text..."
+              value={manualPost.description}
+              onChange={(e) =>
+                setManualPost((prev) => ({
+                  ...prev,
+                  description: e.target.value,
+                }))
+              }
+              rows={8}
+              style={{ marginTop: 4, resize: "vertical" }}
+            />
+          </div>
+          <div>
+            <Text strong>Image Description</Text>
+            <Input.TextArea
+              placeholder="Optional image description"
+              value={manualPost.imageDescription}
+              onChange={(e) =>
+                setManualPost((prev) => ({
+                  ...prev,
+                  imageDescription: e.target.value,
+                }))
+              }
+              rows={4}
+              style={{ marginTop: 4, resize: "vertical" }}
+            />
+          </div>
+        </div>
+      </Modal>
+
+      <Modal
         open={!!selectedPost}
         onCancel={() => setSelectedPost(null)}
         footer={null}
         title={selectedPost ? `Post ${selectedPost.id}` : ""}
-        width={700}
+        width={900}
         afterOpenChange={(open) => {
           if (open && selectedPost) {
             loadPostImage(selectedPost.id);
@@ -494,7 +658,8 @@ export default function SessionPage() {
                   <Input.TextArea
                     value={editedDescriptionText}
                     onChange={(e) => setEditedDescriptionText(e.target.value)}
-                    autoSize={{ minRows: 4, maxRows: 12 }}
+                    rows={8}
+                    style={{ resize: "vertical" }}
                   />
                   <Space style={{ marginTop: 8 }}>
                     <Button
@@ -565,7 +730,8 @@ export default function SessionPage() {
                   <Input.TextArea
                     value={editedCommentsText}
                     onChange={(e) => setEditedCommentsText(e.target.value)}
-                    autoSize={{ minRows: 2, maxRows: 8 }}
+                    rows={4}
+                    style={{ resize: "vertical" }}
                     placeholder="Add comments about this post..."
                   />
                   <Space style={{ marginTop: 8 }}>

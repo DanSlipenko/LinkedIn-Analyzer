@@ -1,5 +1,12 @@
 import { getDb } from "@/lib/mongodb";
+import type { Post } from "@/lib/parse-posts";
 import { ObjectId } from "mongodb";
+
+interface SessionDocument {
+  _id?: ObjectId;
+  posts?: Post[];
+  postCount?: number;
+}
 
 // GET /api/sessions/:id — get a single session with posts
 export async function GET(
@@ -55,7 +62,7 @@ export async function PATCH(
     return Response.json({ error: "Invalid status" }, { status: 400 });
   }
 
-  const updateFields: any = {};
+  const updateFields: Record<string, string | boolean> = {};
   if (status) updateFields["posts.$.status"] = status;
   if (description !== undefined) {
     updateFields["posts.$.description"] = description;
@@ -74,6 +81,68 @@ export async function PATCH(
   );
 
   return Response.json({ ok: true });
+}
+
+// POST /api/sessions/:id — append a manually entered post to a session
+export async function POST(
+  request: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
+  const body = await request.json();
+
+  if (!ObjectId.isValid(id)) {
+    return Response.json({ error: "Invalid session ID" }, { status: 400 });
+  }
+
+  const description = String(body.description || "").trim();
+  if (!description) {
+    return Response.json({ error: "Description is required" }, { status: 400 });
+  }
+
+  const db = await getDb();
+  const sessions = db.collection<SessionDocument>("sessions");
+  const session = await sessions
+    .findOne({ _id: new ObjectId(id) }, { projection: { posts: 1 } });
+
+  if (!session) {
+    return Response.json({ error: "Session not found" }, { status: 404 });
+  }
+
+  const existingPosts = (session.posts || []) as Post[];
+  const requestedId = String(body.id || "").trim();
+  const nextId =
+    existingPosts
+      .map((post) => Number.parseInt(post.id, 10))
+      .filter(Number.isFinite)
+      .reduce((max, value) => Math.max(max, value), 0) + 1;
+  const postId = requestedId || String(nextId).padStart(3, "0");
+
+  if (existingPosts.some((post) => post.id === postId)) {
+    return Response.json(
+      { error: `Post ID ${postId} already exists in this session` },
+      { status: 400 }
+    );
+  }
+
+  const post: Post = {
+    id: postId,
+    persona: String(body.persona || "").trim(),
+    postNumber: String(body.postNumber || "").trim(),
+    description,
+    imageDescription: String(body.imageDescription || "").trim(),
+    status: "draft",
+  };
+
+  await sessions.updateOne(
+    { _id: new ObjectId(id) },
+    {
+      $push: { posts: post },
+      $inc: { postCount: 1 },
+    }
+  );
+
+  return Response.json({ post });
 }
 
 // DELETE /api/sessions/:id — delete a session
